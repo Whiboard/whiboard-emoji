@@ -4,7 +4,7 @@
   "n": "derelict house",
   "e": "🏚️",
   "k": "home, house, derelict",
-  "from": "batches/travel_places-1.mjs",
+  "from": "batches/travel_places-1.ts",
   "why": "derelict house: the roof hole and the boards are crude"
  },
  {
@@ -12,7 +12,7 @@
   "n": "convenience store",
   "e": "🏪",
   "k": "24, hours, store, building, convenience",
-  "from": "batches/travel_places-1.mjs",
+  "from": "batches/travel_places-1.ts",
   "why": "convenience store: awning and window detail are too busy at 40 px"
  },
  {
@@ -20,7 +20,7 @@
   "n": "building construction",
   "e": "🏗️",
   "k": "crane, building, construction",
-  "from": "batches/travel_places-1.mjs",
+  "from": "batches/travel_places-1.ts",
   "why": "building construction: the crane lattice is thin and unpolished"
  },
  {
@@ -28,7 +28,7 @@
   "n": "locomotive",
   "e": "🚂",
   "k": "steam, train, engine, trains, travel, caboose, railway",
-  "from": "batches/travel_places-2.mjs",
+  "from": "batches/travel_places-2.ts",
   "why": "locomotive: the smoke puffs are pale and vanish on the light ground"
  },
  {
@@ -36,7 +36,7 @@
   "n": "kaaba",
   "e": "🕋",
   "k": "hajj, islam, umrah, Muslim, religion",
-  "from": "batches/travel_places-2.mjs",
+  "from": "batches/travel_places-2.ts",
   "why": "kaaba: the perspective of the top face is odd"
  },
  {
@@ -44,7 +44,7 @@
   "n": "tram car",
   "e": "🚋",
   "k": "bus, car, tram, trolley, trolleybus",
-  "from": "batches/travel_places-2.mjs",
+  "from": "batches/travel_places-2.ts",
   "why": "tram car: the trolley pole barely reads, so it looks the same as the tram"
  },
  {
@@ -52,7 +52,7 @@
   "n": "motorcycle",
   "e": "🏍️",
   "k": "racing",
-  "from": "batches/travel_places-3.mjs",
+  "from": "batches/travel_places-3.ts",
   "why": "motorcycle: engine, tank and exhaust are blocky"
  },
  {
@@ -60,7 +60,7 @@
   "n": "motorized wheelchair",
   "e": "🦼",
   "k": "motorized, wheelchair, accessibility",
-  "from": "batches/travel_places-3.mjs",
+  "from": "batches/travel_places-3.ts",
   "why": "motorized wheelchair: stacked blocks, the least refined vehicle"
  },
  {
@@ -68,7 +68,7 @@
   "n": "canoe",
   "e": "🛶",
   "k": "boat",
-  "from": "batches/travel_places-4.mjs",
+  "from": "batches/travel_places-4.ts",
   "why": "canoe: the hull is small and the paddle crosses it awkwardly"
  },
  {
@@ -76,7 +76,7 @@
   "n": "mantelpiece clock",
   "e": "🕰️",
   "k": "time, clock, mantelpiece",
-  "from": "batches/travel_places-5.mjs",
+  "from": "batches/travel_places-5.ts",
   "why": "mantelpiece clock: small and plain, the face is tiny at 40 px"
  },
  {
@@ -84,7 +84,7 @@
   "n": "wind face",
   "e": "🌬️",
   "k": "blow, face, wind, cloud",
-  "from": "batches/travel_places-6.mjs",
+  "from": "batches/travel_places-6.ts",
   "why": "wind face: the curls are blobby"
  },
  {
@@ -92,7 +92,7 @@
   "n": "water wave",
   "e": "🌊",
   "k": "surf, wave, ocean, water, nature, surfer, surfing",
-  "from": "batches/travel_places-6.mjs",
+  "from": "batches/travel_places-6.ts",
   "why": "water wave: the crest shape is plain"
  },
  {
@@ -100,7 +100,7 @@
   "n": "fog",
   "e": "🌫️",
   "k": "cloud, weather",
-  "from": "batches/travel_places-6.mjs",
+  "from": "batches/travel_places-6.ts",
   "why": "fog: pale bars with almost no contrast on the light ground"
  }
 ]

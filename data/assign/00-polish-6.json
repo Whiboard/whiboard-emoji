@@ -4,7 +4,7 @@
   "n": "melon",
   "e": "🍈",
   "k": "fruit, cantaloupe",
-  "from": "batches/food_drink-1.mjs",
+  "from": "batches/food_drink-1.ts",
   "why": "pale green ball with net lines reads a bit like a tennis ball"
  },
  {
@@ -12,7 +12,7 @@
   "n": "mango",
   "e": "🥭",
   "k": "food, fruit, tropical",
-  "from": "batches/food_drink-1.mjs",
+  "from": "batches/food_drink-1.ts",
   "why": "mango reads close to a peach or orange; shape and colour are not distinctive enough"
  },
  {
@@ -20,7 +20,7 @@
   "n": "olive",
   "e": "🫒",
   "k": "food",
-  "from": "batches/food_drink-1.mjs",
+  "from": "batches/food_drink-1.ts",
   "why": "olive is small and dark; the red pimento is tiny"
  },
  {
@@ -28,7 +28,7 @@
   "n": "ginger root",
   "e": "🫚",
   "k": "beer, herb, root, spice, ginger, health, natural",
-  "from": "batches/food_drink-1.mjs",
+  "from": "batches/food_drink-1.ts",
   "why": "ginger root is blobby; ring lines are faint"
  },
  {
@@ -36,7 +36,7 @@
   "n": "taco",
   "e": "🌮",
   "k": "mexican",
-  "from": "batches/food_drink-2.mjs",
+  "from": "batches/food_drink-2.ts",
   "why": "taco shell reads a bit like a yellow bowl; no fold crease"
  },
  {
@@ -44,7 +44,7 @@
   "n": "bacon",
   "e": "🥓",
   "k": "food, meat, breakfast",
-  "from": "batches/food_drink-2.mjs",
+  "from": "batches/food_drink-2.ts",
   "why": "bacon strips are plain wavy bands, fairly simple"
  },
  {
@@ -52,7 +52,7 @@
   "n": "flatbread",
   "e": "🫓",
   "k": "food, naan, pita, arepa, bread, lavash, gordita",
-  "from": "batches/food_drink-2.mjs",
+  "from": "batches/food_drink-2.ts",
   "why": "flatbread is plain disc, only weakly distinct from other round breads"
  },
  {
@@ -60,7 +60,7 @@
   "n": "fortune cookie",
   "e": "🥠",
   "k": "cookie, fortune, prophecy",
-  "from": "batches/food_drink-3.mjs",
+  "from": "batches/food_drink-3.ts",
   "why": "fortune cookie reads a bit like a split bowl; the crease and slip help but the folded-crescent shape is not crisp"
  },
  {
@@ -68,7 +68,7 @@
   "n": "fried shrimp",
   "e": "🍤",
   "k": "fried, prawn, shrimp, tempura",
-  "from": "batches/food_drink-3.mjs",
+  "from": "batches/food_drink-3.ts",
   "why": "fried shrimp is a plain curl with a small tail; recognisable but less detailed than the school icons"
  },
  {
@@ -76,7 +76,7 @@
   "n": "pouring liquid",
   "e": "🫗",
   "k": "oops, pour, drink, empty, glass, spill, water, liquid, pouring, accident",
-  "from": "batches/food_drink-4.mjs",
+  "from": "batches/food_drink-4.ts",
   "why": "pouring glass is pale and tilted; reads less clearly than the others on the light ground"
  },
  {
@@ -84,7 +84,7 @@
   "n": "mate",
   "e": "🧉",
   "k": "drink",
-  "from": "batches/food_drink-4.mjs",
+  "from": "batches/food_drink-4.ts",
   "why": "mate gourd and bombilla are simple; green yerba is small"
  },
  {
@@ -92,7 +92,7 @@
   "n": "amphora",
   "e": "🏺",
   "k": "jug, tool, drink, weapon, zodiac, cooking, Aquarius",
-  "from": "batches/food_drink-4.mjs",
+  "from": "batches/food_drink-4.ts",
   "why": "amphora decoration is minimal (band and star only)"
  },
  {
@@ -100,7 +100,7 @@
   "n": "sari",
   "e": "🥻",
   "k": "dress, clothing",
-  "from": "batches/00-polish-2.mjs",
+  "from": "batches/00-polish-2.ts",
   "why": "sari still reads like a generic dress; show the draped pallu over a blouse clearly (long diagonal drape with a border band)"
  },
  {
@@ -108,7 +108,7 @@
   "n": "postal horn",
   "e": "📯",
   "k": "horn, post, postal",
-  "from": "batches/00-polish-2.mjs",
+  "from": "batches/00-polish-2.ts",
   "why": "postal horn: coil and bell are only moderately refined, the bell edge is plain"
  },
  {
@@ -116,7 +116,7 @@
   "n": "money with wings",
   "e": "💸",
   "k": "fly, pay, bank, bill, cash, note, money, wings, dollar, billion, million, banknote",
-  "from": "batches/00-polish-3.mjs",
+  "from": "batches/00-polish-3.ts",
   "why": "money with wings: wings are small leaf fans next to the note; make them large feathered wings"
  },
  {
@@ -124,7 +124,7 @@
   "n": "locked with key",
   "e": "🔐",
   "k": "key, bike, lock, closed, locked, secure",
-  "from": "batches/00-polish-3.mjs",
+  "from": "batches/00-polish-3.ts",
   "why": "locked with key: the key lies across the lower edge of the lock and is thin at 40 px"
  },
  {
@@ -132,7 +132,7 @@
   "n": "dna",
   "e": "🧬",
   "k": "gene, life, genetics, biologist, evolution",
-  "from": "batches/00-polish-3.mjs",
+  "from": "batches/00-polish-3.ts",
   "why": "dna: helix is chunky, rungs are hidden by the strands at the crossings"
  },
  {
@@ -140,7 +140,7 @@
   "n": "motorized wheelchair",
   "e": "🦼",
   "k": "motorized, wheelchair, accessibility",
-  "from": "batches/00-polish-4.mjs",
+  "from": "batches/00-polish-4.ts",
   "why": "motorized wheelchair is small and thin compared with its neighbours (manual wheelchair, scooters)"
  },
  {
@@ -148,7 +148,7 @@
   "n": "water wave",
   "e": "🌊",
   "k": "surf, wave, ocean, water, nature, surfer, surfing",
-  "from": "batches/00-polish-4.mjs",
+  "from": "batches/00-polish-4.ts",
   "why": "water wave: the hollow under the crest is transparent and the crest is plain; make one curling wave with foam"
  }
 ]

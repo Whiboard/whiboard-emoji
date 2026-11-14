@@ -4,7 +4,7 @@
   "n": "flat shoe",
   "e": "🥿",
   "k": "flat, shoe, comfy, flats, ballet, slip on, slipper",
-  "from": "batches/objects-1.mjs",
+  "from": "batches/objects-1.ts",
   "why": "flat shoe is a smooth blob; the opening is only hinted"
  },
  {
@@ -12,7 +12,7 @@
   "n": "high heeled shoe",
   "e": "👠",
   "k": "heel, shoe, dress, heels, shoes, woman, clothes, fashion, clothing, shopping, stiletto, high heeled",
-  "from": "batches/objects-1.mjs",
+  "from": "batches/objects-1.ts",
   "why": "high-heeled shoe is a thick tongue shape; heel and sole are crude"
  },
  {
@@ -20,7 +20,7 @@
   "n": "sari",
   "e": "🥻",
   "k": "dress, clothing",
-  "from": "batches/objects-1.mjs",
+  "from": "batches/objects-1.ts",
   "why": "sari is abstract (blouse, skirt, diagonal band), not obvious"
  },
  {
@@ -28,7 +28,7 @@
   "n": "billed cap",
   "e": "🧢",
   "k": "cap, dad, hat, bent, billed, baseball",
-  "from": "batches/objects-2.mjs",
+  "from": "batches/objects-2.ts",
   "why": "billed cap reads as a plain red dome; the bill is small and dark"
  },
  {
@@ -36,7 +36,7 @@
   "n": "musical score",
   "e": "🎼",
   "k": "note, music, score, musical",
-  "from": "batches/objects-2.mjs",
+  "from": "batches/objects-2.ts",
   "why": "musical score: the treble clef is crude"
  },
  {
@@ -44,7 +44,7 @@
   "n": "postal horn",
   "e": "📯",
   "k": "horn, post, postal",
-  "from": "batches/objects-2.mjs",
+  "from": "batches/objects-2.ts",
   "why": "postal horn: coil and bell are over-simplified"
  },
  {
@@ -52,7 +52,7 @@
   "n": "trumpet",
   "e": "🎺",
   "k": "music, instrument",
-  "from": "batches/objects-2.mjs",
+  "from": "batches/objects-2.ts",
   "why": "trumpet: valves and tubing are cluttered at 40 px"
  },
  {
@@ -60,7 +60,7 @@
   "n": "bell with slash",
   "e": "🔕",
   "k": "no, not, bell, mute, quiet, slash, sound, silent, forbidden, prohibited",
-  "from": "batches/objects-2.mjs",
+  "from": "batches/objects-2.ts",
   "why": "bell with slash: the thick red slash hides the bell"
  },
  {
@@ -68,7 +68,7 @@
   "n": "harp",
   "e": "🪉",
   "k": "love, cupid, music, orchestra, instrument",
-  "from": "batches/objects-3.mjs",
+  "from": "batches/objects-3.ts",
   "why": "harp: the frame shape is unrefined"
  },
  {
@@ -76,7 +76,7 @@
   "n": "computer mouse",
   "e": "🖱️",
   "k": "mouse, computer",
-  "from": "batches/objects-3.mjs",
+  "from": "batches/objects-3.ts",
   "why": "computer mouse: pale body nearly vanishes on the light ground"
  },
  {
@@ -84,7 +84,7 @@
   "n": "optical disk",
   "e": "💿",
   "k": "CD, dvd, disk, blu ray, optical, computer",
-  "from": "batches/objects-3.mjs",
+  "from": "batches/objects-3.ts",
   "why": "optical disk: pale, held only by its rim on the light ground"
  },
  {
@@ -92,7 +92,7 @@
   "n": "film projector",
   "e": "📽️",
   "k": "film, movie, video, cinema, projector",
-  "from": "batches/objects-3.mjs",
+  "from": "batches/objects-3.ts",
   "why": "film projector looks the same as the movie camera"
  }
 ]

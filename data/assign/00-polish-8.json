@@ -4,7 +4,7 @@
   "n": "biohazard",
   "e": "☣️",
   "k": "sign",
-  "from": "batches/symbols-1.mjs",
+  "from": "batches/symbols-1.ts",
   "why": "biohazard reads as a clover on a stem. Draw the real symbol: three open crescents (horns) arranged by 120° rotation around a small centre ring, with a broken ring through them"
  },
  {
@@ -12,7 +12,7 @@
   "n": "non potable water",
   "e": "🚱",
   "k": "dry, water, prohibited, non potable, non drinking",
-  "from": "batches/symbols-1.mjs",
+  "from": "batches/symbols-1.ts",
   "why": "non-potable water: the tap under the slash is a vague blob. Same tap as potable water (1f6b0) in dark, clearly a tap with a drop, under the red slash"
  },
  {
@@ -20,7 +20,7 @@
   "n": "no littering",
   "e": "🚯",
   "k": "no, not, litter, forbidden, littering, prohibited",
-  "from": "batches/symbols-1.mjs",
+  "from": "batches/symbols-1.ts",
   "why": "no littering: the pictogram under the slash is busy. One figure dropping one piece into nothing, bold and simple"
  },
  {
@@ -28,7 +28,7 @@
   "n": "baby symbol",
   "e": "🚼",
   "k": "baby, symbol, changing",
-  "from": "batches/symbols-1.mjs",
+  "from": "batches/symbols-1.ts",
   "why": "baby symbol is crude next to the other people signs: a baby with a round head and a nappy, arms and legs spread, same weight as the men / women figures"
  },
  {
@@ -36,7 +36,7 @@
   "n": "Japanese “reserved” button",
   "e": "🈯",
   "k": "button, Japanese, reserved, ideograph",
-  "from": "batches/symbols-3.mjs",
+  "from": "batches/symbols-3.ts",
   "why": "指: the right half is approximate. Left 扌 (3 strokes), right 旨 = 匕 over 日. Check stroke by stroke at zoom against the system emoji"
  },
  {
@@ -44,7 +44,7 @@
   "n": "Japanese “bargain” button",
   "e": "🉐",
   "k": "button, bargain, Japanese, ideograph",
-  "from": "batches/symbols-3.mjs",
+  "from": "batches/symbols-3.ts",
   "why": "得: crowded. Left 彳 (3 strokes); right 日 on top, 一 below it, then 寸. Use the whole disc and keep strokes apart"
  },
  {
@@ -52,7 +52,7 @@
   "n": "Japanese “congratulations” button",
   "e": "㊗️",
   "k": "button, Japanese, ideograph, congratulations",
-  "from": "batches/symbols-3.mjs",
+  "from": "batches/symbols-3.ts",
   "why": "祝: the left radical must be 礻 (dot, then ㇇-shaped stroke, vertical, dot), the right side 兄 = 口 over 儿"
  },
  {
@@ -60,7 +60,7 @@
   "n": "Japanese “secret” button",
   "e": "㊙️",
   "k": "button, secret, Japanese, ideograph",
-  "from": "batches/symbols-3.mjs",
+  "from": "batches/symbols-3.ts",
   "why": "秘: left 禾 (5 strokes), right 必 (centre curved stroke with a dot above it and a dot each side, crossed by a slash). Not checked at zoom before"
  },
  {
@@ -68,7 +68,7 @@
   "n": "Japanese “open for business” button",
   "e": "🈺",
   "k": "open, button, Japanese, business, ideograph",
-  "from": "batches/symbols-3.mjs",
+  "from": "batches/symbols-3.ts",
   "why": "営: top is three short strokes (⺍ like ツ), then the crown 冖, then 呂 = two 口 joined by a short stroke. The top currently reads as stray ticks"
  },
  {
@@ -76,7 +76,7 @@
   "n": "Japanese “no vacancy” button",
   "e": "🈵",
   "k": "no, button, vacancy, Japanese, ideograph",
-  "from": "batches/symbols-3.mjs",
+  "from": "batches/symbols-3.ts",
   "why": "満: left 氵 (three drops), right 艹 on top over 両-like body (frame with 山-like inside). Inner part is simplified wrongly"
  }
 ]

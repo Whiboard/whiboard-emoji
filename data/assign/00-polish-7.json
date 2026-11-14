@@ -4,7 +4,7 @@
   "n": "party popper",
   "e": "🎉",
   "k": "tada, party, hooray, popper, woohoo, awesome, excited, birthday, celebrate, celebration",
-  "from": "batches/activities-1.mjs",
+  "from": "batches/activities-1.ts",
   "why": "cone rim is a heavy brown ellipse and the cone is small next to the confetti"
  },
  {
@@ -12,7 +12,7 @@
   "n": "carp streamer",
   "e": "🎏",
   "k": "carp, streamer, celebration",
-  "from": "batches/activities-1.mjs",
+  "from": "batches/activities-1.ts",
   "why": "carp are simple blobs with no gill or fin detail, and the mouth ring is missing"
  },
  {
@@ -20,7 +20,7 @@
   "n": "wind chime",
   "e": "🎐",
   "k": "bell, wind, chime, celebration",
-  "from": "batches/activities-1.mjs",
+  "from": "batches/activities-1.ts",
   "why": "glass bell is small and plain, and the strip is block-like"
  },
  {
@@ -28,7 +28,7 @@
   "n": "skis",
   "e": "🎿",
   "k": "ski, snow, sport",
-  "from": "batches/activities-2.mjs",
+  "from": "batches/activities-2.ts",
   "why": "skis read as two curved sticks; no poles or boots"
  },
  {
@@ -36,7 +36,7 @@
   "n": "curling stone",
   "e": "🥌",
   "k": "game, rock, stone, curling",
-  "from": "batches/activities-2.mjs",
+  "from": "batches/activities-2.ts",
   "why": "curling stone looks a bit like a stamp, handle stubby"
  },
  {
@@ -44,7 +44,7 @@
   "n": "goal net",
   "e": "🥅",
   "k": "net, goal",
-  "from": "batches/activities-2.mjs",
+  "from": "batches/activities-2.ts",
   "why": "goal net reads dark and busy on the dark ground"
  },
  {
@@ -52,7 +52,7 @@
   "n": "soccer ball",
   "e": "⚽",
   "k": "ball, sport, futbol, soccer, football",
-  "from": "batches/activities-2.mjs",
+  "from": "batches/activities-2.ts",
   "why": "soccer panel pattern is a bit flower-like, not a true truncated-icosahedron layout"
  },
  {
@@ -60,7 +60,7 @@
   "n": "volleyball",
   "e": "🏐",
   "k": "ball, game",
-  "from": "batches/activities-2.mjs",
+  "from": "batches/activities-2.ts",
   "why": "volleyball is a 3-arm pinwheel, only loosely volleyball-like"
  },
  {
@@ -68,7 +68,7 @@
   "n": "knot",
   "e": "🪢",
   "k": "tie, cord, rope, twine, twist, tangled",
-  "from": "batches/activities-3.mjs",
+  "from": "batches/activities-3.ts",
   "why": "Reads as a trefoil / celtic knot, not a rope knot with tails; acceptable but plain"
  },
  {
@@ -76,7 +76,7 @@
   "n": "piñata",
   "e": "🪅",
   "k": "de, mayo, candy, cinco, party, pinada, pinata, festive, celebrate, celebration",
-  "from": "batches/activities-3.mjs",
+  "from": "batches/activities-3.ts",
   "why": "Pinata donkey is simplified; legs and head are small"
  }
 ]

@@ -1,0 +1,29 @@
+# Type-checks the kits, the drawings and the package, runs the package tests, and makes sure the
+# committed set (dist/svg, dist/extra, src/generated) is what the drawings build.
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    env:
+      # the checks below draw nothing in a browser
+      PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: "1"
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 26
+          cache: npm
+      - run: npm ci
+      - run: npm run typecheck
+      - run: npm test
+      - name: The committed set is what the drawings build
+        run: |
+          node build.ts
+          node scripts/package-data.ts
+          git diff --exit-code -- dist/svg dist/extra src/generated

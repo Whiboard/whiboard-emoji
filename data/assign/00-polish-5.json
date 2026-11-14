@@ -4,7 +4,7 @@
   "n": "monkey",
   "e": "🐒",
   "k": "animal, banana",
-  "from": "batches/animals_nature-1.mjs",
+  "from": "batches/animals_nature-1.ts",
   "why": "monkey: body is a rounded blob, less defined than the others"
  },
  {
@@ -12,7 +12,7 @@
   "n": "orangutan",
   "e": "🦧",
   "k": "ape, animal, monkey",
-  "from": "batches/animals_nature-1.mjs",
+  "from": "batches/animals_nature-1.ts",
   "why": "orangutan: reads as a generic ape blob, long-arm cue is weak"
  },
  {
@@ -20,7 +20,7 @@
   "n": "bison",
   "e": "🦬",
   "k": "herd, animal, wisent, buffalo",
-  "from": "batches/animals_nature-1.mjs",
+  "from": "batches/animals_nature-1.ts",
   "why": "bison: horn is tiny and the hump is not very distinct"
  },
  {
@@ -28,7 +28,7 @@
   "n": "zebra",
   "e": "🦓",
   "k": "animal, stripe",
-  "from": "batches/animals_nature-1.mjs",
+  "from": "batches/animals_nature-1.ts",
   "why": "zebra: stripes are rough and the head is a bit crude"
  },
  {
@@ -36,7 +36,7 @@
   "n": "guide dog",
   "e": "🦮",
   "k": "dog, blind, guide, animal, accessibility",
-  "from": "batches/animals_nature-1.mjs",
+  "from": "batches/animals_nature-1.ts",
   "why": "guide dog: harness is bulky"
  },
  {
@@ -44,7 +44,7 @@
   "n": "goat",
   "e": "🐐",
   "k": "farm, milk, animal, zodiac, Capricorn",
-  "from": "batches/animals_nature-2.mjs",
+  "from": "batches/animals_nature-2.ts",
   "why": "goat head is angular and the beard is small; recognisable but cruder than the others"
  },
  {
@@ -52,7 +52,7 @@
   "n": "otter",
   "e": "🦦",
   "k": "animal, fishing, playful",
-  "from": "batches/animals_nature-2.mjs",
+  "from": "batches/animals_nature-2.ts",
   "why": "otter reads close to the beaver; no distinct otter features"
  },
  {
@@ -60,7 +60,7 @@
   "n": "polar bear",
   "e": "🐻‍❄️",
   "k": "bear, polar, white, animal, arctic",
-  "from": "batches/animals_nature-2.mjs",
+  "from": "batches/animals_nature-2.ts",
   "why": "polar bear is the bear face in white, with no ice"
  },
  {
@@ -68,7 +68,7 @@
   "n": "sloth",
   "e": "🦥",
   "k": "lazy, slow",
-  "from": "batches/animals_nature-2.mjs",
+  "from": "batches/animals_nature-2.ts",
   "why": "sloth is a face on a bar; the body is minimal"
  },
  {
@@ -76,7 +76,7 @@
   "n": "lizard",
   "e": "🦎",
   "k": "animal, reptile",
-  "from": "batches/animals_nature-3.mjs",
+  "from": "batches/animals_nature-3.ts",
   "why": "lizard: stick-like limbs, plainer than school icons"
  },
  {
@@ -84,7 +84,7 @@
   "n": "eagle",
   "e": "🦅",
   "k": "bird, animal, ornithology",
-  "from": "batches/animals_nature-3.mjs",
+  "from": "batches/animals_nature-3.ts",
   "why": "eagle: blocky body, tail reads as a plain block"
  },
  {
@@ -92,7 +92,7 @@
   "n": "wing",
   "e": "🪽",
   "k": "fly, bird, soar, ascend, flying, angelic, aviation, heavenly, mythology",
-  "from": "batches/animals_nature-3.mjs",
+  "from": "batches/animals_nature-3.ts",
   "why": "wing: feather fan could read as a hand or palm leaf"
  },
  {
@@ -100,7 +100,7 @@
   "n": "phoenix",
   "e": "🐦‍🔥",
   "k": "rise, glory, ascend, emerge, revive, fantasy, rebirth, renewal, revival, firebird, immortal, reinvent, ascension, transform, reincarnation",
-  "from": "batches/animals_nature-3.mjs",
+  "from": "batches/animals_nature-3.ts",
   "why": "phoenix: flame tail and wing blend into one orange mass"
  },
  {
@@ -108,7 +108,7 @@
   "n": "worm",
   "e": "🪱",
   "k": "animal, annelid, parasite, earthworm",
-  "from": "batches/animals_nature-4.mjs",
+  "from": "batches/animals_nature-4.ts",
   "why": "worm: plain curved tube, face is tiny and less characterful than the rest"
  },
  {
@@ -116,7 +116,7 @@
   "n": "squid",
   "e": "🦑",
   "k": "food, animal, mollusk",
-  "from": "batches/animals_nature-4.mjs",
+  "from": "batches/animals_nature-4.ts",
   "why": "squid: narrow, small width relative to the others"
  },
  {
@@ -124,7 +124,7 @@
   "n": "dolphin",
   "e": "🐬",
   "k": "beach, ocean, animal, flipper",
-  "from": "batches/animals_nature-4.mjs",
+  "from": "batches/animals_nature-4.ts",
   "why": "dolphin: simple blob silhouette, tail flukes and fin are basic"
  },
  {
@@ -132,7 +132,7 @@
   "n": "hyacinth",
   "e": "🪻",
   "k": "bloom, lilac, plant, shrub, flower, indigo, lupine, purple, spring, violet, lavender, bluebonnet, snapdragon",
-  "from": "batches/animals_nature-5.mjs",
+  "from": "batches/animals_nature-5.ts",
   "why": "hyacinth stem and leaves thin, spike reads a bit like grapes"
  },
  {
@@ -140,7 +140,7 @@
   "n": "four leaf clover",
   "e": "🍀",
   "k": "4, four, leaf, irish, lucky, plant, clover, four leaf",
-  "from": "batches/animals_nature-5.mjs",
+  "from": "batches/animals_nature-5.ts",
   "why": "stem hidden behind leaves, vein detail faint"
  },
  {
@@ -148,7 +148,7 @@
   "n": "leaf fluttering in wind",
   "e": "🍃",
   "k": "blow, leaf, wind, flutter, fluttering",
-  "from": "batches/animals_nature-5.mjs",
+  "from": "batches/animals_nature-5.ts",
   "why": "wind lines are thin and pale-blue; plain composition"
  }
 ]

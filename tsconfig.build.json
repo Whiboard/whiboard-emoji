@@ -1,0 +1,14 @@
+{
+  // The npm package: src/ → lib/ (ES modules + type declarations).
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "noEmit": false,
+    "allowImportingTsExtensions": false,
+    "rewriteRelativeImportExtensions": true,
+    "rootDir": "src",
+    "outDir": "lib",
+    "declaration": true,
+    "types": []
+  },
+  "include": ["src"]
+}

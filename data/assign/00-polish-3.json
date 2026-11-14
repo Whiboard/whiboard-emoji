@@ -4,7 +4,7 @@
   "n": "closed mailbox with raised flag",
   "e": "📫",
   "k": "flag, mail, closed, raised, mailbox, postbox, communication",
-  "from": "batches/objects-4.mjs",
+  "from": "batches/objects-4.ts",
   "why": "closed mailbox with raised flag: front-view arch box reads abstract; flag arm too thin (family of 4)"
  },
  {
@@ -12,7 +12,7 @@
   "n": "closed mailbox with lowered flag",
   "e": "📪",
   "k": "flag, mail, closed, lowered, mailbox, postbox",
-  "from": "batches/objects-4.mjs",
+  "from": "batches/objects-4.ts",
   "why": "closed mailbox with lowered flag (same family)"
  },
  {
@@ -20,7 +20,7 @@
   "n": "open mailbox with raised flag",
   "e": "📬",
   "k": "flag, mail, open, raised, mailbox, postbox",
-  "from": "batches/objects-4.mjs",
+  "from": "batches/objects-4.ts",
   "why": "open mailbox with raised flag (same family)"
  },
  {
@@ -28,7 +28,7 @@
   "n": "open mailbox with lowered flag",
   "e": "📭",
   "k": "flag, mail, open, lowered, mailbox, postbox",
-  "from": "batches/objects-4.mjs",
+  "from": "batches/objects-4.ts",
   "why": "open mailbox with lowered flag (same family)"
  },
  {
@@ -36,7 +36,7 @@
   "n": "money with wings",
   "e": "💸",
   "k": "fly, pay, bank, bill, cash, note, money, wings, dollar, billion, million, banknote",
-  "from": "batches/objects-4.mjs",
+  "from": "batches/objects-4.ts",
   "why": "money with wings: wings are pale ellipses, the note is small"
  },
  {
@@ -44,7 +44,7 @@
   "n": "label",
   "e": "🏷️",
   "k": "tag",
-  "from": "batches/objects-4.mjs",
+  "from": "batches/objects-4.ts",
   "why": "label: the string loop at the hole is tiny and ambiguous"
  },
  {
@@ -52,7 +52,7 @@
   "n": "envelope",
   "e": "✉️",
   "k": "email, e mail, letter",
-  "from": "batches/objects-4.mjs",
+  "from": "batches/objects-4.ts",
   "why": "envelope: cream on the light ground has almost no edge (family of 4)"
  },
  {
@@ -60,7 +60,7 @@
   "n": "e mail",
   "e": "📧",
   "k": "mail, email, letter",
-  "from": "batches/objects-4.mjs",
+  "from": "batches/objects-4.ts",
   "why": "e-mail (same envelope family: redraw so the four match)"
  },
  {
@@ -68,7 +68,7 @@
   "n": "incoming envelope",
   "e": "📨",
   "k": "mail, sent, email, e mail, letter, receive, envelope, incoming, delivering",
-  "from": "batches/objects-4.mjs",
+  "from": "batches/objects-4.ts",
   "why": "incoming envelope (same envelope family)"
  },
  {
@@ -76,7 +76,7 @@
   "n": "envelope with arrow",
   "e": "📩",
   "k": "down, mail, send, sent, arrow, email, e mail, letter, envelope, outgoing, communication",
-  "from": "batches/objects-4.mjs",
+  "from": "batches/objects-4.ts",
   "why": "envelope with arrow (same envelope family)"
  },
  {
@@ -84,7 +84,7 @@
   "n": "locked with pen",
   "e": "🔏",
   "k": "ink, nib, pen, lock, locked, privacy",
-  "from": "batches/objects-5.mjs",
+  "from": "batches/objects-5.ts",
   "why": "locked with pen: the nib is small and sits on the keyhole"
  },
  {
@@ -92,7 +92,7 @@
   "n": "locked with key",
   "e": "🔐",
   "k": "key, bike, lock, closed, locked, secure",
-  "from": "batches/objects-5.mjs",
+  "from": "batches/objects-5.ts",
   "why": "locked with key: the key is small and hides the keyhole"
  },
  {
@@ -100,7 +100,7 @@
   "n": "spiral calendar",
   "e": "🗓️",
   "k": "pad, spiral, calendar",
-  "from": "batches/objects-5.mjs",
+  "from": "batches/objects-5.ts",
   "why": "spiral calendar: the coils are too tiny to see"
  },
  {
@@ -108,7 +108,7 @@
   "n": "card index dividers",
   "e": "🗂️",
   "k": "card, index, dividers",
-  "from": "batches/objects-5.mjs",
+  "from": "batches/objects-5.ts",
   "why": "card index dividers read as stacked folders"
  },
  {
@@ -116,7 +116,7 @@
   "n": "alembic",
   "e": "⚗️",
   "k": "tool, chemistry",
-  "from": "batches/objects-6.mjs",
+  "from": "batches/objects-6.ts",
   "why": "alembic: retort neck and cork are crude, the glass reads as a blob"
  },
  {
@@ -124,7 +124,7 @@
   "n": "dna",
   "e": "🧬",
   "k": "gene, life, genetics, biologist, evolution",
-  "from": "batches/objects-6.mjs",
+  "from": "batches/objects-6.ts",
   "why": "dna: the rungs are striped yellow bars that do not clearly cross between the two strands"
  },
  {
@@ -132,7 +132,7 @@
   "n": "lotion bottle",
   "e": "🧴",
   "k": "bottle, lotion, shampoo, sunscreen, moisturizer",
-  "from": "batches/objects-7.mjs",
+  "from": "batches/objects-7.ts",
   "why": "lotion bottle: the pale cap is weak on the light ground"
  }
 ]

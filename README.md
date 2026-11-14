@@ -8,18 +8,12 @@ It was made for the sticker menu of [Whiboard](https://whiboard.com), an online 
 
 ![The whole set](docs/overview.jpg)
 
-## Preview
-
-`index.html` in the repository root is a preview page: search the set, switch between the dark and the light ground, click an emoji to put it on a small board, copy its SVG or download it as SVG or PNG. GitHub Pages serves it when Pages is set to deploy from the `main` branch, folder `/ (root)`. Locally:
-
-```sh
-python3 -m http.server     # then open http://localhost:8000
-```
+[**Try them in the browser**](https://whiboard.github.io/whiboard-emoji/): search the set, put emoji on a board, copy or download any of them.
 
 ## What is in the set
 
 | Group            | Emoji | Notes                                                  |
-|------------------|-------|--------------------------------------------------------|
+| ---------------- | ----- | ------------------------------------------------------ |
 | Smileys          | 169   | faces, cat faces, creatures, hearts, emotion marks     |
 | Animals & nature | 159   |                                                        |
 | Food & drink     | 131   |                                                        |
@@ -31,45 +25,137 @@ python3 -m http.server     # then open http://localhost:8000
 
 Not drawn yet: people, hands and body parts (with their skin tones) and flags.
 
-## Use the drawings
+## Install
 
-Everything you need is committed under `dist/`; you do not have to build.
+```sh
+npm install whiboard-emoji
+```
+
+Until the package is on the npm registry, install it from GitHub; npm builds it on install:
+
+```sh
+npm install github:Whiboard/whiboard-emoji
+```
+
+The package is ES modules with TypeScript types. It has four entries, so an app only loads what it uses (sizes before minifying and compression):
+
+| Import                   | What                                                                  | Size  |
+| ------------------------ | --------------------------------------------------------------------- | ----- |
+| `whiboard-emoji`         | emoji → URL of its drawing, sprite sheet cells, the id list           | 13 KB |
+| `whiboard-emoji/catalog` | names, keywords, `search()`                                           | 96 KB |
+| `whiboard-emoji/react`   | `<Emoji>`, `<EmojiProvider>`                                          | 2 KB  |
+| `whiboard-emoji/picker`  | `<EmojiPicker>` (loads the catalog), with `whiboard-emoji/picker.css` | 9 KB  |
+
+The SVG files and sprite sheets are in the package too: `whiboard-emoji/svg/<code points>.svg`, `whiboard-emoji/sprites/<group>.webp`, `whiboard-emoji/index.json`.
+
+## Use
+
+### Any framework
+
+```ts
+import { emojiUrl, has, toUnified } from "whiboard-emoji";
+
+emojiUrl("🎉"); // "https://cdn.jsdelivr.net/gh/Whiboard/whiboard-emoji@v0.2.0/dist/svg/1f389.svg"
+emojiUrl("1f389", { base: "/emoji/" }); // "/emoji/svg/1f389.svg"
+emojiUrl("👍"); // null: people and hands are not drawn yet
+toUnified("❤"); // "2764-fe0f", the id the set uses
+has("🚀"); // true
+```
+
+```ts
+import { emojis, search } from "whiboard-emoji/catalog";
+
+emojis.length; // 1250
+search("red heart")[0]; // { unified: "2764-fe0f", char: "❤️", name: "red heart", keywords: [...], group: "smileys" }
+```
+
+### React
+
+```tsx
+import { Emoji } from "whiboard-emoji/react";
+
+<p>
+  Shipped <Emoji emoji="🚀" /> and celebrated <Emoji emoji="🎉" size={32} />
+</p>;
+```
+
+`<Emoji>` renders an `<img>` of the drawing, the size of the text around it unless `size` says otherwise. An emoji the set has no drawing of is rendered as the emoji itself, or as `fallback`. It takes every `<img>` attribute (`className`, `style`, `title`, `onClick`…). React 17 or newer.
+
+A picker, by group, with search:
+
+```tsx
+import { EmojiPicker } from "whiboard-emoji/picker";
+import "whiboard-emoji/picker.css";
+
+<EmojiPicker onSelect={(emoji) => insert(emoji.char)} theme="auto" />;
+```
+
+`onSelect` receives `{ unified, char, name, keywords, group, url }`. Props: `width`, `height`, `cellSize`, `theme` (`"light"`, `"dark"`, `"auto"`), `searchPlaceholder`, `autoFocus`, `emptyText`, `className`, `style`. Its colours are CSS variables (`--we-bg`, `--we-fg`, `--we-muted`, `--we-border`, `--we-hover`, `--we-accent`, `--we-radius`): set them on `.we-picker` to match your app.
+
+### Where the files come from
+
+By default every URL points at this version's `dist/` folder on the jsDelivr CDN. To serve the files yourself, copy `node_modules/whiboard-emoji/dist/svg` and `dist/sprites` to your site and say where they are:
+
+```tsx
+import { EmojiProvider } from "whiboard-emoji/react";
+
+<EmojiProvider base="/emoji/">
+  <App />
+</EmojiProvider>;
+```
+
+Outside React, pass `{ base: "/emoji/" }` to `emojiUrl`, `spriteUrl`, `spriteCell` and `spriteStyle`. With a bundler you can also import a single file and let it handle the asset:
+
+```ts
+import rocket from "whiboard-emoji/svg/1f680.svg"; // a URL in Vite, webpack, Parcel…
+```
+
+### Without npm
+
+Everything is committed under `dist/`:
 
 - `dist/svg/<code points>.svg`: one file per emoji. The name is the emoji's code points in lower-case hex joined by `-`, variation selectors included, the way [emoji-picker-react](https://github.com/ealush/emoji-picker-react) writes its `unified` id: 😀 is `1f600.svg`, ❤️ is `2764-fe0f.svg`. Each file is self-contained (100 × 100 viewBox, its gradients and the filters inside).
 - `dist/sprites/<group>.webp`: the same drawings as one sheet per group, 80 px cells.
 - `dist/index.json`: the groups in picker order. Per group `id`, `label`, `sprite`, `cols` (cells per row of its sheet) and `stickers`, one `[code points, name, keywords]` per emoji in the order of the sheet, so sticker `i` sits at column `i % cols`, row `floor(i / cols)`.
 
-Two things to know before you ship them:
+### Two things to know before you ship them
 
-- **The filters cost time.** One drawing paints in a few milliseconds, which is nothing for an image and far too much for a grid of two hundred or a canvas that repaints every frame. Use the sprite sheets for pickers, and draw from a bitmap (rasterise the SVG once per size) on a canvas.
+- **The filters cost time.** One drawing paints in a few milliseconds, which is nothing for an image and far too much for a grid of two hundred or a canvas that repaints every frame. Use the sprite sheets for pickers (`<EmojiPicker>` does, `spriteStyle()` gives you the CSS), and draw from a bitmap (rasterise the SVG once per size) on a canvas.
 - **They are made for dark and light grounds.** Nothing is pure black or pure white: "black" things are a warm dark grey, "white" things are cream, so every drawing keeps its edge on `#1b1b1a` and on `#f4f1ea`.
 
 ## Build
 
-You need Node 20 or newer (or Bun) and the Chromium that Playwright installs.
+The repository is TypeScript throughout. The scripts are run by `node` as they are (it strips the types), so they need Node 24 or newer; the drawing checks and the sprite sheets also need the Chromium that Playwright installs.
 
 ```sh
-bun install                          # or: npm install
-bunx playwright install chromium     # or: npx playwright install chromium
+npm install
+npx playwright install chromium     # only for check.ts, sprites, sheets and docs
 
-node build.mjs --sprites             # dist/svg, dist/extra, dist/sprites, dist/index.json
-node build.mjs --sheets all          # review pages, 40 emoji each: dist/sheets/<group>-NN.png
-node build.mjs --overview            # dist/sheets/all.png, every emoji in one picture
-node build.mjs --docs                # the two pictures in this README
-node build.mjs --install <dir>       # copy svg + sprites + index.json into an app
+node build.ts                        # dist/svg, dist/extra, coverage per group
+node build.ts --sprites              # + dist/sprites, dist/index.json
+node scripts/package-data.ts         # src/generated (the package's id list and names) from dist/index.json
+npm run build:lib                    # the npm package: src/ → lib/
+node build.ts --sheets all           # review pages, 40 emoji each: dist/sheets/<group>-NN.png
+node build.ts --overview             # dist/sheets/all.png, every emoji in one picture
+node build.ts --docs                 # the two pictures in this README
+node build.ts --install <dir>        # copy svg + sprites + index.json into an app
+
+npm run typecheck                    # kits and tools (strict), drawings, package
+npm test                             # the built package: helpers, search, React components
 ```
 
-`node build.mjs` alone writes `dist/svg` and `dist/extra` and prints the coverage per group. The review sheets are large PNGs and are not committed.
+The review sheets and `lib/` are not committed; `dist/svg`, `dist/sprites`, `dist/index.json` and `src/generated` are, and CI fails when they are not what the drawings build.
 
 ## How a drawing is written
 
 A batch file exports a list of emoji. `draw` returns the SVG body for a 100 × 100 box; gradients come from the helpers it is given, colours from the palette `C`, and every solid part sits in a bevel group (`B` for big parts, `Bs` for small ones):
 
-```js
-// batches/<name>.mjs
-import { B, Bs, C } from "../kit.mjs";
+```ts
+// batches/<name>.ts
+import type { Icon } from "../kit.ts";
+import { B, Bs, C } from "../kit.ts";
 
-export default [
+const batch: Icon[] = [
   {
     u: "1f514", // code points, copied from the assignment
     n: "bell",
@@ -78,13 +164,15 @@ export default [
 <g ${Bs}><circle cx="50" cy="82" r="8" fill="${lin([C.goldM, C.goldD])}"/></g>`,
   },
 ];
+
+export default batch;
 ```
 
 Faces and signs are assembled from parts, so a whole family changes in one place:
 
-```js
-import { both, brow, drop, eye, head, mouth } from "../facekit.mjs";
-import { ink, label, tile } from "../symkit.mjs";
+```ts
+import { both, brow, drop, eye, head, mouth } from "../facekit.ts";
+import { ink, label, tile } from "../symkit.ts";
 
 // 😢
 (t) => head(t) + both(eye.dot) + both(brow, { tilt: -6 }) + mouth.curve({ y: 74, w: 11, d: -5 }) + drop(t, 31, 62);
@@ -92,41 +180,44 @@ import { ink, label, tile } from "../symkit.mjs";
 (t) => tile(t, "blue") + ink(label("OK", { h: 36 }));
 ```
 
-The rules of the style are in the header of [`kit.mjs`](kit.mjs) and they are binding: fill the box (the larger side spans 84 to 92 units), one clear silhouette that still reads at 40 px, light from the top-left, no outlines, no `<text>` (letters and digits are stroke paths from `symkit.mjs`), no `<image>`, `<use>`, `<style>`, `class`, `id` or `href`.
+The kits are typed, so a tone that does not exist or an option a part does not take is a compile error. The rules of the style are in the header of [`kit.ts`](kit.ts) and they are binding: fill the box (the larger side spans 84 to 92 units), one clear silhouette that still reads at 40 px, light from the top-left, no outlines, no `<text>` (letters and digits are stroke paths from `symkit.ts`), no `<image>`, `<use>`, `<style>`, `class`, `id` or `href`.
 
 ## Check
 
 ```sh
-node check.mjs batches/school.mjs                     # the whole batch
-node check.mjs batches/school.mjs --only 1f514,23f0   # a close look at a few
+node check.ts batches/school.ts                     # the whole batch
+node check.ts batches/school.ts --only 1f514,23f0   # a close look at a few
 ```
 
 The checker refuses what the rules forbid, parses each drawing as XML, measures what is actually painted (an error outside the box, a warning when too small, off-centre or touching the edge), lists assigned emoji that are still missing and writes a contact sheet to `out/check/` with every drawing on the dark and on the light ground. The label under each drawing shows your system's emoji next to the name, only as a reminder of the subject.
 
 ## Add or redraw an emoji
 
-1. `node assign.mjs <picker category> <batches>` writes `data/<category>.json` and splits the emoji that have no drawing yet into `data/assign/<category>-N.json`.
-2. Write `batches/<category>-N.mjs` with one entry per assigned emoji, checking as you go.
-3. To replace a drawing, put the new one in a `batches/00-polish-N.mjs` file: files named `00-*` win over every other batch, the highest number first.
-4. `node build.mjs --sprites`, look at the sheets, commit `batches/` and `dist/`.
+1. `node assign.ts <picker category> <batches>` writes `data/<category>.json` and splits the emoji that have no drawing yet into `data/assign/<category>-N.json`.
+2. Write `batches/<category>-N.ts` with one entry per assigned emoji, checking as you go.
+3. To replace a drawing, put the new one in a `batches/00-polish-N.ts` file: files named `00-*` win over every other batch, the highest number first.
+4. `node build.ts --sprites && node scripts/package-data.ts`, look at the sheets, commit `batches/`, `dist/` and `src/generated/`.
 
 ## Layout
 
-| Path                        | What                                                                       |
-|-----------------------------|----------------------------------------------------------------------------|
-| `kit.mjs`                   | palette, bevel and grain filters, gradient helpers, the style rules        |
-| `facekit.mjs`               | one head and the eyes, brows and mouths every face is made of              |
-| `symkit.mjs`                | tiles, discs, a stroke font, arrows for signs and symbols                  |
-| `batches/`                  | the drawings, about 36 emoji per file                                      |
-| `batches/symbols-gen.mjs`   | 127 symbols generated from tables (arrows, media buttons, keycaps, shapes) |
-| `data/`                     | emoji lists per group and the batch assignments                            |
-| `assign.mjs`                | splits a picker category into batches                                      |
-| `check.mjs`                 | validates a batch and renders its contact sheet                            |
-| `build.mjs`                 | merges the batches into `dist/`                                            |
-| `lib/`                      | shared code of the checker and the build, the keyboard page of the sheets  |
-| `draw-category.workflow.js` | the script that ran the drawing agents (see below)                         |
-| `dist/`, `docs/`            | the built set and the README pictures                                      |
-| `index.html`, `.nojekyll`   | the preview page (GitHub Pages)                                            |
+| Path                              | What                                                                       |
+| --------------------------------- | -------------------------------------------------------------------------- |
+| `src/`                            | the npm package: helpers, catalog, React components (built to `lib/`)      |
+| `src/generated/`                  | its id list and names, written by `scripts/package-data.ts`                |
+| `kit.ts`                          | palette, bevel and grain filters, gradient helpers, the style rules        |
+| `facekit.ts`                      | one head and the eyes, brows and mouths every face is made of              |
+| `symkit.ts`                       | tiles, discs, a stroke font, arrows for signs and symbols                  |
+| `batches/`                        | the drawings, about 36 emoji per file                                      |
+| `batches/symbols-gen.ts`          | 127 symbols generated from tables (arrows, media buttons, keycaps, shapes) |
+| `data/`                           | emoji lists per group and the batch assignments                            |
+| `assign.ts`                       | splits a picker category into batches                                      |
+| `check.ts`                        | validates a batch and renders its contact sheet                            |
+| `build.ts`                        | merges the batches into `dist/`                                            |
+| `scripts/`                        | shared code of the checker and the build, the package data generator       |
+| `test/`                           | tests of the built package                                                 |
+| `draw-category.workflow.js`       | the script that ran the drawing agents (see below)                         |
+| `dist/`, `docs/`                  | the built set and the README pictures                                      |
+| `index.html`                      | the preview page, published by `.github/workflows/pages.yml`               |
 
 ## How the set was drawn
 

@@ -1,18 +1,56 @@
 {
   "name": "whiboard-emoji",
-  "version": "0.1.0",
-  "description": "Hand-drawn emoji in a soft watercolour style: 1,250 SVG stickers, written as code and checked by rendering.",
-  "private": true,
-  "type": "module",
+  "version": "0.2.0",
+  "description": "1,250 hand-drawn emoji in a soft watercolour style: SVG files, sprite sheets, typed helpers and React components.",
+  "keywords": ["emoji", "emoji-set", "svg", "stickers", "icons", "hand-drawn", "watercolor", "react", "emoji-picker", "sprite-sheet"],
+  "homepage": "https://whiboard.github.io/whiboard-emoji/",
+  "repository": { "type": "git", "url": "git+https://github.com/Whiboard/whiboard-emoji.git" },
+  "bugs": "https://github.com/Whiboard/whiboard-emoji/issues",
   "license": "MIT AND CC-BY-4.0",
+  "type": "module",
+  "sideEffects": ["*.css"],
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "exports": {
+    ".": { "types": "./lib/index.d.ts", "default": "./lib/index.js" },
+    "./catalog": { "types": "./lib/catalog.d.ts", "default": "./lib/catalog.js" },
+    "./react": { "types": "./lib/react.d.ts", "default": "./lib/react.js" },
+    "./picker": { "types": "./lib/picker.d.ts", "default": "./lib/picker.js" },
+    "./picker.css": "./lib/picker.css",
+    "./svg/*": "./dist/svg/*",
+    "./sprites/*": "./dist/sprites/*",
+    "./index.json": "./dist/index.json",
+    "./package.json": "./package.json"
+  },
+  "files": ["lib", "dist/svg", "dist/sprites", "dist/index.json", "LICENSE", "LICENSE-ARTWORK"],
   "scripts": {
-    "build": "node build.mjs --sprites",
-    "sheets": "node build.mjs --sheets all --overview",
-    "docs": "node build.mjs --docs",
-    "check": "node check.mjs"
+    "build": "npm run build:data && npm run build:lib",
+    "build:data": "node scripts/package-data.ts",
+    "build:lib": "tsc -p tsconfig.build.json && node -e \"require('node:fs').cpSync('src/picker.css', 'lib/picker.css')\"",
+    "build:svg": "node build.ts",
+    "build:assets": "node build.ts --sprites",
+    "sheets": "node build.ts --sheets all --overview",
+    "docs": "node build.ts --docs",
+    "check": "node check.ts",
+    "typecheck": "tsc -p . && tsc -p batches && tsc -p tsconfig.build.json --noEmit",
+    "test": "npm run build:lib && node --test test/",
+    "prepare": "npm run build:lib"
+  },
+  "peerDependencies": {
+    "react": ">=17"
+  },
+  "peerDependenciesMeta": {
+    "react": { "optional": true }
   },
   "devDependencies": {
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
     "emoji-picker-react": "5.1.4",
-    "playwright": "1.64.1"
-  }
+    "playwright": "1.64.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "typescript": "~5.9.3"
+  },
+  "publishConfig": { "access": "public" }
 }

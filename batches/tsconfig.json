@@ -1,0 +1,7 @@
+{
+  // The drawings. Checked against the kits (wrong tones, unknown options, missing arguments),
+  // but their small local helpers may leave parameters untyped.
+  "extends": "../tsconfig.json",
+  "compilerOptions": { "noImplicitAny": false },
+  "include": ["*.ts"]
+}
