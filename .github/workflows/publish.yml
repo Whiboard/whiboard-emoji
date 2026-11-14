@@ -63,4 +63,4 @@ jobs:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
       - name: Dry run (not a tag)
         if: github.ref_type != 'tag'
-        run: npm publish --access public --dry-run
+        run: npm pack --dry-run

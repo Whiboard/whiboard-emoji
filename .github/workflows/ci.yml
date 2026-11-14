@@ -27,5 +27,6 @@ jobs:
           node build.ts
           node scripts/package-data.ts
           git diff --exit-code -- dist/svg dist/extra src/generated
+      # pack, not `npm publish --dry-run`: that one fails as soon as the version is on npm
       - name: The package packs
-        run: npm publish --access public --dry-run
+        run: npm pack --dry-run
