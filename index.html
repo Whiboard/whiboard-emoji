@@ -43,6 +43,23 @@ h1 { margin: 0; font: 700 28px/1.15 ui-serif, Georgia, "Times New Roman", serif;
 .pill:hover { background: var(--hover); }
 .pill.on, .pill.primary { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); font-weight: 600; }
 
+.use { display: grid; grid-template-columns: 340px minmax(0, 1fr); gap: 0; margin-bottom: 22px; }
+.use-install { min-width: 0; padding: 16px 18px; border-right: 1px solid var(--line); display: grid; grid-template-columns: minmax(0, 1fr); gap: 10px; align-content: start; }
+.use h2 { margin: 0; font-size: 14px; font-weight: 700; }
+.use p { margin: 0; color: var(--muted); font-size: 13px; }
+.cmd { display: flex; align-items: center; gap: 8px; padding: 8px 8px 8px 12px; border-radius: 12px; background: var(--bg); }
+.cmd code { flex: 1; min-width: 0; overflow-x: auto; white-space: nowrap; }
+code, pre { font: 13px/1.55 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+.use-code { min-width: 0; }
+/* wide screens show the examples outright; on a phone they open on request, so the emoji stay near the top */
+.use-code > summary { display: none; padding: 14px 18px; font-size: 14px; font-weight: 700; cursor: pointer; }
+.tabs { display: flex; align-items: center; gap: 4px; padding: 10px 12px 0; }
+.tab { height: 30px; padding: 0 12px; border: 0; border-radius: 999px; background: transparent; font-size: 13px; color: var(--muted); }
+.tab:hover { background: var(--hover); color: var(--text); }
+.tab[aria-selected="true"] { background: var(--hover); color: var(--text); font-weight: 600; }
+.tabs .tool { margin-left: auto; }
+.use pre { margin: 0; padding: 10px 18px 16px; overflow-x: auto; tab-size: 2; }
+
 .cols { display: grid; grid-template-columns: minmax(0, 1fr) 372px; gap: 28px; align-items: start; padding-bottom: 56px; }
 .side { position: sticky; top: 16px; display: grid; gap: 16px; }
 .card { border: 1px solid var(--line); border-radius: 20px; background: var(--panel); overflow: hidden; }
@@ -102,6 +119,9 @@ footer { border-top: 1px solid var(--line); padding-block: 22px 40px; color: var
 .toast.show { opacity: 1; }
 
 @media (max-width: 900px) {
+  .use { grid-template-columns: minmax(0, 1fr); }
+  .use-install { border-right: 0; border-bottom: 1px solid var(--line); }
+  .use-code > summary { display: block; }
   .cols { grid-template-columns: minmax(0, 1fr); }
   .side { position: static; order: -1; }
   .board { height: 230px; }
@@ -120,10 +140,32 @@ footer { border-top: 1px solid var(--line); padding-block: 22px 40px; color: var
   </div>
   <nav class="links" aria-label="Links">
     <button class="pill" id="ground" type="button">Light paper</button>
+    <a class="pill" href="https://www.npmjs.com/package/@whiboard/emoji">npm</a>
     <a class="pill" id="zip" hidden>Download all</a>
     <a class="pill primary" id="gh" hidden>GitHub</a>
   </nav>
 </header>
+
+<section class="wrap" aria-label="Use it in your app">
+  <div class="card use">
+    <div class="use-install">
+      <h2>Use it in your app</h2>
+      <div class="cmd"><code id="install">npm install @whiboard/emoji</code><button class="tool" type="button" data-copy="install">Copy</button></div>
+      <p>TypeScript types included. React 17 or newer for the components; the helpers work anywhere.</p>
+    </div>
+    <details class="use-code" id="examples">
+      <summary>Examples: React, picker, JavaScript, HTML</summary>
+      <div class="tabs" role="tablist" aria-label="Examples">
+        <button class="tab" type="button" role="tab" data-tab="react">React</button>
+        <button class="tab" type="button" role="tab" data-tab="picker">React picker</button>
+        <button class="tab" type="button" role="tab" data-tab="js">JavaScript</button>
+        <button class="tab" type="button" role="tab" data-tab="html">HTML</button>
+        <button class="tool" type="button" data-copy="snippet">Copy</button>
+      </div>
+      <pre><code id="snippet"></code></pre>
+    </details>
+  </div>
+</section>
 
 <main class="wrap cols">
   <div>
@@ -164,6 +206,7 @@ footer { border-top: 1px solid var(--line); padding-block: 22px 40px; color: var
           <button class="tool" id="copy" type="button">Copy SVG</button>
           <a class="tool pill" id="dl" style="height:30px;font-size:13px;padding:0 10px" download>Download SVG</a>
           <button class="tool" id="png" type="button">PNG 512</button>
+          <button class="tool" id="jsx" type="button">Copy JSX</button>
         </div>
       </div>
     </section>
@@ -214,6 +257,57 @@ function toast(text) {
   clearTimeout(toastTimer);
   toastTimer = setTimeout(() => $("toast").classList.remove("show"), 1600);
 }
+
+// ── how to use it: one install line and an example per tab
+const SNIPPETS = {
+  react: `import { Emoji } from "@whiboard/emoji/react";
+
+export function Shipped() {
+  return (
+    <p>
+      Shipped <Emoji emoji="🚀" /> and celebrated <Emoji emoji="🎉" size={32} />
+    </p>
+  );
+}
+
+// An emoji the set has no drawing of is shown as the emoji itself.`,
+  picker: `import { EmojiPicker } from "@whiboard/emoji/picker";
+import "@whiboard/emoji/picker.css";
+
+export function Picker({ onInsert }: { onInsert: (emoji: string) => void }) {
+  return <EmojiPicker theme="auto" onSelect={(emoji) => onInsert(emoji.char)} />;
+}
+
+// onSelect gets { unified, char, name, keywords, group, url }.`,
+  js: `import { emojiUrl, has } from "@whiboard/emoji";
+import { search } from "@whiboard/emoji/catalog";
+
+const img = new Image(32, 32);
+img.src = emojiUrl("🎉"); // the SVG on the jsDelivr CDN
+// your own copy of dist/: emojiUrl("🎉", { base: "/emoji/" })
+
+has("👍"); // false: people and hands are not drawn yet
+search("red heart")[0].char; // "❤️"`,
+  html: `<!-- no build: straight from the CDN, named by code points -->
+<img src="https://cdn.jsdelivr.net/npm/@whiboard/emoji/dist/svg/1f389.svg"
+     width="32" height="32" alt="🎉">`,
+};
+function showSnippet(id) {
+  $("snippet").textContent = SNIPPETS[id];
+  for (const t of document.querySelectorAll(".tab")) t.setAttribute("aria-selected", String(t.dataset.tab === id));
+}
+for (const t of document.querySelectorAll(".tab")) t.onclick = () => showSnippet(t.dataset.tab);
+showSnippet("react");
+$("examples").open = matchMedia("(min-width: 901px)").matches;
+async function copy(text, done) {
+  try {
+    await navigator.clipboard.writeText(text);
+    toast(done);
+  } catch {
+    toast("Could not copy");
+  }
+}
+for (const b of document.querySelectorAll("[data-copy]")) b.onclick = () => copy($(b.dataset.copy).textContent, "Copied");
 
 // ── catalog and grid
 let groups = [];
@@ -336,6 +430,7 @@ $("copy").onclick = async () => {
     toast("Could not copy: use Download");
   }
 };
+$("jsx").onclick = () => copy(`<Emoji emoji="${charOf(current)}" />`, "JSX copied");
 
 const loadImage = (src) =>
   new Promise((ok, fail) => {
