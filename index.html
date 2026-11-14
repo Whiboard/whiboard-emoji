@@ -1,0 +1,495 @@
+<!doctype html>
+<html lang="en" data-ground="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Whiboard Emoji: 1,250 hand-drawn emoji</title>
+<meta name="description" content="1,250 emoji drawn by hand in a soft watercolour style. Plain SVG, free to use (CC BY 4.0). Search them, put them on a board, copy or download any of them.">
+<link rel="icon" href="dist/svg/1f3a8.svg">
+<style>
+:root {
+  --bg: #1b1b1a; --panel: #252523; --line: #3a3835; --text: #f5f3ef; --muted: #a39f97;
+  --hover: #33312e; --accent: #f6cf5e; --accent-ink: #2a2416; --board: #1b1b1a;
+  color-scheme: dark;
+}
+:root[data-ground="light"] {
+  --bg: #f4f1ea; --panel: #fffdf8; --line: #ddd5c4; --text: #2b2622; --muted: #6f675c;
+  --hover: #e9e2d2; --accent: #f1be40; --accent-ink: #2b2622; --board: #f4f1ea;
+  color-scheme: light;
+}
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+html { background: var(--bg); }
+body {
+  margin: 0; color: var(--text); background: var(--bg);
+  font: 15px/1.5 ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+button, input { font: inherit; color: inherit; }
+button { cursor: pointer; }
+a { color: inherit; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.wrap { max-width: 1180px; margin: 0 auto; padding: 0 20px; }
+
+.top { display: flex; flex-wrap: wrap; align-items: center; gap: 16px 24px; padding-block: 28px 20px; }
+.brand { display: flex; align-items: center; gap: 14px; flex: 1 1 320px; min-width: 0; }
+.brand img { width: 52px; height: 52px; flex: none; }
+h1 { margin: 0; font: 700 28px/1.15 ui-serif, Georgia, "Times New Roman", serif; letter-spacing: -0.01em; }
+.brand p { margin: 2px 0 0; color: var(--muted); }
+.links { display: flex; flex-wrap: wrap; gap: 8px; }
+.pill {
+  display: inline-flex; align-items: center; gap: 6px; height: 36px; padding: 0 14px;
+  border: 1px solid var(--line); border-radius: 999px; background: transparent; text-decoration: none; white-space: nowrap;
+}
+.pill:hover { background: var(--hover); }
+.pill.on, .pill.primary { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); font-weight: 600; }
+
+.cols { display: grid; grid-template-columns: minmax(0, 1fr) 372px; gap: 28px; align-items: start; padding-bottom: 56px; }
+.side { position: sticky; top: 16px; display: grid; gap: 16px; }
+.card { border: 1px solid var(--line); border-radius: 20px; background: var(--panel); overflow: hidden; }
+.card h2 { margin: 0; font-size: 14px; font-weight: 700; }
+.card-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 12px 14px 10px; }
+.tools { display: flex; gap: 6px; }
+.tool {
+  height: 30px; min-width: 30px; padding: 0 10px; border: 1px solid var(--line); border-radius: 999px; background: transparent; font-size: 13px;
+}
+.tool:hover:not(:disabled) { background: var(--hover); }
+.tool:disabled { opacity: 0.4; cursor: default; }
+
+.board {
+  position: relative; height: 290px; margin: 0 14px; border-radius: 14px; background: var(--board);
+  border: 1px dashed var(--line); overflow: hidden; touch-action: none; user-select: none;
+}
+.board .st { position: absolute; cursor: grab; border-radius: 10px; -webkit-user-drag: none; }
+.board .st.sel { outline: 2px solid var(--accent); outline-offset: 2px; }
+.board .st:active { cursor: grabbing; }
+.board-empty { position: absolute; inset: 0; display: grid; place-items: center; padding: 24px; text-align: center; color: var(--muted); pointer-events: none; }
+.hint { margin: 0; padding: 10px 14px 14px; color: var(--muted); font-size: 13px; }
+
+.detail { padding: 14px; display: grid; gap: 12px; }
+.detail-top { display: flex; gap: 14px; align-items: center; }
+.detail-top img { width: 96px; height: 96px; flex: none; }
+.detail h3 { margin: 0; font-size: 17px; line-height: 1.25; }
+.meta { margin: 4px 0 0; color: var(--muted); font-size: 13px; overflow-wrap: anywhere; }
+.meta code { font: 12px ui-monospace, SFMono-Regular, Menlo, monospace; }
+.sizes { display: flex; align-items: end; gap: 14px; padding: 10px 12px; border-radius: 12px; background: var(--bg); }
+.actions { display: flex; flex-wrap: wrap; gap: 6px; }
+
+.bar { position: sticky; top: 0; z-index: 5; padding-block: 12px; background: var(--bg); }
+.search {
+  width: 100%; height: 44px; padding: 0 16px; border: 1px solid var(--line); border-radius: 999px; background: var(--panel);
+}
+.search::placeholder { color: var(--muted); }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+.chip { height: 32px; padding: 0 12px; border: 1px solid var(--line); border-radius: 999px; background: transparent; font-size: 13px; }
+.chip:hover { background: var(--hover); }
+.chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); font-weight: 600; }
+.chip small { opacity: 0.7; font-size: 12px; }
+
+.group h2 { margin: 18px 0 6px; font-size: 13px; font-weight: 700; color: var(--muted); letter-spacing: 0.02em; }
+.cells { display: grid; grid-template-columns: repeat(auto-fill, 56px); gap: 2px; }
+.cell { width: 56px; height: 56px; display: grid; place-items: center; border: 0; border-radius: 12px; background: transparent; padding: 0; }
+.cell:hover { background: var(--hover); }
+.cell[aria-current="true"] { background: var(--hover); box-shadow: inset 0 0 0 2px var(--accent); }
+.cell span { width: 44px; height: 44px; display: block; background-repeat: no-repeat; }
+.none { padding: 48px 0; color: var(--muted); text-align: center; }
+.note { padding: 14px 16px; border: 1px solid var(--line); border-radius: 14px; color: var(--muted); }
+
+footer { border-top: 1px solid var(--line); padding-block: 22px 40px; color: var(--muted); font-size: 13px; }
+.toast {
+  position: fixed; left: 50%; bottom: 22px; transform: translateX(-50%); padding: 9px 16px; border-radius: 999px;
+  background: var(--text); color: var(--bg); font-size: 13px; opacity: 0; pointer-events: none; transition: opacity 0.2s;
+}
+.toast.show { opacity: 1; }
+
+@media (max-width: 900px) {
+  .cols { grid-template-columns: minmax(0, 1fr); }
+  .side { position: static; order: -1; }
+  .board { height: 230px; }
+}
+@media (prefers-reduced-motion: reduce) { .toast { transition: none; } }
+</style>
+</head>
+<body>
+<header class="wrap top">
+  <div class="brand">
+    <img src="dist/svg/1f3a8.svg" alt="">
+    <div>
+      <h1>Whiboard Emoji</h1>
+      <p><span id="count">1,250</span> emoji drawn by hand, as plain SVG. Free to use.</p>
+    </div>
+  </div>
+  <nav class="links" aria-label="Links">
+    <button class="pill" id="ground" type="button">Light paper</button>
+    <a class="pill" id="zip" hidden>Download all</a>
+    <a class="pill primary" id="gh" hidden>GitHub</a>
+  </nav>
+</header>
+
+<main class="wrap cols">
+  <div>
+    <div class="bar">
+      <input class="search" id="q" type="search" placeholder="Search 1,250 emoji: party, cat, arrow…" aria-label="Search emoji" autocomplete="off">
+      <div class="chips" id="chips" role="toolbar" aria-label="Groups"></div>
+    </div>
+    <div id="grid" aria-live="polite"></div>
+  </div>
+
+  <aside class="side" aria-label="Try them">
+    <section class="card">
+      <div class="card-head">
+        <h2>Try them on a board</h2>
+        <div class="tools">
+          <button class="tool" id="smaller" type="button" title="Smaller" aria-label="Make the selected sticker smaller" disabled>−</button>
+          <button class="tool" id="bigger" type="button" title="Bigger" aria-label="Make the selected sticker bigger" disabled>+</button>
+          <button class="tool" id="remove" type="button" disabled>Remove</button>
+        </div>
+      </div>
+      <div class="board" id="board" tabindex="0" aria-label="Sticker board">
+        <div class="board-empty" id="empty">Click any emoji: it lands here.</div>
+      </div>
+      <p class="hint">Drag to move. <button class="tool" id="clear" type="button">Clear</button> <button class="tool" id="save" type="button">Save as PNG</button></p>
+    </section>
+
+    <section class="card" id="detail" hidden>
+      <div class="detail">
+        <div class="detail-top">
+          <img id="d-img" alt="">
+          <div>
+            <h3 id="d-name"></h3>
+            <p class="meta"><span id="d-char"></span> · <code id="d-code"></code><br><code id="d-file"></code></p>
+          </div>
+        </div>
+        <div class="sizes" id="d-sizes" aria-hidden="true"></div>
+        <div class="actions">
+          <button class="tool" id="copy" type="button">Copy SVG</button>
+          <a class="tool pill" id="dl" style="height:30px;font-size:13px;padding:0 10px" download>Download SVG</a>
+          <button class="tool" id="png" type="button">PNG 512</button>
+        </div>
+      </div>
+    </section>
+  </aside>
+</main>
+
+<footer>
+  <div class="wrap">
+    Artwork: <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>, credit "Emoji artwork by Whiboard". Code: MIT.
+    Made for the sticker menu of <a href="https://whiboard.com">Whiboard</a>. Every drawing is SVG written as code; the build and the rules are in the repository.
+  </div>
+</footer>
+<div class="toast" id="toast" role="status"></div>
+
+<script>
+const $ = (id) => document.getElementById(id);
+const DIST = "dist/";
+const ART = 44; // px a drawing takes in a grid cell
+const svgUrl = (u) => `${DIST}svg/${u}.svg`;
+const charOf = (u) => String.fromCodePoint(...u.split("-").map((h) => parseInt(h, 16)));
+
+// ── links: on <owner>.github.io/<repo>/ the repository address follows from the page's own
+const owner = /^(.+)\.github\.io$/.exec(location.hostname)?.[1];
+const repo = location.pathname.split("/").filter(Boolean)[0];
+if (owner && repo) {
+  $("gh").href = `https://github.com/${owner}/${repo}`;
+  $("gh").hidden = false;
+  $("zip").href = `https://github.com/${owner}/${repo}/archive/refs/heads/main.zip`;
+  $("zip").hidden = false;
+}
+
+// ── ground: the drawings are made for a dark and a light ground; the page shows either
+const root = document.documentElement;
+function setGround(g) {
+  root.dataset.ground = g;
+  $("ground").textContent = g === "dark" ? "Light paper" : "Dark ground";
+  try { localStorage.setItem("we:ground", g); } catch {}
+}
+let stored = null;
+try { stored = localStorage.getItem("we:ground"); } catch {}
+setGround(stored === "light" || stored === "dark" ? stored : matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark");
+$("ground").onclick = () => setGround(root.dataset.ground === "dark" ? "light" : "dark");
+
+let toastTimer;
+function toast(text) {
+  $("toast").textContent = text;
+  $("toast").classList.add("show");
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => $("toast").classList.remove("show"), 1600);
+}
+
+// ── catalog and grid
+let groups = [];
+let items = []; // { g, at, u, name, words }
+let filter = "all";
+let current = null;
+
+function cell(it) {
+  const b = document.createElement("button");
+  b.className = "cell";
+  b.type = "button";
+  b.title = it.name;
+  b.setAttribute("aria-label", it.name);
+  b.dataset.u = it.u;
+  if (current === it.u) b.setAttribute("aria-current", "true");
+  const s = document.createElement("span");
+  // a cell of the group's sprite sheet: hundreds of filtered SVGs would be slow to paint
+  s.style.backgroundImage = `url(${DIST}${it.g.sprite})`;
+  s.style.backgroundSize = `${it.g.cols * ART}px auto`;
+  s.style.backgroundPosition = `-${(it.at % it.g.cols) * ART}px -${Math.floor(it.at / it.g.cols) * ART}px`;
+  b.append(s);
+  return b;
+}
+
+const lazy = new IntersectionObserver(
+  (entries) => {
+    for (const e of entries) {
+      if (!e.isIntersecting) continue;
+      lazy.unobserve(e.target);
+      e.target.replaceChildren(...e.target._items.map(cell));
+      e.target.style.minHeight = "";
+    }
+  },
+  { rootMargin: "400px 0px" },
+);
+
+function render() {
+  const words = $("q").value.toLowerCase().split(/\s+/).filter(Boolean);
+  const grid = $("grid");
+  lazy.disconnect();
+  grid.replaceChildren();
+  let shown = 0;
+  for (const g of groups) {
+    if (filter !== "all" && filter !== g.id) continue;
+    const list = items.filter((it) => it.g === g && words.every((w) => it.words.includes(w)));
+    if (!list.length) continue;
+    shown += list.length;
+    const sec = document.createElement("section");
+    sec.className = "group";
+    const h = document.createElement("h2");
+    h.textContent = `${g.label} · ${list.length}`;
+    const cells = document.createElement("div");
+    cells.className = "cells";
+    if (words.length) cells.append(...list.map(cell));
+    else {
+      // whole groups fill in as they come near the view (and only then load their sheet)
+      cells._items = list;
+      cells.style.minHeight = `${Math.ceil(list.length / 12) * 58}px`;
+      lazy.observe(cells);
+    }
+    sec.append(h, cells);
+    grid.append(sec);
+  }
+  if (!shown) {
+    const p = document.createElement("p");
+    p.className = "none";
+    p.textContent = "No emoji match. People, hands and flags are not drawn yet.";
+    grid.append(p);
+  }
+}
+
+function chips() {
+  const make = (id, label, n) => {
+    const b = document.createElement("button");
+    b.className = "chip";
+    b.type = "button";
+    b.setAttribute("aria-pressed", String(filter === id));
+    b.innerHTML = `${label} <small>${n}</small>`;
+    b.onclick = () => {
+      filter = id;
+      chips();
+      render();
+    };
+    return b;
+  };
+  $("chips").replaceChildren(make("all", "All", items.length), ...groups.map((g) => make(g.id, g.label, g.stickers.length)));
+}
+
+// ── detail: one emoji large, with its files
+function select(u) {
+  const it = items.find((i) => i.u === u);
+  if (!it) return;
+  current = u;
+  for (const c of document.querySelectorAll(".cell[aria-current]")) c.removeAttribute("aria-current");
+  document.querySelector(`.cell[data-u="${u}"]`)?.setAttribute("aria-current", "true");
+  $("detail").hidden = false;
+  $("d-img").src = svgUrl(u);
+  $("d-name").textContent = it.name.charAt(0).toUpperCase() + it.name.slice(1);
+  $("d-char").textContent = charOf(u);
+  $("d-code").textContent = u.split("-").map((h) => `U+${h.toUpperCase()}`).join(" ");
+  $("d-file").textContent = `dist/svg/${u}.svg`;
+  $("d-sizes").replaceChildren(
+    ...[20, 32, 48, 72].map((s) => {
+      const i = new Image(s, s);
+      i.src = svgUrl(u);
+      i.alt = "";
+      return i;
+    }),
+  );
+  $("dl").href = svgUrl(u);
+  $("dl").download = `${u}.svg`;
+  history.replaceState(null, "", `#${u}`);
+}
+
+$("copy").onclick = async () => {
+  try {
+    await navigator.clipboard.writeText(await (await fetch(svgUrl(current))).text());
+    toast("SVG copied");
+  } catch {
+    toast("Could not copy: use Download");
+  }
+};
+
+const loadImage = (src) =>
+  new Promise((ok, fail) => {
+    const i = new Image();
+    i.onload = () => ok(i);
+    i.onerror = fail;
+    i.src = src;
+  });
+function download(canvas, name) {
+  canvas.toBlob((blob) => {
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(blob);
+    a.download = name;
+    a.click();
+    setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+  }, "image/png");
+}
+$("png").onclick = async () => {
+  const c = document.createElement("canvas");
+  c.width = c.height = 512;
+  c.getContext("2d").drawImage(await loadImage(svgUrl(current)), 0, 0, 512, 512);
+  download(c, `${current}.png`);
+};
+
+// ── board: what the set is for. Stickers are plain <img>s you can drag about.
+const board = $("board");
+let placed = []; // { el, u, x, y, size }
+let picked = null;
+
+function refreshBoard() {
+  $("empty").hidden = placed.length > 0;
+  for (const p of placed) p.el.classList.toggle("sel", p === picked);
+  for (const id of ["smaller", "bigger", "remove"]) $(id).disabled = !picked;
+}
+function put(p) {
+  p.el.style.left = `${p.x}px`;
+  p.el.style.top = `${p.y}px`;
+  p.el.style.width = p.el.style.height = `${p.size}px`;
+}
+function place(u, at) {
+  const size = 84;
+  const n = placed.length;
+  const w = board.clientWidth - size - 16;
+  const h = board.clientHeight - size - 16;
+  const el = new Image();
+  el.className = "st";
+  el.src = svgUrl(u);
+  el.alt = items.find((i) => i.u === u)?.name ?? "";
+  el.draggable = false;
+  const p = { el, u, size, x: at?.x ?? 8 + ((n * 97) % Math.max(1, w)), y: at?.y ?? 8 + ((n * 59) % Math.max(1, h)) };
+  put(p);
+  el.onpointerdown = (e) => {
+    e.preventDefault();
+    picked = p;
+    board.append(el); // on top
+    refreshBoard();
+    el.setPointerCapture(e.pointerId);
+    const dx = e.clientX - p.x;
+    const dy = e.clientY - p.y;
+    el.onpointermove = (m) => {
+      p.x = Math.min(board.clientWidth - 20, Math.max(20 - p.size, m.clientX - dx));
+      p.y = Math.min(board.clientHeight - 20, Math.max(20 - p.size, m.clientY - dy));
+      put(p);
+    };
+    el.onpointerup = el.onpointercancel = () => (el.onpointermove = null);
+  };
+  board.append(el);
+  placed.push(p);
+  picked = p;
+  refreshBoard();
+}
+function resize(k) {
+  if (!picked) return;
+  const size = Math.min(240, Math.max(28, Math.round(picked.size * k)));
+  picked.x += (picked.size - size) / 2;
+  picked.y += (picked.size - size) / 2;
+  picked.size = size;
+  put(picked);
+}
+function removePicked() {
+  if (!picked) return;
+  picked.el.remove();
+  placed = placed.filter((p) => p !== picked);
+  picked = null;
+  refreshBoard();
+}
+$("smaller").onclick = () => resize(0.8);
+$("bigger").onclick = () => resize(1.25);
+$("remove").onclick = removePicked;
+$("clear").onclick = () => {
+  for (const p of placed) p.el.remove();
+  placed = [];
+  picked = null;
+  refreshBoard();
+};
+board.onpointerdown = (e) => {
+  if (e.target === board) {
+    picked = null;
+    refreshBoard();
+  }
+};
+board.onkeydown = (e) => {
+  if (e.key === "Delete" || e.key === "Backspace") removePicked();
+};
+$("save").onclick = async () => {
+  if (!placed.length) return toast("Nothing on the board yet");
+  const k = 2;
+  const c = document.createElement("canvas");
+  c.width = board.clientWidth * k;
+  c.height = board.clientHeight * k;
+  const ctx = c.getContext("2d");
+  ctx.fillStyle = getComputedStyle(root).getPropertyValue("--board").trim();
+  ctx.fillRect(0, 0, c.width, c.height);
+  // in stacking order, which is the order in the DOM
+  for (const el of board.querySelectorAll(".st")) {
+    const p = placed.find((q) => q.el === el);
+    ctx.drawImage(await loadImage(el.src), p.x * k, p.y * k, p.size * k, p.size * k);
+  }
+  download(c, "whiboard-emoji-board.png");
+};
+
+$("grid").onclick = (e) => {
+  const b = e.target.closest(".cell");
+  if (!b) return;
+  select(b.dataset.u);
+  place(b.dataset.u);
+};
+$("q").oninput = render;
+
+fetch(`${DIST}index.json`)
+  .then((r) => r.json())
+  .then((index) => {
+    groups = index.groups;
+    items = groups.flatMap((g) => g.stickers.map(([u, name, keywords], at) => ({ g, at, u, name, words: `${name} ${keywords}`.toLowerCase() })));
+    $("count").textContent = items.length.toLocaleString("en");
+    $("q").placeholder = `Search ${items.length.toLocaleString("en")} emoji: party, cat, arrow…`;
+    chips();
+    render();
+    // a board that is not empty says what it is for
+    // placed by share of the free room, so they fit a phone's board too
+    const start = [["1f389", 0.04, 0.08], ["2764-fe0f", 0.94, 0.1], ["1f680", 0.5, 0.45], ["1f600", 0.1, 0.92], ["2b50", 0.96, 0.9]];
+    const room = { w: board.clientWidth - 84, h: board.clientHeight - 84 };
+    for (const [u, fx, fy] of start) if (items.some((i) => i.u === u)) place(u, { x: fx * room.w, y: fy * room.h });
+    picked = null;
+    refreshBoard();
+    const hash = location.hash.slice(1);
+    if (items.some((i) => i.u === hash)) select(hash);
+  })
+  .catch(() => {
+    const p = document.createElement("p");
+    p.className = "note";
+    p.textContent = "Could not load dist/index.json. Open this page through a web server (for example: python3 -m http.server), not as a file.";
+    $("grid").replaceChildren(p);
+  });
+</script>
+</body>
+</html>

@@ -8,18 +8,26 @@ It was made for the sticker menu of [Whiboard](https://whiboard.com), an online 
 
 ![The whole set](docs/overview.jpg)
 
+## Preview
+
+`index.html` in the repository root is a preview page: search the set, switch between the dark and the light ground, click an emoji to put it on a small board, copy its SVG or download it as SVG or PNG. GitHub Pages serves it when Pages is set to deploy from the `main` branch, folder `/ (root)`. Locally:
+
+```sh
+python3 -m http.server     # then open http://localhost:8000
+```
+
 ## What is in the set
 
-| Group            | Emoji | Notes                                                        |
-| ---------------- | ----- | ------------------------------------------------------------ |
-| Smileys          | 169   | faces, cat faces, creatures, hearts, emotion marks           |
-| Animals & nature | 159   |                                                              |
-| Food & drink     | 131   |                                                              |
-| Activities       | 85    |                                                              |
-| Travel & places  | 218   |                                                              |
-| Objects          | 264   |                                                              |
-| Symbols          | 224   | signs, arrows, zodiac, keycaps, letter buttons, shapes       |
-| Extras           | 18    | school things that are not emoji (`dist/extra/`)             |
+| Group            | Emoji | Notes                                                  |
+|------------------|-------|--------------------------------------------------------|
+| Smileys          | 169   | faces, cat faces, creatures, hearts, emotion marks     |
+| Animals & nature | 159   |                                                        |
+| Food & drink     | 131   |                                                        |
+| Activities       | 85    |                                                        |
+| Travel & places  | 218   |                                                        |
+| Objects          | 264   |                                                        |
+| Symbols          | 224   | signs, arrows, zodiac, keycaps, letter buttons, shapes |
+| Extras           | 18    | school things that are not emoji (`dist/extra/`)       |
 
 Not drawn yet: people, hands and body parts (with their skin tones) and flags.
 
@@ -104,20 +112,21 @@ The checker refuses what the rules forbid, parses each drawing as XML, measures 
 
 ## Layout
 
-| Path                         | What                                                                        |
-| ---------------------------- | --------------------------------------------------------------------------- |
-| `kit.mjs`                    | palette, bevel and grain filters, gradient helpers, the style rules         |
-| `facekit.mjs`                | one head and the eyes, brows and mouths every face is made of               |
-| `symkit.mjs`                 | tiles, discs, a stroke font, arrows for signs and symbols                   |
-| `batches/`                   | the drawings, about 36 emoji per file                                       |
-| `batches/symbols-gen.mjs`    | 127 symbols generated from tables (arrows, media buttons, keycaps, shapes)  |
-| `data/`                      | emoji lists per group and the batch assignments                             |
-| `assign.mjs`                 | splits a picker category into batches                                       |
-| `check.mjs`                  | validates a batch and renders its contact sheet                             |
-| `build.mjs`                  | merges the batches into `dist/`                                             |
-| `lib/`                       | shared code of the checker and the build, the keyboard page of the sheets   |
-| `draw-category.workflow.js`  | the script that ran the drawing agents (see below)                          |
-| `dist/`, `docs/`             | the built set and the README pictures                                       |
+| Path                        | What                                                                       |
+|-----------------------------|----------------------------------------------------------------------------|
+| `kit.mjs`                   | palette, bevel and grain filters, gradient helpers, the style rules        |
+| `facekit.mjs`               | one head and the eyes, brows and mouths every face is made of              |
+| `symkit.mjs`                | tiles, discs, a stroke font, arrows for signs and symbols                  |
+| `batches/`                  | the drawings, about 36 emoji per file                                      |
+| `batches/symbols-gen.mjs`   | 127 symbols generated from tables (arrows, media buttons, keycaps, shapes) |
+| `data/`                     | emoji lists per group and the batch assignments                            |
+| `assign.mjs`                | splits a picker category into batches                                      |
+| `check.mjs`                 | validates a batch and renders its contact sheet                            |
+| `build.mjs`                 | merges the batches into `dist/`                                            |
+| `lib/`                      | shared code of the checker and the build, the keyboard page of the sheets  |
+| `draw-category.workflow.js` | the script that ran the drawing agents (see below)                         |
+| `dist/`, `docs/`            | the built set and the README pictures                                      |
+| `index.html`, `.nojekyll`   | the preview page (GitHub Pages)                                            |
 
 ## How the set was drawn
 
