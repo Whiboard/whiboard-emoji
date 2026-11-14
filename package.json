@@ -1,6 +1,6 @@
 {
   "name": "@whiboard/emoji",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "1,250 hand-drawn emoji in a soft watercolour style: SVG files, sprite sheets, typed helpers and React components.",
   "keywords": [
     "emoji",
