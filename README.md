@@ -31,12 +31,6 @@ Not drawn yet: people, hands and body parts (with their skin tones) and flags.
 npm install @whiboard/emoji
 ```
 
-Until the first release is on the npm registry, install it from GitHub (npm builds it on install) and serve the files yourself with `base`, because the default CDN address is the npm one:
-
-```sh
-npm install github:Whiboard/whiboard-emoji
-```
-
 The package is ES modules with TypeScript types. It has four entries, so an app only loads what it uses (sizes before minifying and compression):
 
 | Import                    | What                                                                   | Size  |
