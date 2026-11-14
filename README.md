@@ -28,10 +28,10 @@ Not drawn yet: people, hands and body parts (with their skin tones) and flags.
 ## Install
 
 ```sh
-npm install whiboard-emoji
+npm install @whiboard/emoji
 ```
 
-Until the package is on the npm registry, install it from GitHub; npm builds it on install:
+Until the first release is on the npm registry, install it from GitHub (npm builds it on install) and serve the files yourself with `base`, because the default CDN address is the npm one:
 
 ```sh
 npm install github:Whiboard/whiboard-emoji
@@ -39,23 +39,23 @@ npm install github:Whiboard/whiboard-emoji
 
 The package is ES modules with TypeScript types. It has four entries, so an app only loads what it uses (sizes before minifying and compression):
 
-| Import                   | What                                                                  | Size  |
-| ------------------------ | --------------------------------------------------------------------- | ----- |
-| `whiboard-emoji`         | emoji → URL of its drawing, sprite sheet cells, the id list           | 13 KB |
-| `whiboard-emoji/catalog` | names, keywords, `search()`                                           | 96 KB |
-| `whiboard-emoji/react`   | `<Emoji>`, `<EmojiProvider>`                                          | 2 KB  |
-| `whiboard-emoji/picker`  | `<EmojiPicker>` (loads the catalog), with `whiboard-emoji/picker.css` | 9 KB  |
+| Import                    | What                                                                   | Size  |
+| ------------------------- | ---------------------------------------------------------------------- | ----- |
+| `@whiboard/emoji`         | emoji → URL of its drawing, sprite sheet cells, the id list            | 13 KB |
+| `@whiboard/emoji/catalog` | names, keywords, `search()`                                            | 96 KB |
+| `@whiboard/emoji/react`   | `<Emoji>`, `<EmojiProvider>`                                           | 2 KB  |
+| `@whiboard/emoji/picker`  | `<EmojiPicker>` (loads the catalog), with `@whiboard/emoji/picker.css` | 9 KB  |
 
-The SVG files and sprite sheets are in the package too: `whiboard-emoji/svg/<code points>.svg`, `whiboard-emoji/sprites/<group>.webp`, `whiboard-emoji/index.json`.
+The SVG files and sprite sheets are in the package too: `@whiboard/emoji/svg/<code points>.svg`, `@whiboard/emoji/sprites/<group>.webp`, `@whiboard/emoji/index.json`.
 
 ## Use
 
 ### Any framework
 
 ```ts
-import { emojiUrl, has, toUnified } from "whiboard-emoji";
+import { emojiUrl, has, toUnified } from "@whiboard/emoji";
 
-emojiUrl("🎉"); // "https://cdn.jsdelivr.net/gh/Whiboard/whiboard-emoji@v0.2.0/dist/svg/1f389.svg"
+emojiUrl("🎉"); // "https://cdn.jsdelivr.net/npm/@whiboard/emoji@<version>/dist/svg/1f389.svg"
 emojiUrl("1f389", { base: "/emoji/" }); // "/emoji/svg/1f389.svg"
 emojiUrl("👍"); // null: people and hands are not drawn yet
 toUnified("❤"); // "2764-fe0f", the id the set uses
@@ -63,7 +63,7 @@ has("🚀"); // true
 ```
 
 ```ts
-import { emojis, search } from "whiboard-emoji/catalog";
+import { emojis, search } from "@whiboard/emoji/catalog";
 
 emojis.length; // 1250
 search("red heart")[0]; // { unified: "2764-fe0f", char: "❤️", name: "red heart", keywords: [...], group: "smileys" }
@@ -72,7 +72,7 @@ search("red heart")[0]; // { unified: "2764-fe0f", char: "❤️", name: "red he
 ### React
 
 ```tsx
-import { Emoji } from "whiboard-emoji/react";
+import { Emoji } from "@whiboard/emoji/react";
 
 <p>
   Shipped <Emoji emoji="🚀" /> and celebrated <Emoji emoji="🎉" size={32} />
@@ -84,8 +84,8 @@ import { Emoji } from "whiboard-emoji/react";
 A picker, by group, with search:
 
 ```tsx
-import { EmojiPicker } from "whiboard-emoji/picker";
-import "whiboard-emoji/picker.css";
+import { EmojiPicker } from "@whiboard/emoji/picker";
+import "@whiboard/emoji/picker.css";
 
 <EmojiPicker onSelect={(emoji) => insert(emoji.char)} theme="auto" />;
 ```
@@ -94,10 +94,10 @@ import "whiboard-emoji/picker.css";
 
 ### Where the files come from
 
-By default every URL points at this version's `dist/` folder on the jsDelivr CDN. To serve the files yourself, copy `node_modules/whiboard-emoji/dist/svg` and `dist/sprites` to your site and say where they are:
+By default every URL points at the `dist/` folder of the installed version of the package on the jsDelivr CDN. To serve the files yourself, copy `node_modules/@whiboard/emoji/dist/svg` and `dist/sprites` to your site and say where they are:
 
 ```tsx
-import { EmojiProvider } from "whiboard-emoji/react";
+import { EmojiProvider } from "@whiboard/emoji/react";
 
 <EmojiProvider base="/emoji/">
   <App />
@@ -107,7 +107,7 @@ import { EmojiProvider } from "whiboard-emoji/react";
 Outside React, pass `{ base: "/emoji/" }` to `emojiUrl`, `spriteUrl`, `spriteCell` and `spriteStyle`. With a bundler you can also import a single file and let it handle the asset:
 
 ```ts
-import rocket from "whiboard-emoji/svg/1f680.svg"; // a URL in Vite, webpack, Parcel…
+import rocket from "@whiboard/emoji/svg/1f680.svg"; // a URL in Vite, webpack, Parcel…
 ```
 
 ### Without npm
@@ -145,6 +145,22 @@ npm test                             # the built package: helpers, search, React
 ```
 
 The review sheets and `lib/` are not committed; `dist/svg`, `dist/sprites`, `dist/index.json` and `src/generated` are, and CI fails when they are not what the drawings build.
+
+## Release
+
+`.github/workflows/publish.yml` publishes `@whiboard/emoji` to npm when a version tag is pushed. It runs the same checks as CI first, refuses a tag that is not the version in `package.json`, and does nothing when that version is already on npm.
+
+```sh
+npm version patch                     # or minor / major: bumps package.json, rewrites src/generated, commits, tags vX.Y.Z
+git push origin main --follow-tags    # the tag starts the publish
+```
+
+One-time setup on npm, either of:
+
+- **Trusted publishing (no secret to keep).** npm only lets you set it up for a package that exists, so publish once by hand (`npm login`, then `npm publish --access public` in this folder), then on npmjs.com open the package → Settings → Trusted Publisher → GitHub Actions: organization `Whiboard`, repository `whiboard-emoji`, workflow `publish.yml`, and allow `npm publish`. A new configuration must publish successfully within two days or it expires.
+- **A token.** Create a granular access token that can publish to the `@whiboard` scope and save it as the repository secret `NPM_TOKEN` (GitHub → Settings → Secrets and variables → Actions). The workflow uses it when no trusted publisher answers.
+
+The npm organization `whiboard` has to exist and you have to be able to publish to it.
 
 ## How a drawing is written
 

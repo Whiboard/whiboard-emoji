@@ -1,7 +1,7 @@
 /**
  * React: `<Emoji emoji="🎉" />` draws an emoji with the set's drawing.
  *
- *   import { Emoji, EmojiProvider } from "whiboard-emoji/react";
+ *   import { Emoji, EmojiProvider } from "@whiboard/emoji/react";
  *
  *   <EmojiProvider base="/emoji/">      // optional: where you serve dist/ from
  *     <Emoji emoji="🎉" size={32} />

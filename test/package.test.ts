@@ -36,7 +36,7 @@ test("toUnified takes the emoji or its code points", () => {
 });
 
 test("urls", () => {
-  assert.match(DEFAULT_BASE, /^https:\/\/cdn\.jsdelivr\.net\/gh\/Whiboard\/whiboard-emoji@v\d+\.\d+\.\d+\/dist\/$/);
+  assert.equal(DEFAULT_BASE, `https://cdn.jsdelivr.net/npm/@whiboard/emoji@${VERSION}/dist/`);
   assert.equal(emojiUrl("🎉"), `${DEFAULT_BASE}svg/1f389.svg`);
   assert.equal(emojiUrl("🎉", { base: "/emoji" }), "/emoji/svg/1f389.svg");
   assert.equal(emojiUrl("👍"), null);

@@ -1,8 +1,8 @@
 /**
  * React: a picker for the set, by group, with search.
  *
- *   import { EmojiPicker } from "whiboard-emoji/picker";
- *   import "whiboard-emoji/picker.css";
+ *   import { EmojiPicker } from "@whiboard/emoji/picker";
+ *   import "@whiboard/emoji/picker.css";
  *
  *   <EmojiPicker onSelect={(e) => insert(e.char)} />
  *

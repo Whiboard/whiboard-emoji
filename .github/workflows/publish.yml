@@ -1,0 +1,66 @@
+# Publishes @whiboard/emoji to npm when a version tag (vX.Y.Z) is pushed.
+#
+# Authentication, either of (README → Release):
+#   - npm trusted publishing for this repository and this workflow file: no secret needed
+#   - a repository secret NPM_TOKEN (granular access token that may publish to @whiboard)
+#
+# "Run workflow" on a branch packs and checks without publishing (dry run).
+name: Publish
+
+on:
+  push:
+    tags: ["v*.*.*"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  id-token: write # npm trusted publishing (OIDC) and the provenance statement
+
+concurrency:
+  group: publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    env:
+      # nothing here draws in a browser
+      PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: "1"
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 26
+          registry-url: https://registry.npmjs.org
+          package-manager-cache: false # a release is built from a clean install
+      - run: npm ci
+      - run: npm run typecheck
+      - run: npm test
+      - name: The committed set is what the drawings build
+        run: |
+          node build.ts
+          node scripts/package-data.ts
+          git diff --exit-code -- dist/svg dist/extra src/generated
+      - name: The tag is the package's version
+        if: github.ref_type == 'tag'
+        run: |
+          version="v$(node -p "require('./package.json').version")"
+          if [ "$GITHUB_REF_NAME" != "$version" ]; then
+            echo "::error::the tag is $GITHUB_REF_NAME but package.json says $version"
+            exit 1
+          fi
+      - name: Publish
+        if: github.ref_type == 'tag'
+        run: |
+          name="$(node -p "require('./package.json').name")"
+          version="$(node -p "require('./package.json').version")"
+          if npm view "$name@$version" version >/dev/null 2>&1; then
+            echo "$name@$version is already on npm: nothing to publish"
+            exit 0
+          fi
+          npm publish --access public --provenance
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      - name: Dry run (not a tag)
+        if: github.ref_type != 'tag'
+        run: npm publish --access public --dry-run

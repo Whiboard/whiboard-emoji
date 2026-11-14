@@ -2,19 +2,20 @@
  * Whiboard Emoji: hand-drawn emoji as SVG files and sprite sheets.
  *
  * This entry is small (the list of code points, no names): it turns an emoji into the address
- * of its drawing. Names and search are in `whiboard-emoji/catalog`, the React pieces in
- * `whiboard-emoji/react` and `whiboard-emoji/picker`.
+ * of its drawing. Names and search are in `@whiboard/emoji/catalog`, the React pieces in
+ * `@whiboard/emoji/react` and `@whiboard/emoji/picker`.
  */
 import { CELL, GROUPS, VERSION } from "./generated/ids.ts";
 
 export { VERSION };
 
 /**
- * Where the drawings are loaded from when no `base` is given: this version's `dist/` folder on
- * the jsDelivr CDN. To serve them yourself, copy `node_modules/whiboard-emoji/dist` (`svg/`,
- * `sprites/`) to your site and pass that folder's URL as `base`.
+ * Where the drawings are loaded from when no `base` is given: the `dist/` folder of this
+ * version of the package on the jsDelivr CDN (so it exists once the version is on npm). To
+ * serve them yourself, copy `node_modules/@whiboard/emoji/dist` (`svg/`, `sprites/`) to your
+ * site and pass that folder's URL as `base`.
  */
-export const DEFAULT_BASE = `https://cdn.jsdelivr.net/gh/Whiboard/whiboard-emoji@v${VERSION}/dist/`;
+export const DEFAULT_BASE = `https://cdn.jsdelivr.net/npm/@whiboard/emoji@${VERSION}/dist/`;
 
 /** A group of the set, in emoji-picker order. */
 export interface EmojiGroup {
