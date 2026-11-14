@@ -1,4 +1,4 @@
-// The package as a consumer sees it: built files under lib/ (npm test builds them first).
+// The package as a consumer sees it: built files under lib/ (`bun run test` builds them first).
 import assert from "node:assert/strict";
 import { readdirSync, readFileSync } from "node:fs";
 import { test } from "node:test";

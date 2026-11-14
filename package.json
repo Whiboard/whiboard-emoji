@@ -59,7 +59,7 @@
     "LICENSE-ARTWORK"
   ],
   "scripts": {
-    "build": "npm run build:data && npm run build:lib",
+    "build": "bun run build:data && bun run build:lib",
     "build:data": "node scripts/package-data.ts",
     "build:lib": "tsc -p tsconfig.build.json && node -e \"require('node:fs').cpSync('src/picker.css', 'lib/picker.css')\"",
     "build:svg": "node build.ts",
@@ -68,8 +68,8 @@
     "docs": "node build.ts --docs",
     "check": "node check.ts",
     "typecheck": "tsc -p . && tsc -p batches && tsc -p tsconfig.build.json --noEmit",
-    "test": "npm run build:lib && node --test test/",
-    "prepare": "npm run build:lib",
+    "test": "bun run build:lib && node --test test/",
+    "prepare": "bun run build:lib",
     "version": "node scripts/package-data.ts && git add src/generated"
   },
   "peerDependencies": {

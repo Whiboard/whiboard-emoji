@@ -1,5 +1,5 @@
 node_modules/
-# the built npm package (npm run build:lib)
+# the built npm package (bun run build:lib)
 lib/
 # check sheets and review pages: large PNGs, rebuilt by check.mjs / build.mjs --sheets
 out/

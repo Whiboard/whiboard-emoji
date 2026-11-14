@@ -32,10 +32,13 @@ jobs:
         with:
           node-version: 26
           registry-url: https://registry.npmjs.org
-          package-manager-cache: false # a release is built from a clean install
-      - run: npm ci
-      - run: npm run typecheck
-      - run: npm test
+          package-manager-cache: false # npm only publishes here, bun installs
+      - uses: oven-sh/setup-bun@0c5077e51419868618aeaa5fe8019c62421857d6 # v2.2.0
+        with:
+          bun-version: "1.4.4"
+      - run: bun install --frozen-lockfile
+      - run: bun run typecheck
+      - run: bun run test
       - name: The committed set is what the drawings build
         run: |
           node build.ts

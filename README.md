@@ -119,23 +119,23 @@ Everything is committed under `dist/`:
 
 ## Build
 
-The repository is TypeScript throughout. The scripts are run by `node` as they are (it strips the types), so they need Node 24 or newer; the drawing checks and the sprite sheets also need the Chromium that Playwright installs.
+The repository is TypeScript throughout. The scripts are run by `node` as they are (it strips the types), so they need Node 24 or newer; packages are installed with [Bun](https://bun.sh); the drawing checks and the sprite sheets also need the Chromium that Playwright installs.
 
 ```sh
-npm install
-npx playwright install chromium     # only for check.ts, sprites, sheets and docs
+bun install
+bunx playwright install chromium     # only for check.ts, sprites, sheets and docs
 
 node build.ts                        # dist/svg, dist/extra, coverage per group
 node build.ts --sprites              # + dist/sprites, dist/index.json
 node scripts/package-data.ts         # src/generated (the package's id list and names) from dist/index.json
-npm run build:lib                    # the npm package: src/ → lib/
+bun run build:lib                    # the npm package: src/ → lib/
 node build.ts --sheets all           # review pages, 40 emoji each: dist/sheets/<group>-NN.png
 node build.ts --overview             # dist/sheets/all.png, every emoji in one picture
 node build.ts --docs                 # the two pictures in this README
 node build.ts --install <dir>        # copy svg + sprites + index.json into an app
 
-npm run typecheck                    # kits and tools (strict), drawings, package
-npm test                             # the built package: helpers, search, React components
+bun run typecheck                    # kits and tools (strict), drawings, package
+bun run test                         # the built package: helpers, search, React components
 ```
 
 The review sheets and `lib/` are not committed; `dist/svg`, `dist/sprites`, `dist/index.json` and `src/generated` are, and CI fails when they are not what the drawings build.
@@ -145,7 +145,7 @@ The review sheets and `lib/` are not committed; `dist/svg`, `dist/sprites`, `dis
 `.github/workflows/publish.yml` publishes `@whiboard/emoji` to npm when a version tag is pushed. It runs the same checks as CI first, refuses a tag that is not the version in `package.json`, and does nothing when that version is already on npm.
 
 ```sh
-npm version patch                     # or minor / major: bumps package.json, rewrites src/generated, commits, tags vX.Y.Z
+bun pm version patch                  # or minor / major: bumps package.json, rewrites src/generated, commits, tags vX.Y.Z
 git push origin main --follow-tags    # the tag starts the publish
 ```
 
