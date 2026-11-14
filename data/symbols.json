@@ -1,0 +1,1346 @@
+[
+ {
+  "u": "1f3e7",
+  "n": "ATM sign",
+  "e": "🏧",
+  "k": "ATM, bank, cash, sign, money, teller, automated"
+ },
+ {
+  "u": "1f6ae",
+  "n": "litter in bin sign",
+  "e": "🚮",
+  "k": "bin, sign, litter, litterbin"
+ },
+ {
+  "u": "1f6b0",
+  "n": "potable water",
+  "e": "🚰",
+  "k": "water, potable, drinking"
+ },
+ {
+  "u": "267f",
+  "n": "wheelchair symbol",
+  "e": "♿",
+  "k": "access, symbol, handicap, wheelchair"
+ },
+ {
+  "u": "1f6b9",
+  "n": "men’s room",
+  "e": "🚹",
+  "k": "WC, man, room, men’s, toilet, bathroom, lavatory, restroom"
+ },
+ {
+  "u": "1f6ba",
+  "n": "women’s room",
+  "e": "🚺",
+  "k": "WC, room, woman, toilet, women’s, bathroom, lavatory, restroom"
+ },
+ {
+  "u": "1f6bb",
+  "n": "restroom",
+  "e": "🚻",
+  "k": "WC, toilet, bathroom, lavatory"
+ },
+ {
+  "u": "1f6bc",
+  "n": "baby symbol",
+  "e": "🚼",
+  "k": "baby, symbol, changing"
+ },
+ {
+  "u": "1f6be",
+  "n": "water closet",
+  "e": "🚾",
+  "k": "WC, water, closet, toilet, bathroom, lavatory, restroom"
+ },
+ {
+  "u": "1f6c2",
+  "n": "passport control",
+  "e": "🛂",
+  "k": "control, passport"
+ },
+ {
+  "u": "1f6c3",
+  "n": "customs",
+  "e": "🛃",
+  "k": "packing"
+ },
+ {
+  "u": "1f6c4",
+  "n": "baggage claim",
+  "e": "🛄",
+  "k": "bags, case, trip, claim, plane, ready, travel, arrived, baggage, checked, journey, packing"
+ },
+ {
+  "u": "1f6c5",
+  "n": "left luggage",
+  "e": "🛅",
+  "k": "case, left, locker, baggage, luggage"
+ },
+ {
+  "u": "26a0-fe0f",
+  "n": "warning",
+  "e": "⚠️",
+  "k": "caution"
+ },
+ {
+  "u": "1f6b8",
+  "n": "children crossing",
+  "e": "🚸",
+  "k": "child, traffic, children, crossing, pedestrian"
+ },
+ {
+  "u": "26d4",
+  "n": "no entry",
+  "e": "⛔",
+  "k": "do, no, not, fail, pass, entry, traffic, forbidden, prohibited"
+ },
+ {
+  "u": "1f6ab",
+  "n": "prohibited",
+  "e": "🚫",
+  "k": "no, not, entry, smoke, forbidden"
+ },
+ {
+  "u": "1f6b3",
+  "n": "no bicycles",
+  "e": "🚳",
+  "k": "no, not, bike, bicycle, bicycles, forbidden, prohibited"
+ },
+ {
+  "u": "1f6ad",
+  "n": "no smoking",
+  "e": "🚭",
+  "k": "no, not, smoke, smoking, forbidden, prohibited"
+ },
+ {
+  "u": "1f6af",
+  "n": "no littering",
+  "e": "🚯",
+  "k": "no, not, litter, forbidden, littering, prohibited"
+ },
+ {
+  "u": "1f6b1",
+  "n": "non potable water",
+  "e": "🚱",
+  "k": "dry, water, prohibited, non potable, non drinking"
+ },
+ {
+  "u": "1f6b7",
+  "n": "no pedestrians",
+  "e": "🚷",
+  "k": "no, not, forbidden, pedestrian, prohibited, pedestrians"
+ },
+ {
+  "u": "1f4f5",
+  "n": "no mobile phones",
+  "e": "📵",
+  "k": "no, not, cell, phone, mobile, phones, forbidden, telephone, prohibited"
+ },
+ {
+  "u": "1f51e",
+  "n": "no one under eighteen",
+  "e": "🔞",
+  "k": "18, no, age, not, one, eighteen, underage, forbidden, prohibited, restriction"
+ },
+ {
+  "u": "2622-fe0f",
+  "n": "radioactive",
+  "e": "☢️",
+  "k": "sign"
+ },
+ {
+  "u": "2623-fe0f",
+  "n": "biohazard",
+  "e": "☣️",
+  "k": "sign"
+ },
+ {
+  "u": "2b06-fe0f",
+  "n": "up arrow",
+  "e": "⬆️",
+  "k": "up, arrow, north, cardinal, direction"
+ },
+ {
+  "u": "2197-fe0f",
+  "n": "up right arrow",
+  "e": "↗️",
+  "k": "arrow, up right, direction, northeast, intercardinal"
+ },
+ {
+  "u": "27a1-fe0f",
+  "n": "right arrow",
+  "e": "➡️",
+  "k": "east, arrow, right, cardinal, direction"
+ },
+ {
+  "u": "2198-fe0f",
+  "n": "down right arrow",
+  "e": "↘️",
+  "k": "arrow, direction, southeast, down right, intercardinal"
+ },
+ {
+  "u": "2b07-fe0f",
+  "n": "down arrow",
+  "e": "⬇️",
+  "k": "down, arrow, south, cardinal, direction"
+ },
+ {
+  "u": "2199-fe0f",
+  "n": "down left arrow",
+  "e": "↙️",
+  "k": "arrow, direction, down left, southwest, intercardinal"
+ },
+ {
+  "u": "2b05-fe0f",
+  "n": "left arrow",
+  "e": "⬅️",
+  "k": "left, west, arrow, cardinal, direction"
+ },
+ {
+  "u": "2196-fe0f",
+  "n": "up left arrow",
+  "e": "↖️",
+  "k": "arrow, up left, direction, northwest, intercardinal"
+ },
+ {
+  "u": "2195-fe0f",
+  "n": "up down arrow",
+  "e": "↕️",
+  "k": "arrow, up down"
+ },
+ {
+  "u": "2194-fe0f",
+  "n": "left right arrow",
+  "e": "↔️",
+  "k": "arrow, left right"
+ },
+ {
+  "u": "21a9-fe0f",
+  "n": "right arrow curving left",
+  "e": "↩️",
+  "k": "left, arrow, right, curving"
+ },
+ {
+  "u": "21aa-fe0f",
+  "n": "left arrow curving right",
+  "e": "↪️",
+  "k": "left, arrow, right, curving"
+ },
+ {
+  "u": "2934-fe0f",
+  "n": "right arrow curving up",
+  "e": "⤴️",
+  "k": "up, arrow, right, curving"
+ },
+ {
+  "u": "2935-fe0f",
+  "n": "right arrow curving down",
+  "e": "⤵️",
+  "k": "down, arrow, right, curving"
+ },
+ {
+  "u": "1f503",
+  "n": "clockwise vertical arrows",
+  "e": "🔃",
+  "k": "arrow, arrows, reload, refresh, vertical, clockwise"
+ },
+ {
+  "u": "1f504",
+  "n": "counterclockwise arrows button",
+  "e": "🔄",
+  "k": "vu, deja, again, arrow, arrows, button, refresh, anticlockwise, rewindershins, counterclockwise"
+ },
+ {
+  "u": "1f519",
+  "n": "BACK arrow",
+  "e": "🔙",
+  "k": "BACK, arrow"
+ },
+ {
+  "u": "1f51a",
+  "n": "END arrow",
+  "e": "🔚",
+  "k": "END, arrow"
+ },
+ {
+  "u": "1f51b",
+  "n": "ON! arrow",
+  "e": "🔛",
+  "k": "ON!, mark, arrow"
+ },
+ {
+  "u": "1f51c",
+  "n": "SOON arrow",
+  "e": "🔜",
+  "k": "brb, omw, SOON, arrow"
+ },
+ {
+  "u": "1f51d",
+  "n": "TOP arrow",
+  "e": "🔝",
+  "k": "up, TOP, arrow, homie"
+ },
+ {
+  "u": "1f6d0",
+  "n": "place of worship",
+  "e": "🛐",
+  "k": "pray, place, worship, religion"
+ },
+ {
+  "u": "269b-fe0f",
+  "n": "atom symbol",
+  "e": "⚛️",
+  "k": "atom, symbol, atheist"
+ },
+ {
+  "u": "1f549-fe0f",
+  "n": "om",
+  "e": "🕉️",
+  "k": "Hindu, religion"
+ },
+ {
+  "u": "2721-fe0f",
+  "n": "star of David",
+  "e": "✡️",
+  "k": "Jew, star, David, Jewish, judaism, religion"
+ },
+ {
+  "u": "2638-fe0f",
+  "n": "wheel of dharma",
+  "e": "☸️",
+  "k": "wheel, dharma, Buddhist, religion"
+ },
+ {
+  "u": "262f-fe0f",
+  "n": "yin yang",
+  "e": "☯️",
+  "k": "tao, yin, yang, lives, total, taoist, yinyang, religion, difficult"
+ },
+ {
+  "u": "271d-fe0f",
+  "n": "latin cross",
+  "e": "✝️",
+  "k": "cross, latin, christ, religion, Christian"
+ },
+ {
+  "u": "2626-fe0f",
+  "n": "orthodox cross",
+  "e": "☦️",
+  "k": "cross, orthodox, religion, Christian"
+ },
+ {
+  "u": "262a-fe0f",
+  "n": "star and crescent",
+  "e": "☪️",
+  "k": "star, islam, Muslim, ramadan, crescent, religion"
+ },
+ {
+  "u": "262e-fe0f",
+  "n": "peace symbol",
+  "e": "☮️",
+  "k": "peace, symbol, healing, peaceful"
+ },
+ {
+  "u": "1f54e",
+  "n": "menorah",
+  "e": "🕎",
+  "k": "jewish, judaism, hanukkah, religion, candelabrum, candlestick"
+ },
+ {
+  "u": "1f52f",
+  "n": "dotted six pointed star",
+  "e": "🔯",
+  "k": "star, dotted, jewish, fortune, judaism, six pointed"
+ },
+ {
+  "u": "1faaf",
+  "n": "khanda",
+  "e": "🪯",
+  "k": "Deg, Sikh, Tegh, Fateh, Khalsa, Khanda, Sikhism, religion"
+ },
+ {
+  "u": "2648",
+  "n": "Aries",
+  "e": "♈",
+  "k": "ram, zodiac, horoscope"
+ },
+ {
+  "u": "2649",
+  "n": "Taurus",
+  "e": "♉",
+  "k": "ox, bull, zodiac, horoscope"
+ },
+ {
+  "u": "264a",
+  "n": "Gemini",
+  "e": "♊",
+  "k": "twins, zodiac, horoscope"
+ },
+ {
+  "u": "264b",
+  "n": "Cancer",
+  "e": "♋",
+  "k": "crab, zodiac, horoscope"
+ },
+ {
+  "u": "264c",
+  "n": "Leo",
+  "e": "♌",
+  "k": "lion, zodiac, horoscope"
+ },
+ {
+  "u": "264d",
+  "n": "Virgo",
+  "e": "♍",
+  "k": "zodiac, horoscope"
+ },
+ {
+  "u": "264e",
+  "n": "Libra",
+  "e": "♎",
+  "k": "scales, zodiac, balance, justice, horoscope"
+ },
+ {
+  "u": "264f",
+  "n": "Scorpio",
+  "e": "♏",
+  "k": "zodiac, Scorpius, scorpion, horoscope"
+ },
+ {
+  "u": "2650",
+  "n": "Sagittarius",
+  "e": "♐",
+  "k": "archer, zodiac, horoscope"
+ },
+ {
+  "u": "2651",
+  "n": "Capricorn",
+  "e": "♑",
+  "k": "goat, zodiac, horoscope"
+ },
+ {
+  "u": "2652",
+  "n": "Aquarius",
+  "e": "♒",
+  "k": "water, bearer, zodiac, horoscope"
+ },
+ {
+  "u": "2653",
+  "n": "Pisces",
+  "e": "♓",
+  "k": "fish, zodiac, horoscope"
+ },
+ {
+  "u": "26ce",
+  "n": "Ophiuchus",
+  "e": "⛎",
+  "k": "snake, bearer, zodiac, serpent"
+ },
+ {
+  "u": "1f500",
+  "n": "shuffle tracks button",
+  "e": "🔀",
+  "k": "arrow, button, tracks, crossed, shuffle"
+ },
+ {
+  "u": "1f501",
+  "n": "repeat button",
+  "e": "🔁",
+  "k": "arrow, button, repeat, clockwise"
+ },
+ {
+  "u": "1f502",
+  "n": "repeat single button",
+  "e": "🔂",
+  "k": "once, arrow, button, repeat, single, clockwise"
+ },
+ {
+  "u": "25b6-fe0f",
+  "n": "play button",
+  "e": "▶️",
+  "k": "play, arrow, right, button, triangle"
+ },
+ {
+  "u": "23e9",
+  "n": "fast forward button",
+  "e": "⏩",
+  "k": "fast, arrow, button, double, forward, fast forward"
+ },
+ {
+  "u": "23ed-fe0f",
+  "n": "next track button",
+  "e": "⏭️",
+  "k": "next, arrow, scene, track, button, triangle"
+ },
+ {
+  "u": "23ef-fe0f",
+  "n": "play or pause button",
+  "e": "⏯️",
+  "k": "play, arrow, pause, right, button, triangle"
+ },
+ {
+  "u": "25c0-fe0f",
+  "n": "reverse button",
+  "e": "◀️",
+  "k": "left, arrow, button, reverse, triangle"
+ },
+ {
+  "u": "23ea",
+  "n": "fast reverse button",
+  "e": "⏪",
+  "k": "fast, arrow, button, double, rewind, reverse"
+ },
+ {
+  "u": "23ee-fe0f",
+  "n": "last track button",
+  "e": "⏮️",
+  "k": "last, arrow, scene, track, button, previous, triangle"
+ },
+ {
+  "u": "1f53c",
+  "n": "upwards button",
+  "e": "🔼",
+  "k": "up, red, arrow, button, upwards"
+ },
+ {
+  "u": "23eb",
+  "n": "fast up button",
+  "e": "⏫",
+  "k": "up, fast, arrow, button, double"
+ },
+ {
+  "u": "1f53d",
+  "n": "downwards button",
+  "e": "🔽",
+  "k": "red, down, arrow, button, downwards"
+ },
+ {
+  "u": "23ec",
+  "n": "fast down button",
+  "e": "⏬",
+  "k": "down, fast, arrow, button, double"
+ },
+ {
+  "u": "23f8-fe0f",
+  "n": "pause button",
+  "e": "⏸️",
+  "k": "bar, pause, button, double, vertical"
+ },
+ {
+  "u": "23f9-fe0f",
+  "n": "stop button",
+  "e": "⏹️",
+  "k": "stop, button, square"
+ },
+ {
+  "u": "23fa-fe0f",
+  "n": "record button",
+  "e": "⏺️",
+  "k": "button, circle, record"
+ },
+ {
+  "u": "23cf-fe0f",
+  "n": "eject button",
+  "e": "⏏️",
+  "k": "eject, button"
+ },
+ {
+  "u": "1f3a6",
+  "n": "cinema",
+  "e": "🎦",
+  "k": "film, movie, camera"
+ },
+ {
+  "u": "1f505",
+  "n": "dim button",
+  "e": "🔅",
+  "k": "dim, low, button, brightness"
+ },
+ {
+  "u": "1f506",
+  "n": "bright button",
+  "e": "🔆",
+  "k": "light, bright, button, brightness"
+ },
+ {
+  "u": "1f4f6",
+  "n": "antenna bars",
+  "e": "📶",
+  "k": "bar, bars, cell, phone, mobile, signal, antenna, telephone, communication"
+ },
+ {
+  "u": "1f6dc",
+  "n": "wireless",
+  "e": "🛜",
+  "k": "wifi, wlan, wi fi, router, hotspot, network, computer, internet, broadband, smartphone, connectivity"
+ },
+ {
+  "u": "1f4f3",
+  "n": "vibration mode",
+  "e": "📳",
+  "k": "cell, mode, phone, mobile, telephone, vibration, communication"
+ },
+ {
+  "u": "1f4f4",
+  "n": "mobile phone off",
+  "e": "📴",
+  "k": "off, cell, phone, mobile, telephone"
+ },
+ {
+  "u": "2640-fe0f",
+  "n": "female sign",
+  "e": "♀️",
+  "k": "sign, woman, female"
+ },
+ {
+  "u": "2642-fe0f",
+  "n": "male sign",
+  "e": "♂️",
+  "k": "man, male, sign"
+ },
+ {
+  "u": "26a7-fe0f",
+  "n": "transgender symbol",
+  "e": "⚧️",
+  "k": "symbol, transgender"
+ },
+ {
+  "u": "2716-fe0f",
+  "n": "multiply",
+  "e": "✖️",
+  "k": "x, ×, sign, cancel, multiplication"
+ },
+ {
+  "u": "2795",
+  "n": "plus",
+  "e": "➕",
+  "k": "+"
+ },
+ {
+  "u": "2796",
+  "n": "minus",
+  "e": "➖",
+  "k": " , −, math, sign, heavy"
+ },
+ {
+  "u": "2797",
+  "n": "divide",
+  "e": "➗",
+  "k": "÷, math, sign, heavy, division"
+ },
+ {
+  "u": "1f7f0",
+  "n": "heavy equals sign",
+  "e": "🟰",
+  "k": "math, sign, equal, heavy, answer, equals, equality"
+ },
+ {
+  "u": "267e-fe0f",
+  "n": "infinity",
+  "e": "♾️",
+  "k": "forever, unbounded, universal"
+ },
+ {
+  "u": "203c-fe0f",
+  "n": "double exclamation mark",
+  "e": "‼️",
+  "k": "!, !!, mark, double, bangbang, exclamation, punctuation"
+ },
+ {
+  "u": "2049-fe0f",
+  "n": "exclamation question mark",
+  "e": "⁉️",
+  "k": "!, ?, !?, mark, question, exclamation, interrobang, punctuation"
+ },
+ {
+  "u": "2753",
+  "n": "red question mark",
+  "e": "❓",
+  "k": "?, red, mark, question, punctuation"
+ },
+ {
+  "u": "2754",
+  "n": "white question mark",
+  "e": "❔",
+  "k": "?, mark, white, outlined, question, punctuation"
+ },
+ {
+  "u": "2755",
+  "n": "white exclamation mark",
+  "e": "❕",
+  "k": "!, bang, mark, white, outlined, exclamation, punctuation"
+ },
+ {
+  "u": "2757",
+  "n": "red exclamation mark",
+  "e": "❗",
+  "k": "!, red, bang, mark, exclamation, punctuation"
+ },
+ {
+  "u": "3030-fe0f",
+  "n": "wavy dash",
+  "e": "〰️",
+  "k": "dash, wavy, punctuation"
+ },
+ {
+  "u": "1f4b1",
+  "n": "currency exchange",
+  "e": "💱",
+  "k": "bank, money, currency, exchange"
+ },
+ {
+  "u": "1f4b2",
+  "n": "heavy dollar sign",
+  "e": "💲",
+  "k": "pay, cash, sign, heavy, money, charge, dollar, billion, million, currency"
+ },
+ {
+  "u": "2695-fe0f",
+  "n": "medical symbol",
+  "e": "⚕️",
+  "k": "staff, symbol, medical, medicine, aesculapius"
+ },
+ {
+  "u": "267b-fe0f",
+  "n": "recycling symbol",
+  "e": "♻️",
+  "k": "symbol, recycle, recycling"
+ },
+ {
+  "u": "269c-fe0f",
+  "n": "fleur de lis",
+  "e": "⚜️",
+  "k": "knights"
+ },
+ {
+  "u": "1f531",
+  "n": "trident emblem",
+  "e": "🔱",
+  "k": "ship, tool, anchor, emblem, trident, poseidon"
+ },
+ {
+  "u": "1f4db",
+  "n": "name badge",
+  "e": "📛",
+  "k": "name, badge"
+ },
+ {
+  "u": "1f530",
+  "n": "Japanese symbol for beginner",
+  "e": "🔰",
+  "k": "leaf, tool, green, symbol, yellow, chevron, Japanese, beginner"
+ },
+ {
+  "u": "2b55",
+  "n": "hollow red circle",
+  "e": "⭕",
+  "k": "o, red, heavy, large, circle, hollow"
+ },
+ {
+  "u": "2705",
+  "n": "check mark button",
+  "e": "✅",
+  "k": "✓, done, mark, tick, check, fixed, button, checked, complete, checkmark, completed"
+ },
+ {
+  "u": "2611-fe0f",
+  "n": "check box with check",
+  "e": "☑️",
+  "k": "✓, box, off, done, tick, check, ballot, checked"
+ },
+ {
+  "u": "2714-fe0f",
+  "n": "check mark",
+  "e": "✔️",
+  "k": "✓, done, mark, tick, check, heavy, checked, checkmark"
+ },
+ {
+  "u": "274c",
+  "n": "cross mark",
+  "e": "❌",
+  "k": "x, ×, mark, cross, cancel, multiply, multiplication"
+ },
+ {
+  "u": "274e",
+  "n": "cross mark button",
+  "e": "❎",
+  "k": "x, ×, mark, cross, button, square, multiply, multiplication"
+ },
+ {
+  "u": "27b0",
+  "n": "curly loop",
+  "e": "➰",
+  "k": "curl, loop, curly"
+ },
+ {
+  "u": "27bf",
+  "n": "double curly loop",
+  "e": "➿",
+  "k": "curl, loop, curly, double"
+ },
+ {
+  "u": "303d-fe0f",
+  "n": "part alternation mark",
+  "e": "〽️",
+  "k": "mark, part, alternation"
+ },
+ {
+  "u": "2733-fe0f",
+  "n": "eight spoked asterisk",
+  "e": "✳️",
+  "k": "*, asterisk, eight spoked"
+ },
+ {
+  "u": "2734-fe0f",
+  "n": "eight pointed star",
+  "e": "✴️",
+  "k": "*, star, eight pointed"
+ },
+ {
+  "u": "2747-fe0f",
+  "n": "sparkle",
+  "e": "❇️",
+  "k": "*"
+ },
+ {
+  "u": "00a9-fe0f",
+  "n": "copyright",
+  "e": "©️",
+  "k": "C"
+ },
+ {
+  "u": "00ae-fe0f",
+  "n": "registered",
+  "e": "®️",
+  "k": "R"
+ },
+ {
+  "u": "2122-fe0f",
+  "n": "trade mark",
+  "e": "™️",
+  "k": "TM, mark, trade, trademark"
+ },
+ {
+  "u": "1fadf",
+  "n": "splatter",
+  "e": "🫟",
+  "k": "ink, drip, holi, mess, paint, spill, stain, liquid"
+ },
+ {
+  "u": "0023-fe0f-20e3",
+  "n": "keycap: #",
+  "e": "#️⃣",
+  "k": "keycap"
+ },
+ {
+  "u": "002a-fe0f-20e3",
+  "n": "keycap: *",
+  "e": "*️⃣",
+  "k": "keycap"
+ },
+ {
+  "u": "0030-fe0f-20e3",
+  "n": "keycap: 0",
+  "e": "0️⃣",
+  "k": "0, zero, keycap"
+ },
+ {
+  "u": "0031-fe0f-20e3",
+  "n": "keycap: 1",
+  "e": "1️⃣",
+  "k": "1, one, keycap"
+ },
+ {
+  "u": "0032-fe0f-20e3",
+  "n": "keycap: 2",
+  "e": "2️⃣",
+  "k": "2, two, keycap"
+ },
+ {
+  "u": "0033-fe0f-20e3",
+  "n": "keycap: 3",
+  "e": "3️⃣",
+  "k": "3, three, keycap"
+ },
+ {
+  "u": "0034-fe0f-20e3",
+  "n": "keycap: 4",
+  "e": "4️⃣",
+  "k": "4, four, keycap"
+ },
+ {
+  "u": "0035-fe0f-20e3",
+  "n": "keycap: 5",
+  "e": "5️⃣",
+  "k": "5, five, keycap"
+ },
+ {
+  "u": "0036-fe0f-20e3",
+  "n": "keycap: 6",
+  "e": "6️⃣",
+  "k": "6, six, keycap"
+ },
+ {
+  "u": "0037-fe0f-20e3",
+  "n": "keycap: 7",
+  "e": "7️⃣",
+  "k": "7, seven, keycap"
+ },
+ {
+  "u": "0038-fe0f-20e3",
+  "n": "keycap: 8",
+  "e": "8️⃣",
+  "k": "8, eight, keycap"
+ },
+ {
+  "u": "0039-fe0f-20e3",
+  "n": "keycap: 9",
+  "e": "9️⃣",
+  "k": "9, nine, keycap"
+ },
+ {
+  "u": "1f51f",
+  "n": "keycap: 10",
+  "e": "🔟",
+  "k": "keycap"
+ },
+ {
+  "u": "1f520",
+  "n": "input latin uppercase",
+  "e": "🔠",
+  "k": "ABCD, input, latin, letters, uppercase"
+ },
+ {
+  "u": "1f521",
+  "n": "input latin lowercase",
+  "e": "🔡",
+  "k": "abcd, input, latin, letters, lowercase"
+ },
+ {
+  "u": "1f522",
+  "n": "input numbers",
+  "e": "🔢",
+  "k": "1234, input, numbers"
+ },
+ {
+  "u": "1f523",
+  "n": "input symbols",
+  "e": "🔣",
+  "k": "%, &, ♪, 〒, input, symbols"
+ },
+ {
+  "u": "1f524",
+  "n": "input latin letters",
+  "e": "🔤",
+  "k": "abc, input, latin, letters, alphabet"
+ },
+ {
+  "u": "1f170-fe0f",
+  "n": "A button (blood type)",
+  "e": "🅰️",
+  "k": "type, blood, button"
+ },
+ {
+  "u": "1f18e",
+  "n": "AB button (blood type)",
+  "e": "🆎",
+  "k": "AB, type, blood, button"
+ },
+ {
+  "u": "1f171-fe0f",
+  "n": "B button (blood type)",
+  "e": "🅱️",
+  "k": "B, type, blood, button"
+ },
+ {
+  "u": "1f191",
+  "n": "CL button",
+  "e": "🆑",
+  "k": "CL, button"
+ },
+ {
+  "u": "1f192",
+  "n": "COOL button",
+  "e": "🆒",
+  "k": "COOL, button"
+ },
+ {
+  "u": "1f193",
+  "n": "FREE button",
+  "e": "🆓",
+  "k": "FREE, button"
+ },
+ {
+  "u": "2139-fe0f",
+  "n": "information",
+  "e": "ℹ️",
+  "k": "I"
+ },
+ {
+  "u": "1f194",
+  "n": "ID button",
+  "e": "🆔",
+  "k": "ID, button, identity"
+ },
+ {
+  "u": "24c2-fe0f",
+  "n": "circled M",
+  "e": "Ⓜ️",
+  "k": "M, circle, circled"
+ },
+ {
+  "u": "1f195",
+  "n": "NEW button",
+  "e": "🆕",
+  "k": "NEW, button"
+ },
+ {
+  "u": "1f196",
+  "n": "NG button",
+  "e": "🆖",
+  "k": "NG, button"
+ },
+ {
+  "u": "1f17e-fe0f",
+  "n": "O button (blood type)",
+  "e": "🅾️",
+  "k": "O, type, blood, button"
+ },
+ {
+  "u": "1f197",
+  "n": "OK button",
+  "e": "🆗",
+  "k": "OK, okay, button"
+ },
+ {
+  "u": "1f17f-fe0f",
+  "n": "P button",
+  "e": "🅿️",
+  "k": "P, button, parking"
+ },
+ {
+  "u": "1f198",
+  "n": "SOS button",
+  "e": "🆘",
+  "k": "SOS, help, button"
+ },
+ {
+  "u": "1f199",
+  "n": "UP! button",
+  "e": "🆙",
+  "k": "UP, UP!, mark, button"
+ },
+ {
+  "u": "1f19a",
+  "n": "VS button",
+  "e": "🆚",
+  "k": "VS, button, versus"
+ },
+ {
+  "u": "1f201",
+  "n": "Japanese “here” button",
+  "e": "🈁",
+  "k": "here, button, Japanese, katakana"
+ },
+ {
+  "u": "1f202-fe0f",
+  "n": "Japanese “service charge” button",
+  "e": "🈂️",
+  "k": "button, charge, service, Japanese, katakana"
+ },
+ {
+  "u": "1f237-fe0f",
+  "n": "Japanese “monthly amount” button",
+  "e": "🈷️",
+  "k": "amount, button, monthly, Japanese, ideograph"
+ },
+ {
+  "u": "1f236",
+  "n": "Japanese “not free of charge” button",
+  "e": "🈶",
+  "k": "not, free, button, charge, Japanese, ideograph"
+ },
+ {
+  "u": "1f22f",
+  "n": "Japanese “reserved” button",
+  "e": "🈯",
+  "k": "button, Japanese, reserved, ideograph"
+ },
+ {
+  "u": "1f250",
+  "n": "Japanese “bargain” button",
+  "e": "🉐",
+  "k": "button, bargain, Japanese, ideograph"
+ },
+ {
+  "u": "1f239",
+  "n": "Japanese “discount” button",
+  "e": "🈹",
+  "k": "button, Japanese, discount, ideograph"
+ },
+ {
+  "u": "1f21a",
+  "n": "Japanese “free of charge” button",
+  "e": "🈚",
+  "k": "free, button, charge, Japanese, ideograph"
+ },
+ {
+  "u": "1f232",
+  "n": "Japanese “prohibited” button",
+  "e": "🈲",
+  "k": "button, Japanese, ideograph, prohibited"
+ },
+ {
+  "u": "1f251",
+  "n": "Japanese “acceptable” button",
+  "e": "🉑",
+  "k": "button, Japanese, ideograph, acceptable"
+ },
+ {
+  "u": "1f238",
+  "n": "Japanese “application” button",
+  "e": "🈸",
+  "k": "button, Japanese, ideograph, application"
+ },
+ {
+  "u": "1f234",
+  "n": "Japanese “passing grade” button",
+  "e": "🈴",
+  "k": "grade, button, passing, Japanese, ideograph"
+ },
+ {
+  "u": "1f233",
+  "n": "Japanese “vacancy” button",
+  "e": "🈳",
+  "k": "button, vacancy, Japanese, ideograph"
+ },
+ {
+  "u": "3297-fe0f",
+  "n": "Japanese “congratulations” button",
+  "e": "㊗️",
+  "k": "button, Japanese, ideograph, congratulations"
+ },
+ {
+  "u": "3299-fe0f",
+  "n": "Japanese “secret” button",
+  "e": "㊙️",
+  "k": "button, secret, Japanese, ideograph"
+ },
+ {
+  "u": "1f23a",
+  "n": "Japanese “open for business” button",
+  "e": "🈺",
+  "k": "open, button, Japanese, business, ideograph"
+ },
+ {
+  "u": "1f235",
+  "n": "Japanese “no vacancy” button",
+  "e": "🈵",
+  "k": "no, button, vacancy, Japanese, ideograph"
+ },
+ {
+  "u": "1f534",
+  "n": "red circle",
+  "e": "🔴",
+  "k": "red, circle, geometric"
+ },
+ {
+  "u": "1f7e0",
+  "n": "orange circle",
+  "e": "🟠",
+  "k": "circle, orange"
+ },
+ {
+  "u": "1f7e1",
+  "n": "yellow circle",
+  "e": "🟡",
+  "k": "circle, yellow"
+ },
+ {
+  "u": "1f7e2",
+  "n": "green circle",
+  "e": "🟢",
+  "k": "green, circle"
+ },
+ {
+  "u": "1f535",
+  "n": "blue circle",
+  "e": "🔵",
+  "k": "blue, circle, geometric"
+ },
+ {
+  "u": "1f7e3",
+  "n": "purple circle",
+  "e": "🟣",
+  "k": "circle, purple"
+ },
+ {
+  "u": "1f7e4",
+  "n": "brown circle",
+  "e": "🟤",
+  "k": "brown, circle"
+ },
+ {
+  "u": "26ab",
+  "n": "black circle",
+  "e": "⚫",
+  "k": "black, circle, geometric"
+ },
+ {
+  "u": "26aa",
+  "n": "white circle",
+  "e": "⚪",
+  "k": "white, circle, geometric"
+ },
+ {
+  "u": "1f7e5",
+  "n": "red square",
+  "e": "🟥",
+  "k": "red, card, square, penalty"
+ },
+ {
+  "u": "1f7e7",
+  "n": "orange square",
+  "e": "🟧",
+  "k": "orange, square"
+ },
+ {
+  "u": "1f7e8",
+  "n": "yellow square",
+  "e": "🟨",
+  "k": "card, square, yellow, penalty"
+ },
+ {
+  "u": "1f7e9",
+  "n": "green square",
+  "e": "🟩",
+  "k": "green, square"
+ },
+ {
+  "u": "1f7e6",
+  "n": "blue square",
+  "e": "🟦",
+  "k": "blue, square"
+ },
+ {
+  "u": "1f7ea",
+  "n": "purple square",
+  "e": "🟪",
+  "k": "purple, square"
+ },
+ {
+  "u": "1f7eb",
+  "n": "brown square",
+  "e": "🟫",
+  "k": "brown, square"
+ },
+ {
+  "u": "2b1b",
+  "n": "black large square",
+  "e": "⬛",
+  "k": "black, large, square, geometric"
+ },
+ {
+  "u": "2b1c",
+  "n": "white large square",
+  "e": "⬜",
+  "k": "large, white, square, geometric"
+ },
+ {
+  "u": "25fc-fe0f",
+  "n": "black medium square",
+  "e": "◼️",
+  "k": "black, medium, square, geometric"
+ },
+ {
+  "u": "25fb-fe0f",
+  "n": "white medium square",
+  "e": "◻️",
+  "k": "white, medium, square, geometric"
+ },
+ {
+  "u": "25fe",
+  "n": "black medium small square",
+  "e": "◾",
+  "k": "black, square, geometric, medium small"
+ },
+ {
+  "u": "25fd",
+  "n": "white medium small square",
+  "e": "◽",
+  "k": "white, square, geometric, medium small"
+ },
+ {
+  "u": "25aa-fe0f",
+  "n": "black small square",
+  "e": "▪️",
+  "k": "black, small, square, geometric"
+ },
+ {
+  "u": "25ab-fe0f",
+  "n": "white small square",
+  "e": "▫️",
+  "k": "small, white, square, geometric"
+ },
+ {
+  "u": "1f536",
+  "n": "large orange diamond",
+  "e": "🔶",
+  "k": "large, orange, diamond, geometric"
+ },
+ {
+  "u": "1f537",
+  "n": "large blue diamond",
+  "e": "🔷",
+  "k": "blue, large, diamond, geometric"
+ },
+ {
+  "u": "1f538",
+  "n": "small orange diamond",
+  "e": "🔸",
+  "k": "small, orange, diamond, geometric"
+ },
+ {
+  "u": "1f539",
+  "n": "small blue diamond",
+  "e": "🔹",
+  "k": "blue, small, diamond, geometric"
+ },
+ {
+  "u": "1f53a",
+  "n": "red triangle pointed up",
+  "e": "🔺",
+  "k": "up, red, pointed, triangle, geometric"
+ },
+ {
+  "u": "1f53b",
+  "n": "red triangle pointed down",
+  "e": "🔻",
+  "k": "red, down, pointed, triangle, geometric"
+ },
+ {
+  "u": "1f4a0",
+  "n": "diamond with a dot",
+  "e": "💠",
+  "k": "dot, comic, diamond, geometric"
+ },
+ {
+  "u": "1f518",
+  "n": "radio button",
+  "e": "🔘",
+  "k": "radio, button, geometric"
+ },
+ {
+  "u": "1f533",
+  "n": "white square button",
+  "e": "🔳",
+  "k": "white, button, square, outlined, geometric"
+ },
+ {
+  "u": "1f532",
+  "n": "black square button",
+  "e": "🔲",
+  "k": "black, button, square, geometric"
+ }
+]

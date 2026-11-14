@@ -1,0 +1,218 @@
+[
+ {
+  "u": "26fd",
+  "n": "fuel pump",
+  "e": "⛽",
+  "k": "gas, fuel, pump, diesel, station, fuelpump, gasoline"
+ },
+ {
+  "u": "1f6de",
+  "n": "wheel",
+  "e": "🛞",
+  "k": "car, tire, turn, circle, vehicle"
+ },
+ {
+  "u": "1f6a8",
+  "n": "police car light",
+  "e": "🚨",
+  "k": "car, alarm, alert, light, siren, beacon, police, emergency, revolving"
+ },
+ {
+  "u": "1f6a5",
+  "n": "horizontal traffic light",
+  "e": "🚥",
+  "k": "stop, light, signal, traffic, stoplight, horizontal, intersection"
+ },
+ {
+  "u": "1f6a6",
+  "n": "vertical traffic light",
+  "e": "🚦",
+  "k": "stop, drove, light, signal, traffic, vertical, stoplight, intersection"
+ },
+ {
+  "u": "1f6d1",
+  "n": "stop sign",
+  "e": "🛑",
+  "k": "sign, stop, octagonal"
+ },
+ {
+  "u": "1f6a7",
+  "n": "construction",
+  "e": "🚧",
+  "k": "barrier"
+ },
+ {
+  "u": "2693",
+  "n": "anchor",
+  "e": "⚓",
+  "k": "ship, tool"
+ },
+ {
+  "u": "1f6df",
+  "n": "ring buoy",
+  "e": "🛟",
+  "k": "buoy, life, ring, save, swim, float, saver, rescue, safety, lifesaver, preserver"
+ },
+ {
+  "u": "26f5",
+  "n": "sailboat",
+  "e": "⛵",
+  "k": "sea, boat, yacht, resort, sailing"
+ },
+ {
+  "u": "1f6f6",
+  "n": "canoe",
+  "e": "🛶",
+  "k": "boat"
+ },
+ {
+  "u": "1f6a4",
+  "n": "speedboat",
+  "e": "🚤",
+  "k": "boat, lake, luxury, summer, travel, billionaire, millionaire"
+ },
+ {
+  "u": "1f6f3-fe0f",
+  "n": "passenger ship",
+  "e": "🛳️",
+  "k": "ship, passenger"
+ },
+ {
+  "u": "26f4-fe0f",
+  "n": "ferry",
+  "e": "⛴️",
+  "k": "boat, passenger"
+ },
+ {
+  "u": "1f6e5-fe0f",
+  "n": "motor boat",
+  "e": "🛥️",
+  "k": "boat, motor, motorboat"
+ },
+ {
+  "u": "1f6a2",
+  "n": "ship",
+  "e": "🚢",
+  "k": "boat, travel, passenger"
+ },
+ {
+  "u": "2708-fe0f",
+  "n": "airplane",
+  "e": "✈️",
+  "k": "fly, jet, plane, flying, travel, aeroplane"
+ },
+ {
+  "u": "1f6e9-fe0f",
+  "n": "small airplane",
+  "e": "🛩️",
+  "k": "plane, small, airplane, aeroplane"
+ },
+ {
+  "u": "1f6eb",
+  "n": "airplane departure",
+  "e": "🛫",
+  "k": "plane, airplane, check in, aeroplane, departure, departures"
+ },
+ {
+  "u": "1f6ec",
+  "n": "airplane arrival",
+  "e": "🛬",
+  "k": "plane, arrival, landing, airplane, arrivals, arriving, aeroplane"
+ },
+ {
+  "u": "1fa82",
+  "n": "parachute",
+  "e": "🪂",
+  "k": "skydive, parasail, hang glide"
+ },
+ {
+  "u": "1f4ba",
+  "n": "seat",
+  "e": "💺",
+  "k": "chair"
+ },
+ {
+  "u": "1f681",
+  "n": "helicopter",
+  "e": "🚁",
+  "k": "copter, travel, vehicle, roflcopter"
+ },
+ {
+  "u": "1f69f",
+  "n": "suspension railway",
+  "e": "🚟",
+  "k": "railway, suspension"
+ },
+ {
+  "u": "1f6a0",
+  "n": "mountain cableway",
+  "e": "🚠",
+  "k": "ski, lift, cable, gondola, cableway, mountain"
+ },
+ {
+  "u": "1f6a1",
+  "n": "aerial tramway",
+  "e": "🚡",
+  "k": "car, cable, aerial, gondola, ropeway, tramway"
+ },
+ {
+  "u": "1f6f0-fe0f",
+  "n": "satellite",
+  "e": "🛰️",
+  "k": "space"
+ },
+ {
+  "u": "1f680",
+  "n": "rocket",
+  "e": "🚀",
+  "k": "space, launch, travel, rockets"
+ },
+ {
+  "u": "1f6f8",
+  "n": "flying saucer",
+  "e": "🛸",
+  "k": "UFO, extra, aliens, flying, saucer, terrestrial"
+ },
+ {
+  "u": "1f6ce-fe0f",
+  "n": "bellhop bell",
+  "e": "🛎️",
+  "k": "bell, hotel, bellhop"
+ },
+ {
+  "u": "1f9f3",
+  "n": "luggage",
+  "e": "🧳",
+  "k": "bag, roller, travel, packing, suitcase"
+ },
+ {
+  "u": "231b",
+  "n": "hourglass done",
+  "e": "⌛",
+  "k": "done, sand, time, timer, hourglass"
+ },
+ {
+  "u": "23f3",
+  "n": "hourglass not done",
+  "e": "⏳",
+  "k": "not, done, sand, yolo, hours, timer, flowing, waiting, hourglass"
+ },
+ {
+  "u": "231a",
+  "n": "watch",
+  "e": "⌚",
+  "k": "time, clock"
+ },
+ {
+  "u": "23f1-fe0f",
+  "n": "stopwatch",
+  "e": "⏱️",
+  "k": "time, clock"
+ },
+ {
+  "u": "23f2-fe0f",
+  "n": "timer clock",
+  "e": "⏲️",
+  "k": "clock, timer"
+ }
+]

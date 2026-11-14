@@ -1,0 +1,788 @@
+[
+ {
+  "u": "1f347",
+  "n": "grapes",
+  "e": "🍇",
+  "k": "fruit, grape, Dionysus"
+ },
+ {
+  "u": "1f348",
+  "n": "melon",
+  "e": "🍈",
+  "k": "fruit, cantaloupe"
+ },
+ {
+  "u": "1f349",
+  "n": "watermelon",
+  "e": "🍉",
+  "k": "fruit"
+ },
+ {
+  "u": "1f34a",
+  "n": "tangerine",
+  "e": "🍊",
+  "k": "c, fruit, citrus, orange, vitamin, nectarine"
+ },
+ {
+  "u": "1f34b",
+  "n": "lemon",
+  "e": "🍋",
+  "k": "sour, fruit, citrus"
+ },
+ {
+  "u": "1f34b-200d-1f7e9",
+  "n": "lime",
+  "e": "🍋‍🟩",
+  "k": "key, sour, zest, fruit, salsa, tangy, citrus, mojito, acidity, garnish, tequila, cocktail, tropical, margarita, refreshing"
+ },
+ {
+  "u": "1f34c",
+  "n": "banana",
+  "e": "🍌",
+  "k": "fruit, potassium"
+ },
+ {
+  "u": "1f34d",
+  "n": "pineapple",
+  "e": "🍍",
+  "k": "pina, fruit, colada, tropical"
+ },
+ {
+  "u": "1f96d",
+  "n": "mango",
+  "e": "🥭",
+  "k": "food, fruit, tropical"
+ },
+ {
+  "u": "1f34e",
+  "n": "red apple",
+  "e": "🍎",
+  "k": "red, diet, food, ripe, apple, fruit, health"
+ },
+ {
+  "u": "1f34f",
+  "n": "green apple",
+  "e": "🍏",
+  "k": "apple, fruit, green"
+ },
+ {
+  "u": "1f350",
+  "n": "pear",
+  "e": "🍐",
+  "k": "fruit"
+ },
+ {
+  "u": "1f351",
+  "n": "peach",
+  "e": "🍑",
+  "k": "fruit"
+ },
+ {
+  "u": "1f352",
+  "n": "cherries",
+  "e": "🍒",
+  "k": "red, fruit, cherry, berries"
+ },
+ {
+  "u": "1f353",
+  "n": "strawberry",
+  "e": "🍓",
+  "k": "berry, fruit"
+ },
+ {
+  "u": "1fad0",
+  "n": "blueberries",
+  "e": "🫐",
+  "k": "blue, food, berry, fruit, berries, bilberry, blueberry"
+ },
+ {
+  "u": "1f95d",
+  "n": "kiwi fruit",
+  "e": "🥝",
+  "k": "food, kiwi, fruit"
+ },
+ {
+  "u": "1f345",
+  "n": "tomato",
+  "e": "🍅",
+  "k": "food, fruit, vegetable"
+ },
+ {
+  "u": "1fad2",
+  "n": "olive",
+  "e": "🫒",
+  "k": "food"
+ },
+ {
+  "u": "1f965",
+  "n": "coconut",
+  "e": "🥥",
+  "k": "palm, piña, colada"
+ },
+ {
+  "u": "1f951",
+  "n": "avocado",
+  "e": "🥑",
+  "k": "food, fruit"
+ },
+ {
+  "u": "1f346",
+  "n": "eggplant",
+  "e": "🍆",
+  "k": "aubergine, vegetable"
+ },
+ {
+  "u": "1f954",
+  "n": "potato",
+  "e": "🥔",
+  "k": "food, vegetable"
+ },
+ {
+  "u": "1f955",
+  "n": "carrot",
+  "e": "🥕",
+  "k": "food, vegetable"
+ },
+ {
+  "u": "1f33d",
+  "n": "ear of corn",
+  "e": "🌽",
+  "k": "ear, corn, farm, maze, crops, maize"
+ },
+ {
+  "u": "1f336-fe0f",
+  "n": "hot pepper",
+  "e": "🌶️",
+  "k": "hot, pepper"
+ },
+ {
+  "u": "1fad1",
+  "n": "bell pepper",
+  "e": "🫑",
+  "k": "bell, food, pepper, capsicum, vegetable"
+ },
+ {
+  "u": "1f952",
+  "n": "cucumber",
+  "e": "🥒",
+  "k": "food, pickle, vegetable"
+ },
+ {
+  "u": "1f96c",
+  "n": "leafy green",
+  "e": "🥬",
+  "k": "bok, choy, kale, green, leafy, salad, burgers, cabbage, lettuce"
+ },
+ {
+  "u": "1f966",
+  "n": "broccoli",
+  "e": "🥦",
+  "k": "wild, cabbage"
+ },
+ {
+  "u": "1f9c4",
+  "n": "garlic",
+  "e": "🧄",
+  "k": "flavoring"
+ },
+ {
+  "u": "1f9c5",
+  "n": "onion",
+  "e": "🧅",
+  "k": "flavoring"
+ },
+ {
+  "u": "1f95c",
+  "n": "peanuts",
+  "e": "🥜",
+  "k": "nut, food, peanut, vegetable"
+ },
+ {
+  "u": "1fad8",
+  "n": "beans",
+  "e": "🫘",
+  "k": "food, small, kidney, legume"
+ },
+ {
+  "u": "1f330",
+  "n": "chestnut",
+  "e": "🌰",
+  "k": "plant, almond"
+ },
+ {
+  "u": "1fada",
+  "n": "ginger root",
+  "e": "🫚",
+  "k": "beer, herb, root, spice, ginger, health, natural"
+ },
+ {
+  "u": "1fadb",
+  "n": "pea pod",
+  "e": "🫛",
+  "k": "pea, pod, beans, legume, veggie, edamame, soybean, beanstalk, vegetable"
+ },
+ {
+  "u": "1f344-200d-1f7eb",
+  "n": "brown mushroom",
+  "e": "🍄‍🟫",
+  "k": "food, fungi, pizza, spore, fungus, nature, shroom, sprout, veggie, truffle, mushroom, shiitake, toppings, vegetable, portobello, vegetarian"
+ },
+ {
+  "u": "1fadc",
+  "n": "root vegetable",
+  "e": "🫜",
+  "k": "beet, food, root, salad, garden, radish, turnip, vegetable, vegetarian"
+ },
+ {
+  "u": "1f35e",
+  "n": "bread",
+  "e": "🍞",
+  "k": "food, loaf, carbs, grain, toast, wheat, restaurant"
+ },
+ {
+  "u": "1f950",
+  "n": "croissant",
+  "e": "🥐",
+  "k": "food, roll, bread, french, crescent, breakfast"
+ },
+ {
+  "u": "1f956",
+  "n": "baguette bread",
+  "e": "🥖",
+  "k": "food, bread, french, baguette"
+ },
+ {
+  "u": "1fad3",
+  "n": "flatbread",
+  "e": "🫓",
+  "k": "food, naan, pita, arepa, bread, lavash, gordita"
+ },
+ {
+  "u": "1f968",
+  "n": "pretzel",
+  "e": "🥨",
+  "k": "twisted, convoluted"
+ },
+ {
+  "u": "1f96f",
+  "n": "bagel",
+  "e": "🥯",
+  "k": "bread, bakery, schmear, breakfast"
+ },
+ {
+  "u": "1f95e",
+  "n": "pancakes",
+  "e": "🥞",
+  "k": "food, crêpe, hotcake, pancake, breakfast"
+ },
+ {
+  "u": "1f9c7",
+  "n": "waffle",
+  "e": "🧇",
+  "k": "iron, breakfast, indecisive"
+ },
+ {
+  "u": "1f9c0",
+  "n": "cheese wedge",
+  "e": "🧀",
+  "k": "wedge, cheese"
+ },
+ {
+  "u": "1f356",
+  "n": "meat on bone",
+  "e": "🍖",
+  "k": "bone, meat"
+ },
+ {
+  "u": "1f357",
+  "n": "poultry leg",
+  "e": "🍗",
+  "k": "leg, bone, hungry, turkey, chicken, poultry, drumstick"
+ },
+ {
+  "u": "1f969",
+  "n": "cut of meat",
+  "e": "🥩",
+  "k": "cut, red, chop, meat, steak, lambchop, porkchop"
+ },
+ {
+  "u": "1f953",
+  "n": "bacon",
+  "e": "🥓",
+  "k": "food, meat, breakfast"
+ },
+ {
+  "u": "1f354",
+  "n": "hamburger",
+  "e": "🍔",
+  "k": "eat, fast, food, burger, hungry"
+ },
+ {
+  "u": "1f35f",
+  "n": "french fries",
+  "e": "🍟",
+  "k": "fast, food, fries, french"
+ },
+ {
+  "u": "1f355",
+  "n": "pizza",
+  "e": "🍕",
+  "k": "food, slice, cheese, hungry, pepperoni"
+ },
+ {
+  "u": "1f32d",
+  "n": "hot dog",
+  "e": "🌭",
+  "k": "dog, hot, hotdog, sausage, frankfurter"
+ },
+ {
+  "u": "1f96a",
+  "n": "sandwich",
+  "e": "🥪",
+  "k": "bread"
+ },
+ {
+  "u": "1f32e",
+  "n": "taco",
+  "e": "🌮",
+  "k": "mexican"
+ },
+ {
+  "u": "1f32f",
+  "n": "burrito",
+  "e": "🌯",
+  "k": "wrap, mexican"
+ },
+ {
+  "u": "1fad4",
+  "n": "tamale",
+  "e": "🫔",
+  "k": "food, mexican, pamonha, wrapped"
+ },
+ {
+  "u": "1f959",
+  "n": "stuffed flatbread",
+  "e": "🥙",
+  "k": "food, gyro, kebab, falafel, stuffed, flatbread"
+ },
+ {
+  "u": "1f9c6",
+  "n": "falafel",
+  "e": "🧆",
+  "k": "chickpea, meatball"
+ },
+ {
+  "u": "1f95a",
+  "n": "egg",
+  "e": "🥚",
+  "k": "food, breakfast"
+ },
+ {
+  "u": "1f373",
+  "n": "cooking",
+  "e": "🍳",
+  "k": "up, egg, fry, pan, easy, over, side, sunny, frying, breakfast, restaurant"
+ },
+ {
+  "u": "1f958",
+  "n": "shallow pan of food",
+  "e": "🥘",
+  "k": "pan, food, paella, shallow, casserole"
+ },
+ {
+  "u": "1f372",
+  "n": "pot of food",
+  "e": "🍲",
+  "k": "pot, food, soup, stew"
+ },
+ {
+  "u": "1fad5",
+  "n": "fondue",
+  "e": "🫕",
+  "k": "pot, ski, food, cheese, melted, chocolate"
+ },
+ {
+  "u": "1f963",
+  "n": "bowl with spoon",
+  "e": "🥣",
+  "k": "bowl, spoon, cereal, congee, oatmeal, porridge, breakfast"
+ },
+ {
+  "u": "1f957",
+  "n": "green salad",
+  "e": "🥗",
+  "k": "food, green, salad"
+ },
+ {
+  "u": "1f37f",
+  "n": "popcorn",
+  "e": "🍿",
+  "k": "pop, corn, movie"
+ },
+ {
+  "u": "1f9c8",
+  "n": "butter",
+  "e": "🧈",
+  "k": "dairy"
+ },
+ {
+  "u": "1f9c2",
+  "n": "salt",
+  "e": "🧂",
+  "k": "mad, salty, taste, upset, flavor, shaker, condiment"
+ },
+ {
+  "u": "1f96b",
+  "n": "canned food",
+  "e": "🥫",
+  "k": "can, food, canned"
+ },
+ {
+  "u": "1f371",
+  "n": "bento box",
+  "e": "🍱",
+  "k": "box, food, bento"
+ },
+ {
+  "u": "1f358",
+  "n": "rice cracker",
+  "e": "🍘",
+  "k": "food, rice, cracker"
+ },
+ {
+  "u": "1f359",
+  "n": "rice ball",
+  "e": "🍙",
+  "k": "ball, food, rice, Japanese"
+ },
+ {
+  "u": "1f35a",
+  "n": "cooked rice",
+  "e": "🍚",
+  "k": "food, rice, cooked"
+ },
+ {
+  "u": "1f35b",
+  "n": "curry rice",
+  "e": "🍛",
+  "k": "food, rice, curry"
+ },
+ {
+  "u": "1f35c",
+  "n": "steaming bowl",
+  "e": "🍜",
+  "k": "pho, bowl, food, soup, ramen, noodle, steaming, chopsticks"
+ },
+ {
+  "u": "1f35d",
+  "n": "spaghetti",
+  "e": "🍝",
+  "k": "food, pasta, meatballs, restaurant"
+ },
+ {
+  "u": "1f360",
+  "n": "roasted sweet potato",
+  "e": "🍠",
+  "k": "food, sweet, potato, roasted"
+ },
+ {
+  "u": "1f362",
+  "n": "oden",
+  "e": "🍢",
+  "k": "food, kebab, stick, skewer, seafood, restaurant"
+ },
+ {
+  "u": "1f363",
+  "n": "sushi",
+  "e": "🍣",
+  "k": "food"
+ },
+ {
+  "u": "1f364",
+  "n": "fried shrimp",
+  "e": "🍤",
+  "k": "fried, prawn, shrimp, tempura"
+ },
+ {
+  "u": "1f365",
+  "n": "fish cake with swirl",
+  "e": "🍥",
+  "k": "cake, fish, food, swirl, pastry, restaurant"
+ },
+ {
+  "u": "1f96e",
+  "n": "moon cake",
+  "e": "🥮",
+  "k": "cake, moon, autumn, yuèbǐng, festival"
+ },
+ {
+  "u": "1f361",
+  "n": "dango",
+  "e": "🍡",
+  "k": "stick, sweet, skewer, dessert, Japanese"
+ },
+ {
+  "u": "1f95f",
+  "n": "dumpling",
+  "e": "🥟",
+  "k": "gyōza, jiaozi, pierogi, empanada, potsticker"
+ },
+ {
+  "u": "1f960",
+  "n": "fortune cookie",
+  "e": "🥠",
+  "k": "cookie, fortune, prophecy"
+ },
+ {
+  "u": "1f961",
+  "n": "takeout box",
+  "e": "🥡",
+  "k": "box, food, pail, oyster, takeout, delivery, chopsticks"
+ },
+ {
+  "u": "1f366",
+  "n": "soft ice cream",
+  "e": "🍦",
+  "k": "ice, food, soft, cream, serve, sweet, dessert, icecream, restaurant"
+ },
+ {
+  "u": "1f367",
+  "n": "shaved ice",
+  "e": "🍧",
+  "k": "ice, sweet, shaved, dessert, restaurant"
+ },
+ {
+  "u": "1f368",
+  "n": "ice cream",
+  "e": "🍨",
+  "k": "ice, food, cream, sweet, dessert, restaurant"
+ },
+ {
+  "u": "1f369",
+  "n": "doughnut",
+  "e": "🍩",
+  "k": "food, donut, sweet, dessert, breakfast"
+ },
+ {
+  "u": "1f36a",
+  "n": "cookie",
+  "e": "🍪",
+  "k": "chip, sweet, dessert, chocolate"
+ },
+ {
+  "u": "1f382",
+  "n": "birthday cake",
+  "e": "🎂",
+  "k": "bday, cake, happy, sweet, pastry, dessert, birthday, celebration"
+ },
+ {
+  "u": "1f370",
+  "n": "shortcake",
+  "e": "🍰",
+  "k": "cake, slice, sweet, pastry, dessert"
+ },
+ {
+  "u": "1f9c1",
+  "n": "cupcake",
+  "e": "🧁",
+  "k": "sugar, sweet, treat, bakery, dessert, sprinkles"
+ },
+ {
+  "u": "1f967",
+  "n": "pie",
+  "e": "🥧",
+  "k": "meat, apple, fruit, slice, pastry, filling, pumpkin"
+ },
+ {
+  "u": "1f36b",
+  "n": "chocolate bar",
+  "e": "🍫",
+  "k": "bar, candy, sweet, tooth, dessert, chocolate, halloween"
+ },
+ {
+  "u": "1f36c",
+  "n": "candy",
+  "e": "🍬",
+  "k": "sweet, tooth, dessert, wrapper, cavities, halloween, restaurant"
+ },
+ {
+  "u": "1f36d",
+  "n": "lollipop",
+  "e": "🍭",
+  "k": "food, candy, sweet, dessert, restaurant"
+ },
+ {
+  "u": "1f36e",
+  "n": "custard",
+  "e": "🍮",
+  "k": "sweet, dessert, pudding"
+ },
+ {
+  "u": "1f36f",
+  "n": "honey pot",
+  "e": "🍯",
+  "k": "jar, pot, bear, food, honey, sweet, barrel, honeypot"
+ },
+ {
+  "u": "1f37c",
+  "n": "baby bottle",
+  "e": "🍼",
+  "k": "baby, born, milk, birth, drink, babies, bottle, infant, newborn"
+ },
+ {
+  "u": "1f95b",
+  "n": "glass of milk",
+  "e": "🥛",
+  "k": "milk, drink, glass"
+ },
+ {
+  "u": "2615",
+  "n": "hot beverage",
+  "e": "☕",
+  "k": "hot, tea, cafe, chai, drink, coffee, morning, beverage, caffeine, steaming"
+ },
+ {
+  "u": "1fad6",
+  "n": "teapot",
+  "e": "🫖",
+  "k": "pot, tea, brew, food, drink"
+ },
+ {
+  "u": "1f375",
+  "n": "teacup without handle",
+  "e": "🍵",
+  "k": "cup, tea, drink, handle, oolong, teacup, beverage"
+ },
+ {
+  "u": "1f376",
+  "n": "sake",
+  "e": "🍶",
+  "k": "bar, cup, drink, bottle, beverage, restaurant"
+ },
+ {
+  "u": "1f37e",
+  "n": "bottle with popping cork",
+  "e": "🍾",
+  "k": "bar, cork, drink, bottle, popping"
+ },
+ {
+  "u": "1f377",
+  "n": "wine glass",
+  "e": "🍷",
+  "k": "bar, club, wine, booze, drink, glass, drinks, alcohol, beverage, drinking, restaurant"
+ },
+ {
+  "u": "1f378",
+  "n": "cocktail glass",
+  "e": "🍸",
+  "k": "bar, mad, men, club, booze, drink, glass, drinks, alcohol, martini, cocktail, drinking"
+ },
+ {
+  "u": "1f379",
+  "n": "tropical drink",
+  "e": "🍹",
+  "k": "bar, mai, tai, club, booze, drink, drunk, party, drinks, alcohol, tropics, cocktail, drinking, tropical"
+ },
+ {
+  "u": "1f37a",
+  "n": "beer mug",
+  "e": "🍺",
+  "k": "ale, bar, mug, beer, pint, booze, drink, stein, drinks, summer, alcohol, drinking, octoberfest, oktoberfest"
+ },
+ {
+  "u": "1f37b",
+  "n": "clinking beer mugs",
+  "e": "🍻",
+  "k": "bar, beer, mugs, booze, clink, cheers, drinks, alcohol, bottoms, clinking, drinking"
+ },
+ {
+  "u": "1f942",
+  "n": "clinking glasses",
+  "e": "🥂",
+  "k": "clink, drink, glass, glasses, clinking, celebrate"
+ },
+ {
+  "u": "1f943",
+  "n": "tumbler glass",
+  "e": "🥃",
+  "k": "shot, glass, liquor, scotch, whisky, tumbler, whiskey"
+ },
+ {
+  "u": "1fad7",
+  "n": "pouring liquid",
+  "e": "🫗",
+  "k": "oops, pour, drink, empty, glass, spill, water, liquid, pouring, accident"
+ },
+ {
+  "u": "1f964",
+  "n": "cup with straw",
+  "e": "🥤",
+  "k": "cup, malt, soda, soft, drink, juice, straw, water"
+ },
+ {
+  "u": "1f9cb",
+  "n": "bubble tea",
+  "e": "🧋",
+  "k": "tea, boba, food, milk, pearl, bubble"
+ },
+ {
+  "u": "1f9c3",
+  "n": "beverage box",
+  "e": "🧃",
+  "k": "box, juice, straw, sweet, beverage"
+ },
+ {
+  "u": "1f9c9",
+  "n": "mate",
+  "e": "🧉",
+  "k": "drink"
+ },
+ {
+  "u": "1f9ca",
+  "n": "ice",
+  "e": "🧊",
+  "k": "cold, cube, iceberg"
+ },
+ {
+  "u": "1f962",
+  "n": "chopsticks",
+  "e": "🥢",
+  "k": "hashi, kuaizi, jeotgarak"
+ },
+ {
+  "u": "1f37d-fe0f",
+  "n": "fork and knife with plate",
+  "e": "🍽️",
+  "k": "eat, fork, knife, plate, dinner, cooking"
+ },
+ {
+  "u": "1f374",
+  "n": "fork and knife",
+  "e": "🍴",
+  "k": "eat, yum, feed, food, fork, knife, lunch, yummy, breaky, dinner, hungry, cooking, cutlery, breakfast, delicious, restaurant"
+ },
+ {
+  "u": "1f944",
+  "n": "spoon",
+  "e": "🥄",
+  "k": "eat, tableware"
+ },
+ {
+  "u": "1f52a",
+  "n": "kitchen knife",
+  "e": "🔪",
+  "k": "chef, tool, hocho, knife, weapon, cooking, kitchen"
+ },
+ {
+  "u": "1fad9",
+  "n": "jar",
+  "e": "🫙",
+  "k": "empty, sauce, store, nothing, condiment, container"
+ },
+ {
+  "u": "1f3fa",
+  "n": "amphora",
+  "e": "🏺",
+  "k": "jug, tool, drink, weapon, zodiac, cooking, Aquarius"
+ }
+]

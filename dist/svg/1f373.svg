@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="256" height="256"><title>cooking</title><defs>
+<filter id="sk-bv" filterUnits="userSpaceOnUse" x="-10" y="-10" width="120" height="120" color-interpolation-filters="sRGB">
+<feOffset in="SourceAlpha" dx="1.5" dy="1.8" result="o1"/><feComposite in="SourceAlpha" in2="o1" operator="out" result="hl"/>
+<feGaussianBlur in="hl" stdDeviation="1.1" result="hlb"/><feFlood flood-color="#FFF8E4" flood-opacity=".6" result="hf"/><feComposite in="hf" in2="hlb" operator="in" result="hlc"/>
+<feOffset in="SourceAlpha" dx="-2.2" dy="-2.6" result="o2"/><feComposite in="SourceAlpha" in2="o2" operator="out" result="sh"/>
+<feGaussianBlur in="sh" stdDeviation="1.5" result="shb"/><feFlood flood-color="#3A1C10" flood-opacity=".36" result="sf"/><feComposite in="sf" in2="shb" operator="in" result="shc"/>
+<feComposite in="shc" in2="SourceGraphic" operator="atop" result="a1"/><feComposite in="hlc" in2="a1" operator="atop"/>
+</filter>
+<filter id="sk-bvs" filterUnits="userSpaceOnUse" x="-10" y="-10" width="120" height="120" color-interpolation-filters="sRGB">
+<feOffset in="SourceAlpha" dx=".8" dy="1" result="o1"/><feComposite in="SourceAlpha" in2="o1" operator="out" result="hl"/>
+<feGaussianBlur in="hl" stdDeviation=".6" result="hlb"/><feFlood flood-color="#FFF8E4" flood-opacity=".55" result="hf"/><feComposite in="hf" in2="hlb" operator="in" result="hlc"/>
+<feOffset in="SourceAlpha" dx="-1.1" dy="-1.4" result="o2"/><feComposite in="SourceAlpha" in2="o2" operator="out" result="sh"/>
+<feGaussianBlur in="sh" stdDeviation=".8" result="shb"/><feFlood flood-color="#3A1C10" flood-opacity=".32" result="sf"/><feComposite in="sf" in2="shb" operator="in" result="shc"/>
+<feComposite in="shc" in2="SourceGraphic" operator="atop" result="a1"/><feComposite in="hlc" in2="a1" operator="atop"/>
+</filter>
+<filter id="sk-tx" filterUnits="userSpaceOnUse" x="-6" y="-6" width="112" height="112" color-interpolation-filters="sRGB">
+<feTurbulence type="fractalNoise" baseFrequency=".06" numOctaves="3" seed="11" result="n1"/>
+<feColorMatrix in="n1" type="matrix" values="2.6 0 0 0 -.8  2.6 0 0 0 -.8  2.6 0 0 0 -.8  0 0 0 0 .3" result="c1"/>
+<feComposite in="c1" in2="SourceAlpha" operator="in" result="g1"/><feBlend in="g1" in2="SourceGraphic" mode="soft-light" result="b1"/>
+<feTurbulence type="fractalNoise" baseFrequency="1.15" numOctaves="2" seed="5" result="n2"/>
+<feColorMatrix in="n2" type="matrix" values="1.9 0 0 0 -.45  1.9 0 0 0 -.45  1.9 0 0 0 -.45  0 0 0 0 .2" result="c2"/>
+<feComposite in="c2" in2="SourceAlpha" operator="in" result="g2"/><feBlend in="g2" in2="b1" mode="soft-light"/>
+</filter><linearGradient id="e1f373-0" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#B07A4A"/><stop offset="1" stop-color="#6B4324"/></linearGradient><linearGradient id="e1f373-1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8A929E"/><stop offset="0.5" stop-color="#5A616D"/><stop offset="1" stop-color="#3F4650"/></linearGradient><linearGradient id="e1f373-2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4A515C"/><stop offset="1" stop-color="#6B7380"/></linearGradient><linearGradient id="e1f373-3" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FCF6E8"/><stop offset="1" stop-color="#E9DDBE"/></linearGradient><radialGradient id="e1f373-4" cx="0.38" cy="0.3" r="0.85"><stop offset="0" stop-color="#FFE98A"/><stop offset="0.5" stop-color="#F5B93A"/><stop offset="1" stop-color="#D98A1E"/></radialGradient></defs><g filter="url(#sk-tx)"><g filter="url(#sk-bv)"><g transform="rotate(35 50 50)"><rect x="66" y="44" width="40" height="12" rx="6" fill="url(#e1f373-0)"/></g></g>
+<g filter="url(#sk-bv)"><circle cx="43" cy="46" r="38" fill="url(#e1f373-1)"/></g>
+<circle cx="43" cy="46" r="31" fill="url(#e1f373-2)"/>
+<g filter="url(#sk-bv)"><path d="M24 40 C20 26 34 18 46 22 C56 14 70 24 66 36 C76 42 68 58 56 58 C48 68 28 64 28 54 C20 52 20 44 24 40Z" fill="url(#e1f373-3)"/></g>
+<g filter="url(#sk-bv)"><circle cx="46" cy="42" r="10.5" fill="url(#e1f373-4)"/></g><ellipse cx="42" cy="37" rx="3.6" ry="2.2" transform="rotate(-30 42 37)" fill="#fff" opacity="0.7"/>
+<path d="M24 28 C30 18 40 14 48 15" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" opacity=".3"/></g></svg>

@@ -1,0 +1,218 @@
+[
+ {
+  "u": "1f4d4",
+  "n": "notebook with decorative cover",
+  "e": "📔",
+  "k": "book, cover, school, writing, notebook, decorated, education, decorative"
+ },
+ {
+  "u": "1f4d5",
+  "n": "closed book",
+  "e": "📕",
+  "k": "book, closed, education"
+ },
+ {
+  "u": "1f4d7",
+  "n": "green book",
+  "e": "📗",
+  "k": "book, green, fantasy, library, reading, education"
+ },
+ {
+  "u": "1f4d8",
+  "n": "blue book",
+  "e": "📘",
+  "k": "blue, book, fantasy, library, reading, education"
+ },
+ {
+  "u": "1f4d9",
+  "n": "orange book",
+  "e": "📙",
+  "k": "book, orange, fantasy, library, reading, education"
+ },
+ {
+  "u": "1f4d3",
+  "n": "notebook",
+  "e": "📓",
+  "k": ""
+ },
+ {
+  "u": "1f4d2",
+  "n": "ledger",
+  "e": "📒",
+  "k": "notebook"
+ },
+ {
+  "u": "1f4c3",
+  "n": "page with curl",
+  "e": "📃",
+  "k": "curl, page, paper, document"
+ },
+ {
+  "u": "1f4c4",
+  "n": "page facing up",
+  "e": "📄",
+  "k": "up, page, paper, facing, document"
+ },
+ {
+  "u": "1f4f0",
+  "n": "newspaper",
+  "e": "📰",
+  "k": "news, paper, communication"
+ },
+ {
+  "u": "1f5de-fe0f",
+  "n": "rolled up newspaper",
+  "e": "🗞️",
+  "k": "news, paper, rolled, newspaper, rolled up"
+ },
+ {
+  "u": "1f4d1",
+  "n": "bookmark tabs",
+  "e": "📑",
+  "k": "mark, tabs, marker, bookmark"
+ },
+ {
+  "u": "1f516",
+  "n": "bookmark",
+  "e": "🔖",
+  "k": "mark"
+ },
+ {
+  "u": "1f3f7-fe0f",
+  "n": "label",
+  "e": "🏷️",
+  "k": "tag"
+ },
+ {
+  "u": "1fa99",
+  "n": "coin",
+  "e": "🪙",
+  "k": "euro, gold, rich, metal, money, dollar, silver, treasure"
+ },
+ {
+  "u": "1f4b0",
+  "n": "money bag",
+  "e": "💰",
+  "k": "bag, bet, pot, win, bank, cash, cost, gold, paid, rich, money, dollar, paying, billion, million, moneybag"
+ },
+ {
+  "u": "1f4b4",
+  "n": "yen banknote",
+  "e": "💴",
+  "k": "yen, bank, bill, note, money, banknote, currency"
+ },
+ {
+  "u": "1f4b5",
+  "n": "dollar banknote",
+  "e": "💵",
+  "k": "bank, bill, note, money, dollar, banknote, currency"
+ },
+ {
+  "u": "1f4b6",
+  "n": "euro banknote",
+  "e": "💶",
+  "k": "100, bank, bill, euro, note, rich, money, banknote, currency"
+ },
+ {
+  "u": "1f4b7",
+  "n": "pound banknote",
+  "e": "💷",
+  "k": "bank, bill, cash, note, money, pound, pounds, billion, banknote, currency"
+ },
+ {
+  "u": "1f4b8",
+  "n": "money with wings",
+  "e": "💸",
+  "k": "fly, pay, bank, bill, cash, note, money, wings, dollar, billion, million, banknote"
+ },
+ {
+  "u": "1f4b3",
+  "n": "credit card",
+  "e": "💳",
+  "k": "pay, bank, card, cash, money, charge, credit"
+ },
+ {
+  "u": "1f9fe",
+  "n": "receipt",
+  "e": "🧾",
+  "k": "proof, invoice, evidence, accounting, bookkeeping"
+ },
+ {
+  "u": "1f4b9",
+  "n": "chart increasing with yen",
+  "e": "💹",
+  "k": "yen, bank, rise, chart, graph, money, trend, growth, market, upward, currency, increasing"
+ },
+ {
+  "u": "2709-fe0f",
+  "n": "envelope",
+  "e": "✉️",
+  "k": "email, e mail, letter"
+ },
+ {
+  "u": "1f4e7",
+  "n": "e mail",
+  "e": "📧",
+  "k": "mail, email, letter"
+ },
+ {
+  "u": "1f4e8",
+  "n": "incoming envelope",
+  "e": "📨",
+  "k": "mail, sent, email, e mail, letter, receive, envelope, incoming, delivering"
+ },
+ {
+  "u": "1f4e9",
+  "n": "envelope with arrow",
+  "e": "📩",
+  "k": "down, mail, send, sent, arrow, email, e mail, letter, envelope, outgoing, communication"
+ },
+ {
+  "u": "1f4e4",
+  "n": "outbox tray",
+  "e": "📤",
+  "k": "box, mail, sent, tray, email, letter, outbox"
+ },
+ {
+  "u": "1f4e5",
+  "n": "inbox tray",
+  "e": "📥",
+  "k": "box, mail, tray, zero, email, inbox, letter, receive"
+ },
+ {
+  "u": "1f4e6",
+  "n": "package",
+  "e": "📦",
+  "k": "box, parcel, delivery, shipping, communication"
+ },
+ {
+  "u": "1f4eb",
+  "n": "closed mailbox with raised flag",
+  "e": "📫",
+  "k": "flag, mail, closed, raised, mailbox, postbox, communication"
+ },
+ {
+  "u": "1f4ea",
+  "n": "closed mailbox with lowered flag",
+  "e": "📪",
+  "k": "flag, mail, closed, lowered, mailbox, postbox"
+ },
+ {
+  "u": "1f4ec",
+  "n": "open mailbox with raised flag",
+  "e": "📬",
+  "k": "flag, mail, open, raised, mailbox, postbox"
+ },
+ {
+  "u": "1f4ed",
+  "n": "open mailbox with lowered flag",
+  "e": "📭",
+  "k": "flag, mail, open, lowered, mailbox, postbox"
+ },
+ {
+  "u": "1f4ee",
+  "n": "postbox",
+  "e": "📮",
+  "k": "mail, mailbox"
+ }
+]

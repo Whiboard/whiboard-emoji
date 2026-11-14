@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="256" height="256"><title>steaming bowl</title><defs>
+<filter id="sk-bv" filterUnits="userSpaceOnUse" x="-10" y="-10" width="120" height="120" color-interpolation-filters="sRGB">
+<feOffset in="SourceAlpha" dx="1.5" dy="1.8" result="o1"/><feComposite in="SourceAlpha" in2="o1" operator="out" result="hl"/>
+<feGaussianBlur in="hl" stdDeviation="1.1" result="hlb"/><feFlood flood-color="#FFF8E4" flood-opacity=".6" result="hf"/><feComposite in="hf" in2="hlb" operator="in" result="hlc"/>
+<feOffset in="SourceAlpha" dx="-2.2" dy="-2.6" result="o2"/><feComposite in="SourceAlpha" in2="o2" operator="out" result="sh"/>
+<feGaussianBlur in="sh" stdDeviation="1.5" result="shb"/><feFlood flood-color="#3A1C10" flood-opacity=".36" result="sf"/><feComposite in="sf" in2="shb" operator="in" result="shc"/>
+<feComposite in="shc" in2="SourceGraphic" operator="atop" result="a1"/><feComposite in="hlc" in2="a1" operator="atop"/>
+</filter>
+<filter id="sk-bvs" filterUnits="userSpaceOnUse" x="-10" y="-10" width="120" height="120" color-interpolation-filters="sRGB">
+<feOffset in="SourceAlpha" dx=".8" dy="1" result="o1"/><feComposite in="SourceAlpha" in2="o1" operator="out" result="hl"/>
+<feGaussianBlur in="hl" stdDeviation=".6" result="hlb"/><feFlood flood-color="#FFF8E4" flood-opacity=".55" result="hf"/><feComposite in="hf" in2="hlb" operator="in" result="hlc"/>
+<feOffset in="SourceAlpha" dx="-1.1" dy="-1.4" result="o2"/><feComposite in="SourceAlpha" in2="o2" operator="out" result="sh"/>
+<feGaussianBlur in="sh" stdDeviation=".8" result="shb"/><feFlood flood-color="#3A1C10" flood-opacity=".32" result="sf"/><feComposite in="sf" in2="shb" operator="in" result="shc"/>
+<feComposite in="shc" in2="SourceGraphic" operator="atop" result="a1"/><feComposite in="hlc" in2="a1" operator="atop"/>
+</filter>
+<filter id="sk-tx" filterUnits="userSpaceOnUse" x="-6" y="-6" width="112" height="112" color-interpolation-filters="sRGB">
+<feTurbulence type="fractalNoise" baseFrequency=".06" numOctaves="3" seed="11" result="n1"/>
+<feColorMatrix in="n1" type="matrix" values="2.6 0 0 0 -.8  2.6 0 0 0 -.8  2.6 0 0 0 -.8  0 0 0 0 .3" result="c1"/>
+<feComposite in="c1" in2="SourceAlpha" operator="in" result="g1"/><feBlend in="g1" in2="SourceGraphic" mode="soft-light" result="b1"/>
+<feTurbulence type="fractalNoise" baseFrequency="1.15" numOctaves="2" seed="5" result="n2"/>
+<feColorMatrix in="n2" type="matrix" values="1.9 0 0 0 -.45  1.9 0 0 0 -.45  1.9 0 0 0 -.45  0 0 0 0 .2" result="c2"/>
+<feComposite in="c2" in2="SourceAlpha" operator="in" result="g2"/><feBlend in="g2" in2="b1" mode="soft-light"/>
+</filter><linearGradient id="e1f35c-0" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6A8BD0"/><stop offset="1" stop-color="#4764AA"/></linearGradient><linearGradient id="e1f35c-1" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FCF6E8"/><stop offset="0.5" stop-color="#FCF6E8"/><stop offset="1" stop-color="#D9C9A3"/></linearGradient><linearGradient id="e1f35c-2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FCF6E8"/><stop offset="1" stop-color="#D9C9A3"/></linearGradient><linearGradient id="e1f35c-3" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E9A64A"/><stop offset="1" stop-color="#BE7A2B"/></linearGradient><linearGradient id="e1f35c-4" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FBDA6A"/><stop offset="1" stop-color="#F1BE40"/></linearGradient><linearGradient id="e1f35c-5" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FCF6E8"/><stop offset="1" stop-color="#D9C9A3"/></linearGradient><linearGradient id="e1f35c-6" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F6CF5E"/><stop offset="1" stop-color="#D47F2E"/></linearGradient><linearGradient id="e1f35c-7" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FBD0DA"/><stop offset="1" stop-color="#DF839B"/></linearGradient><linearGradient id="e1f35c-8" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5E8F72"/><stop offset="1" stop-color="#2E5642"/></linearGradient></defs><g filter="url(#sk-tx)"><path d="M26 36 c-4 -3.5 4 -6.5 0 -10 s-4 -6.5 0 -10" fill="none" stroke="#8C9BB8" stroke-width="2.6" stroke-linecap="round" opacity=".85"/><path d="M40 32 c-4 -3.5 4 -6.5 0 -10 s-4 -6.5 0 -10" fill="none" stroke="#8C9BB8" stroke-width="2.6" stroke-linecap="round" opacity=".85"/>
+<g filter="url(#sk-bvs)"><path d="M58 40 L90 10 M66 44 L94 18" stroke="#C48C55" stroke-width="3.6" stroke-linecap="round" fill="none"/></g>
+<g filter="url(#sk-bvs)"><rect x="35" y="85" width="30" height="9" rx="3" fill="url(#e1f35c-0)"/></g>
+<g filter="url(#sk-bv)"><path d="M8 50 H92 C92 77 74 90 50 90 C26 90 8 77 8 50Z" fill="url(#e1f35c-1)"/></g>
+<path d="M10.5 62 Q50 75 89.5 62" fill="none" stroke="#6A8BD0" stroke-width="3.2"/><path d="M13 69 Q50 82 87 69" fill="none" stroke="#6A8BD0" stroke-width="1.4" stroke-dasharray="3 2.6"/>
+<g filter="url(#sk-bvs)"><ellipse cx="50" cy="50" rx="42" ry="9.5" fill="url(#e1f35c-2)"/></g>
+<ellipse cx="50" cy="50" rx="37" ry="7.2" fill="url(#e1f35c-3)"/>
+<g filter="url(#sk-bvs)"><path d="M16 50 C18 34 82 34 84 50 C72 58 28 58 16 50Z" fill="url(#e1f35c-4)"/></g>
+<g fill="none" stroke="#D49828" stroke-width="1.5" stroke-linecap="round" opacity=".8"><path d="M22 47 C32 40 38 54 48 45 S64 42 78 47"/><path d="M26 52 C36 46 44 58 54 50 S68 49 76 53"/></g>
+<g filter="url(#sk-bvs)"><ellipse cx="34" cy="44" rx="9" ry="6.4" fill="url(#e1f35c-5)"/><circle cx="34" cy="44" r="3.4" fill="url(#e1f35c-6)"/>
+<circle cx="64" cy="44" r="7.4" fill="url(#e1f35c-7)"/><path d="M64 44 m-4 0 a4 4 0 1 1 4 4" fill="none" stroke="#FCF6E8" stroke-width="1.4"/>
+<rect x="46" y="36" width="10" height="13" rx="1.5" transform="rotate(8 51 42)" fill="url(#e1f35c-8)"/></g>
+<g fill="#6FA263"><circle cx="48" cy="52" r="1.8"/><circle cx="54" cy="54" r="1.7"/><circle cx="43" cy="55" r="1.6"/><circle cx="75" cy="52" r="1.6"/></g></g></svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="256" height="256"><title>bridge at night</title><defs>
+<filter id="sk-bv" filterUnits="userSpaceOnUse" x="-10" y="-10" width="120" height="120" color-interpolation-filters="sRGB">
+<feOffset in="SourceAlpha" dx="1.5" dy="1.8" result="o1"/><feComposite in="SourceAlpha" in2="o1" operator="out" result="hl"/>
+<feGaussianBlur in="hl" stdDeviation="1.1" result="hlb"/><feFlood flood-color="#FFF8E4" flood-opacity=".6" result="hf"/><feComposite in="hf" in2="hlb" operator="in" result="hlc"/>
+<feOffset in="SourceAlpha" dx="-2.2" dy="-2.6" result="o2"/><feComposite in="SourceAlpha" in2="o2" operator="out" result="sh"/>
+<feGaussianBlur in="sh" stdDeviation="1.5" result="shb"/><feFlood flood-color="#3A1C10" flood-opacity=".36" result="sf"/><feComposite in="sf" in2="shb" operator="in" result="shc"/>
+<feComposite in="shc" in2="SourceGraphic" operator="atop" result="a1"/><feComposite in="hlc" in2="a1" operator="atop"/>
+</filter>
+<filter id="sk-bvs" filterUnits="userSpaceOnUse" x="-10" y="-10" width="120" height="120" color-interpolation-filters="sRGB">
+<feOffset in="SourceAlpha" dx=".8" dy="1" result="o1"/><feComposite in="SourceAlpha" in2="o1" operator="out" result="hl"/>
+<feGaussianBlur in="hl" stdDeviation=".6" result="hlb"/><feFlood flood-color="#FFF8E4" flood-opacity=".55" result="hf"/><feComposite in="hf" in2="hlb" operator="in" result="hlc"/>
+<feOffset in="SourceAlpha" dx="-1.1" dy="-1.4" result="o2"/><feComposite in="SourceAlpha" in2="o2" operator="out" result="sh"/>
+<feGaussianBlur in="sh" stdDeviation=".8" result="shb"/><feFlood flood-color="#3A1C10" flood-opacity=".32" result="sf"/><feComposite in="sf" in2="shb" operator="in" result="shc"/>
+<feComposite in="shc" in2="SourceGraphic" operator="atop" result="a1"/><feComposite in="hlc" in2="a1" operator="atop"/>
+</filter>
+<filter id="sk-tx" filterUnits="userSpaceOnUse" x="-6" y="-6" width="112" height="112" color-interpolation-filters="sRGB">
+<feTurbulence type="fractalNoise" baseFrequency=".06" numOctaves="3" seed="11" result="n1"/>
+<feColorMatrix in="n1" type="matrix" values="2.6 0 0 0 -.8  2.6 0 0 0 -.8  2.6 0 0 0 -.8  0 0 0 0 .3" result="c1"/>
+<feComposite in="c1" in2="SourceAlpha" operator="in" result="g1"/><feBlend in="g1" in2="SourceGraphic" mode="soft-light" result="b1"/>
+<feTurbulence type="fractalNoise" baseFrequency="1.15" numOctaves="2" seed="5" result="n2"/>
+<feColorMatrix in="n2" type="matrix" values="1.9 0 0 0 -.45  1.9 0 0 0 -.45  1.9 0 0 0 -.45  0 0 0 0 .2" result="c2"/>
+<feComposite in="c2" in2="SourceAlpha" operator="in" result="g2"/><feBlend in="g2" in2="b1" mode="soft-light"/>
+</filter><linearGradient id="e1f309-0" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#26305E"/><stop offset="1" stop-color="#5A66A0"/></linearGradient><linearGradient id="e1f309-1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2F3C68"/><stop offset="1" stop-color="#1F2850"/></linearGradient><clipPath id="e1f309-2"><rect x="8" y="8" width="84" height="84" rx="14"/></clipPath></defs><g filter="url(#sk-tx)"><g filter="url(#sk-bv)"><rect x="8" y="8" width="84" height="84" rx="14" fill="url(#e1f309-0)"/></g><g clip-path="url(#e1f309-2)"><g fill="#FCF6E8"><polygon points="22.00,19.00 23.41,22.59 27.00,24.00 23.41,25.41 22.00,29.00 20.59,25.41 17.00,24.00 20.59,22.59"/><circle cx="46" cy="16" r="1.3"/><circle cx="76" cy="30" r="1.5"/><circle cx="12" cy="44" r="1.3"/></g>
+<circle cx="72" cy="22" r="8" fill="#FBDA6A"/>
+<rect x="0" y="66" width="100" height="40" fill="url(#e1f309-1)"/>
+<path d="M4 62 Q50 14 96 62" fill="none" stroke="#BEC5CE" stroke-width="3.4" stroke-linecap="round"/>
+<path d="M18 52 V62 M30 42 V62 M42 36 V62 M58 36 V62 M70 42 V62 M82 52 V62" stroke="#F0F3F6" stroke-width="1.2"/>
+<rect x="0" y="62" width="100" height="5" fill="#7480B0"/>
+<g fill="#FBDA6A"><circle cx="18" cy="63" r="1.4"/><circle cx="34" cy="63" r="1.4"/><circle cx="50" cy="63" r="1.4"/><circle cx="66" cy="63" r="1.4"/><circle cx="82" cy="63" r="1.4"/></g>
+<path d="M18 72 V76 M34 74 V80 M50 72 V78 M66 74 V80 M82 72 V76" stroke="#FBDA6A" stroke-width="2" stroke-linecap="round" opacity=".6"/></g><rect x="8.8" y="8.8" width="82.4" height="82.4" rx="13.4" fill="none" stroke="#fff" stroke-opacity=".28" stroke-width="1.2"/></g></svg>

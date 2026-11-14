@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="256" height="256"><title>open mailbox with lowered flag</title><defs>
+<filter id="sk-bv" filterUnits="userSpaceOnUse" x="-10" y="-10" width="120" height="120" color-interpolation-filters="sRGB">
+<feOffset in="SourceAlpha" dx="1.5" dy="1.8" result="o1"/><feComposite in="SourceAlpha" in2="o1" operator="out" result="hl"/>
+<feGaussianBlur in="hl" stdDeviation="1.1" result="hlb"/><feFlood flood-color="#FFF8E4" flood-opacity=".6" result="hf"/><feComposite in="hf" in2="hlb" operator="in" result="hlc"/>
+<feOffset in="SourceAlpha" dx="-2.2" dy="-2.6" result="o2"/><feComposite in="SourceAlpha" in2="o2" operator="out" result="sh"/>
+<feGaussianBlur in="sh" stdDeviation="1.5" result="shb"/><feFlood flood-color="#3A1C10" flood-opacity=".36" result="sf"/><feComposite in="sf" in2="shb" operator="in" result="shc"/>
+<feComposite in="shc" in2="SourceGraphic" operator="atop" result="a1"/><feComposite in="hlc" in2="a1" operator="atop"/>
+</filter>
+<filter id="sk-bvs" filterUnits="userSpaceOnUse" x="-10" y="-10" width="120" height="120" color-interpolation-filters="sRGB">
+<feOffset in="SourceAlpha" dx=".8" dy="1" result="o1"/><feComposite in="SourceAlpha" in2="o1" operator="out" result="hl"/>
+<feGaussianBlur in="hl" stdDeviation=".6" result="hlb"/><feFlood flood-color="#FFF8E4" flood-opacity=".55" result="hf"/><feComposite in="hf" in2="hlb" operator="in" result="hlc"/>
+<feOffset in="SourceAlpha" dx="-1.1" dy="-1.4" result="o2"/><feComposite in="SourceAlpha" in2="o2" operator="out" result="sh"/>
+<feGaussianBlur in="sh" stdDeviation=".8" result="shb"/><feFlood flood-color="#3A1C10" flood-opacity=".32" result="sf"/><feComposite in="sf" in2="shb" operator="in" result="shc"/>
+<feComposite in="shc" in2="SourceGraphic" operator="atop" result="a1"/><feComposite in="hlc" in2="a1" operator="atop"/>
+</filter>
+<filter id="sk-tx" filterUnits="userSpaceOnUse" x="-6" y="-6" width="112" height="112" color-interpolation-filters="sRGB">
+<feTurbulence type="fractalNoise" baseFrequency=".06" numOctaves="3" seed="11" result="n1"/>
+<feColorMatrix in="n1" type="matrix" values="2.6 0 0 0 -.8  2.6 0 0 0 -.8  2.6 0 0 0 -.8  0 0 0 0 .3" result="c1"/>
+<feComposite in="c1" in2="SourceAlpha" operator="in" result="g1"/><feBlend in="g1" in2="SourceGraphic" mode="soft-light" result="b1"/>
+<feTurbulence type="fractalNoise" baseFrequency="1.15" numOctaves="2" seed="5" result="n2"/>
+<feColorMatrix in="n2" type="matrix" values="1.9 0 0 0 -.45  1.9 0 0 0 -.45  1.9 0 0 0 -.45  0 0 0 0 .2" result="c2"/>
+<feComposite in="c2" in2="SourceAlpha" operator="in" result="g2"/><feBlend in="g2" in2="b1" mode="soft-light"/>
+</filter><linearGradient id="e1f4ed-0" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#EA6A60"/><stop offset="1" stop-color="#A2302E"/></linearGradient><linearGradient id="e1f4ed-1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F6CF5E"/><stop offset="1" stop-color="#B47E1E"/></linearGradient><linearGradient id="e1f4ed-2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FCF6E8"/><stop offset="1" stop-color="#E4D7B8"/></linearGradient><linearGradient id="e1f4ed-3" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#935F34"/><stop offset="0.333" stop-color="#E6BA85"/><stop offset="0.667" stop-color="#C48C55"/><stop offset="1" stop-color="#935F34"/></linearGradient><linearGradient id="e1f4ed-4" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#C48C55"/><stop offset="1" stop-color="#6B4324"/></linearGradient><linearGradient id="e1f4ed-5" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8FACE6"/><stop offset="0.5" stop-color="#6A8BD0"/><stop offset="1" stop-color="#4764AA"/></linearGradient><linearGradient id="e1f4ed-6" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8FACE6"/><stop offset="0.5" stop-color="#6A8BD0"/><stop offset="1" stop-color="#4764AA"/></linearGradient><linearGradient id="e1f4ed-7" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6A8BD0"/><stop offset="1" stop-color="#4764AA"/></linearGradient></defs><g filter="url(#sk-tx)"><g transform="translate(50 50) scale(1.03) translate(-50 -59)"><g filter="url(#sk-bv)"><rect x="43" y="60" width="14" height="34" fill="url(#e1f4ed-3)"/><rect x="34" y="89" width="32" height="7" rx="3" fill="url(#e1f4ed-4)"/></g>
+<g filter="url(#sk-bv)"><path d="M30 23 H78 C87 23 92 31 92 41 V62 H30Z" fill="url(#e1f4ed-5)"/></g>
+<g filter="url(#sk-bv)"><path d="M8 64 V42 C8 30 17 22 29 22 C41 22 50 30 50 42 V64Z" fill="url(#e1f4ed-6)"/></g>
+<path d="M15 62 V42 C15 33 21 28 29 28 C37 28 43 33 43 42 V62Z" fill="#3A3237"/>
+<g transform="rotate(-8 29 50)"><rect x="20" y="42" width="19" height="16" rx="1.5" fill="url(#e1f4ed-2)"/><path d="M20.5 43 L29.5 51 L38.5 43" fill="none" stroke="#B47E1E" stroke-width="1.6" stroke-linejoin="round"/></g>
+<path d="M15 62 V42 C15 33 21 28 29 28 C37 28 43 33 43 42 V62" fill="none" stroke="#C6E4F4" stroke-width="1.6" opacity=".7"/>
+<g filter="url(#sk-bv)"><rect x="6" y="62" width="88" height="9" rx="4.5" fill="url(#e1f4ed-7)"/></g>
+<g filter="url(#sk-bv)"><rect x="71" y="38" width="11" height="24" rx="3" fill="url(#e1f4ed-0)"/></g><g filter="url(#sk-bvs)"><circle cx="76.5" cy="42" r="3" fill="url(#e1f4ed-1)"/></g></g></g></svg>

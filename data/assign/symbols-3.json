@@ -1,0 +1,164 @@
+[
+ {
+  "u": "27b0",
+  "n": "curly loop",
+  "e": "➰",
+  "k": "curl, loop, curly"
+ },
+ {
+  "u": "27bf",
+  "n": "double curly loop",
+  "e": "➿",
+  "k": "curl, loop, curly, double"
+ },
+ {
+  "u": "303d-fe0f",
+  "n": "part alternation mark",
+  "e": "〽️",
+  "k": "mark, part, alternation"
+ },
+ {
+  "u": "2733-fe0f",
+  "n": "eight spoked asterisk",
+  "e": "✳️",
+  "k": "*, asterisk, eight spoked"
+ },
+ {
+  "u": "2734-fe0f",
+  "n": "eight pointed star",
+  "e": "✴️",
+  "k": "*, star, eight pointed"
+ },
+ {
+  "u": "2747-fe0f",
+  "n": "sparkle",
+  "e": "❇️",
+  "k": "*"
+ },
+ {
+  "u": "00a9-fe0f",
+  "n": "copyright",
+  "e": "©️",
+  "k": "C"
+ },
+ {
+  "u": "00ae-fe0f",
+  "n": "registered",
+  "e": "®️",
+  "k": "R"
+ },
+ {
+  "u": "2122-fe0f",
+  "n": "trade mark",
+  "e": "™️",
+  "k": "TM, mark, trade, trademark"
+ },
+ {
+  "u": "1fadf",
+  "n": "splatter",
+  "e": "🫟",
+  "k": "ink, drip, holi, mess, paint, spill, stain, liquid"
+ },
+ {
+  "u": "1f201",
+  "n": "Japanese “here” button",
+  "e": "🈁",
+  "k": "here, button, Japanese, katakana"
+ },
+ {
+  "u": "1f202-fe0f",
+  "n": "Japanese “service charge” button",
+  "e": "🈂️",
+  "k": "button, charge, service, Japanese, katakana"
+ },
+ {
+  "u": "1f237-fe0f",
+  "n": "Japanese “monthly amount” button",
+  "e": "🈷️",
+  "k": "amount, button, monthly, Japanese, ideograph"
+ },
+ {
+  "u": "1f236",
+  "n": "Japanese “not free of charge” button",
+  "e": "🈶",
+  "k": "not, free, button, charge, Japanese, ideograph"
+ },
+ {
+  "u": "1f22f",
+  "n": "Japanese “reserved” button",
+  "e": "🈯",
+  "k": "button, Japanese, reserved, ideograph"
+ },
+ {
+  "u": "1f250",
+  "n": "Japanese “bargain” button",
+  "e": "🉐",
+  "k": "button, bargain, Japanese, ideograph"
+ },
+ {
+  "u": "1f239",
+  "n": "Japanese “discount” button",
+  "e": "🈹",
+  "k": "button, Japanese, discount, ideograph"
+ },
+ {
+  "u": "1f21a",
+  "n": "Japanese “free of charge” button",
+  "e": "🈚",
+  "k": "free, button, charge, Japanese, ideograph"
+ },
+ {
+  "u": "1f232",
+  "n": "Japanese “prohibited” button",
+  "e": "🈲",
+  "k": "button, Japanese, ideograph, prohibited"
+ },
+ {
+  "u": "1f251",
+  "n": "Japanese “acceptable” button",
+  "e": "🉑",
+  "k": "button, Japanese, ideograph, acceptable"
+ },
+ {
+  "u": "1f238",
+  "n": "Japanese “application” button",
+  "e": "🈸",
+  "k": "button, Japanese, ideograph, application"
+ },
+ {
+  "u": "1f234",
+  "n": "Japanese “passing grade” button",
+  "e": "🈴",
+  "k": "grade, button, passing, Japanese, ideograph"
+ },
+ {
+  "u": "1f233",
+  "n": "Japanese “vacancy” button",
+  "e": "🈳",
+  "k": "button, vacancy, Japanese, ideograph"
+ },
+ {
+  "u": "3297-fe0f",
+  "n": "Japanese “congratulations” button",
+  "e": "㊗️",
+  "k": "button, Japanese, ideograph, congratulations"
+ },
+ {
+  "u": "3299-fe0f",
+  "n": "Japanese “secret” button",
+  "e": "㊙️",
+  "k": "button, secret, Japanese, ideograph"
+ },
+ {
+  "u": "1f23a",
+  "n": "Japanese “open for business” button",
+  "e": "🈺",
+  "k": "open, button, Japanese, business, ideograph"
+ },
+ {
+  "u": "1f235",
+  "n": "Japanese “no vacancy” button",
+  "e": "🈵",
+  "k": "no, button, vacancy, Japanese, ideograph"
+ }
+]

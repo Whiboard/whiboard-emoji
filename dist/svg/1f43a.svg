@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="256" height="256"><title>wolf</title><defs>
+<filter id="sk-bv" filterUnits="userSpaceOnUse" x="-10" y="-10" width="120" height="120" color-interpolation-filters="sRGB">
+<feOffset in="SourceAlpha" dx="1.5" dy="1.8" result="o1"/><feComposite in="SourceAlpha" in2="o1" operator="out" result="hl"/>
+<feGaussianBlur in="hl" stdDeviation="1.1" result="hlb"/><feFlood flood-color="#FFF8E4" flood-opacity=".6" result="hf"/><feComposite in="hf" in2="hlb" operator="in" result="hlc"/>
+<feOffset in="SourceAlpha" dx="-2.2" dy="-2.6" result="o2"/><feComposite in="SourceAlpha" in2="o2" operator="out" result="sh"/>
+<feGaussianBlur in="sh" stdDeviation="1.5" result="shb"/><feFlood flood-color="#3A1C10" flood-opacity=".36" result="sf"/><feComposite in="sf" in2="shb" operator="in" result="shc"/>
+<feComposite in="shc" in2="SourceGraphic" operator="atop" result="a1"/><feComposite in="hlc" in2="a1" operator="atop"/>
+</filter>
+<filter id="sk-bvs" filterUnits="userSpaceOnUse" x="-10" y="-10" width="120" height="120" color-interpolation-filters="sRGB">
+<feOffset in="SourceAlpha" dx=".8" dy="1" result="o1"/><feComposite in="SourceAlpha" in2="o1" operator="out" result="hl"/>
+<feGaussianBlur in="hl" stdDeviation=".6" result="hlb"/><feFlood flood-color="#FFF8E4" flood-opacity=".55" result="hf"/><feComposite in="hf" in2="hlb" operator="in" result="hlc"/>
+<feOffset in="SourceAlpha" dx="-1.1" dy="-1.4" result="o2"/><feComposite in="SourceAlpha" in2="o2" operator="out" result="sh"/>
+<feGaussianBlur in="sh" stdDeviation=".8" result="shb"/><feFlood flood-color="#3A1C10" flood-opacity=".32" result="sf"/><feComposite in="sf" in2="shb" operator="in" result="shc"/>
+<feComposite in="shc" in2="SourceGraphic" operator="atop" result="a1"/><feComposite in="hlc" in2="a1" operator="atop"/>
+</filter>
+<filter id="sk-tx" filterUnits="userSpaceOnUse" x="-6" y="-6" width="112" height="112" color-interpolation-filters="sRGB">
+<feTurbulence type="fractalNoise" baseFrequency=".06" numOctaves="3" seed="11" result="n1"/>
+<feColorMatrix in="n1" type="matrix" values="2.6 0 0 0 -.8  2.6 0 0 0 -.8  2.6 0 0 0 -.8  0 0 0 0 .3" result="c1"/>
+<feComposite in="c1" in2="SourceAlpha" operator="in" result="g1"/><feBlend in="g1" in2="SourceGraphic" mode="soft-light" result="b1"/>
+<feTurbulence type="fractalNoise" baseFrequency="1.15" numOctaves="2" seed="5" result="n2"/>
+<feColorMatrix in="n2" type="matrix" values="1.9 0 0 0 -.45  1.9 0 0 0 -.45  1.9 0 0 0 -.45  0 0 0 0 .2" result="c2"/>
+<feComposite in="c2" in2="SourceAlpha" operator="in" result="g2"/><feBlend in="g2" in2="b1" mode="soft-light"/>
+</filter><linearGradient id="e1f43a-0" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#B7C0D2"/><stop offset="0.5" stop-color="#8791AB"/><stop offset="1" stop-color="#5F6B8F"/></linearGradient><clipPath id="e1f43a-1"><path d="M50 90 L28 78 L12 54 L16 30 L20 8 L40 24 Q50 22 60 24 L80 8 L84 30 L88 54 L72 78Z"/></clipPath><linearGradient id="e1f43a-2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FCF6E8"/><stop offset="1" stop-color="#E4D7B8"/></linearGradient></defs><g filter="url(#sk-tx)"><g filter="url(#sk-bv)"><path d="M50 90 L28 78 L12 54 L16 30 L20 8 L40 24 Q50 22 60 24 L80 8 L84 30 L88 54 L72 78Z" fill="url(#e1f43a-0)" stroke="#8791AB" stroke-width="5" stroke-linejoin="round"/></g>
+<path d="M22 24 L24 40 L34 30Z M78 24 L76 40 L66 30Z" fill="#DF839B" opacity=".5"/>
+<g clip-path="url(#e1f43a-1)"><path d="M-5 56 Q18 52 30 66 Q50 54 70 66 Q82 52 105 56 V100 H-5Z" fill="#FCF6E8" opacity=".85"/></g>
+<g filter="url(#sk-bv)"><path d="M36 60 Q50 54 64 60 Q68 76 50 88 Q32 76 36 60Z" fill="url(#e1f43a-2)"/></g>
+<ellipse cx="36" cy="46" rx="3.23" ry="3.99" fill="#3A3237"/><circle cx="34.95" cy="44.58" r="1.04" fill="#fff"/><ellipse cx="64" cy="46" rx="3.23" ry="3.99" fill="#3A3237"/><circle cx="62.95" cy="44.58" r="1.04" fill="#fff"/>
+<path d="M44 66 Q50 63 56 66 Q50 73.2 44 66Z" fill="#3A3237"/><path d="M50 68 V76 M50 76 Q44 80 40 77 M50 76 Q56 80 60 77" fill="none" stroke="#3A3237" stroke-width="1.8" stroke-linecap="round"/></g></svg>

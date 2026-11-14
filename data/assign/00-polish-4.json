@@ -1,0 +1,106 @@
+[
+ {
+  "u": "1f3da-fe0f",
+  "n": "derelict house",
+  "e": "🏚️",
+  "k": "home, house, derelict",
+  "from": "batches/travel_places-1.mjs",
+  "why": "derelict house: the roof hole and the boards are crude"
+ },
+ {
+  "u": "1f3ea",
+  "n": "convenience store",
+  "e": "🏪",
+  "k": "24, hours, store, building, convenience",
+  "from": "batches/travel_places-1.mjs",
+  "why": "convenience store: awning and window detail are too busy at 40 px"
+ },
+ {
+  "u": "1f3d7-fe0f",
+  "n": "building construction",
+  "e": "🏗️",
+  "k": "crane, building, construction",
+  "from": "batches/travel_places-1.mjs",
+  "why": "building construction: the crane lattice is thin and unpolished"
+ },
+ {
+  "u": "1f682",
+  "n": "locomotive",
+  "e": "🚂",
+  "k": "steam, train, engine, trains, travel, caboose, railway",
+  "from": "batches/travel_places-2.mjs",
+  "why": "locomotive: the smoke puffs are pale and vanish on the light ground"
+ },
+ {
+  "u": "1f54b",
+  "n": "kaaba",
+  "e": "🕋",
+  "k": "hajj, islam, umrah, Muslim, religion",
+  "from": "batches/travel_places-2.mjs",
+  "why": "kaaba: the perspective of the top face is odd"
+ },
+ {
+  "u": "1f68b",
+  "n": "tram car",
+  "e": "🚋",
+  "k": "bus, car, tram, trolley, trolleybus",
+  "from": "batches/travel_places-2.mjs",
+  "why": "tram car: the trolley pole barely reads, so it looks the same as the tram"
+ },
+ {
+  "u": "1f3cd-fe0f",
+  "n": "motorcycle",
+  "e": "🏍️",
+  "k": "racing",
+  "from": "batches/travel_places-3.mjs",
+  "why": "motorcycle: engine, tank and exhaust are blocky"
+ },
+ {
+  "u": "1f9bc",
+  "n": "motorized wheelchair",
+  "e": "🦼",
+  "k": "motorized, wheelchair, accessibility",
+  "from": "batches/travel_places-3.mjs",
+  "why": "motorized wheelchair: stacked blocks, the least refined vehicle"
+ },
+ {
+  "u": "1f6f6",
+  "n": "canoe",
+  "e": "🛶",
+  "k": "boat",
+  "from": "batches/travel_places-4.mjs",
+  "why": "canoe: the hull is small and the paddle crosses it awkwardly"
+ },
+ {
+  "u": "1f570-fe0f",
+  "n": "mantelpiece clock",
+  "e": "🕰️",
+  "k": "time, clock, mantelpiece",
+  "from": "batches/travel_places-5.mjs",
+  "why": "mantelpiece clock: small and plain, the face is tiny at 40 px"
+ },
+ {
+  "u": "1f32c-fe0f",
+  "n": "wind face",
+  "e": "🌬️",
+  "k": "blow, face, wind, cloud",
+  "from": "batches/travel_places-6.mjs",
+  "why": "wind face: the curls are blobby"
+ },
+ {
+  "u": "1f30a",
+  "n": "water wave",
+  "e": "🌊",
+  "k": "surf, wave, ocean, water, nature, surfer, surfing",
+  "from": "batches/travel_places-6.mjs",
+  "why": "water wave: the crest shape is plain"
+ },
+ {
+  "u": "1f32b-fe0f",
+  "n": "fog",
+  "e": "🌫️",
+  "k": "cloud, weather",
+  "from": "batches/travel_places-6.mjs",
+  "why": "fog: pale bars with almost no contrast on the light ground"
+ }
+]

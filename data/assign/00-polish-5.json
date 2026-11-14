@@ -1,0 +1,154 @@
+[
+ {
+  "u": "1f412",
+  "n": "monkey",
+  "e": "🐒",
+  "k": "animal, banana",
+  "from": "batches/animals_nature-1.mjs",
+  "why": "monkey: body is a rounded blob, less defined than the others"
+ },
+ {
+  "u": "1f9a7",
+  "n": "orangutan",
+  "e": "🦧",
+  "k": "ape, animal, monkey",
+  "from": "batches/animals_nature-1.mjs",
+  "why": "orangutan: reads as a generic ape blob, long-arm cue is weak"
+ },
+ {
+  "u": "1f9ac",
+  "n": "bison",
+  "e": "🦬",
+  "k": "herd, animal, wisent, buffalo",
+  "from": "batches/animals_nature-1.mjs",
+  "why": "bison: horn is tiny and the hump is not very distinct"
+ },
+ {
+  "u": "1f993",
+  "n": "zebra",
+  "e": "🦓",
+  "k": "animal, stripe",
+  "from": "batches/animals_nature-1.mjs",
+  "why": "zebra: stripes are rough and the head is a bit crude"
+ },
+ {
+  "u": "1f9ae",
+  "n": "guide dog",
+  "e": "🦮",
+  "k": "dog, blind, guide, animal, accessibility",
+  "from": "batches/animals_nature-1.mjs",
+  "why": "guide dog: harness is bulky"
+ },
+ {
+  "u": "1f410",
+  "n": "goat",
+  "e": "🐐",
+  "k": "farm, milk, animal, zodiac, Capricorn",
+  "from": "batches/animals_nature-2.mjs",
+  "why": "goat head is angular and the beard is small; recognisable but cruder than the others"
+ },
+ {
+  "u": "1f9a6",
+  "n": "otter",
+  "e": "🦦",
+  "k": "animal, fishing, playful",
+  "from": "batches/animals_nature-2.mjs",
+  "why": "otter reads close to the beaver; no distinct otter features"
+ },
+ {
+  "u": "1f43b-200d-2744-fe0f",
+  "n": "polar bear",
+  "e": "🐻‍❄️",
+  "k": "bear, polar, white, animal, arctic",
+  "from": "batches/animals_nature-2.mjs",
+  "why": "polar bear is the bear face in white, with no ice"
+ },
+ {
+  "u": "1f9a5",
+  "n": "sloth",
+  "e": "🦥",
+  "k": "lazy, slow",
+  "from": "batches/animals_nature-2.mjs",
+  "why": "sloth is a face on a bar; the body is minimal"
+ },
+ {
+  "u": "1f98e",
+  "n": "lizard",
+  "e": "🦎",
+  "k": "animal, reptile",
+  "from": "batches/animals_nature-3.mjs",
+  "why": "lizard: stick-like limbs, plainer than school icons"
+ },
+ {
+  "u": "1f985",
+  "n": "eagle",
+  "e": "🦅",
+  "k": "bird, animal, ornithology",
+  "from": "batches/animals_nature-3.mjs",
+  "why": "eagle: blocky body, tail reads as a plain block"
+ },
+ {
+  "u": "1fabd",
+  "n": "wing",
+  "e": "🪽",
+  "k": "fly, bird, soar, ascend, flying, angelic, aviation, heavenly, mythology",
+  "from": "batches/animals_nature-3.mjs",
+  "why": "wing: feather fan could read as a hand or palm leaf"
+ },
+ {
+  "u": "1f426-200d-1f525",
+  "n": "phoenix",
+  "e": "🐦‍🔥",
+  "k": "rise, glory, ascend, emerge, revive, fantasy, rebirth, renewal, revival, firebird, immortal, reinvent, ascension, transform, reincarnation",
+  "from": "batches/animals_nature-3.mjs",
+  "why": "phoenix: flame tail and wing blend into one orange mass"
+ },
+ {
+  "u": "1fab1",
+  "n": "worm",
+  "e": "🪱",
+  "k": "animal, annelid, parasite, earthworm",
+  "from": "batches/animals_nature-4.mjs",
+  "why": "worm: plain curved tube, face is tiny and less characterful than the rest"
+ },
+ {
+  "u": "1f991",
+  "n": "squid",
+  "e": "🦑",
+  "k": "food, animal, mollusk",
+  "from": "batches/animals_nature-4.mjs",
+  "why": "squid: narrow, small width relative to the others"
+ },
+ {
+  "u": "1f42c",
+  "n": "dolphin",
+  "e": "🐬",
+  "k": "beach, ocean, animal, flipper",
+  "from": "batches/animals_nature-4.mjs",
+  "why": "dolphin: simple blob silhouette, tail flukes and fin are basic"
+ },
+ {
+  "u": "1fabb",
+  "n": "hyacinth",
+  "e": "🪻",
+  "k": "bloom, lilac, plant, shrub, flower, indigo, lupine, purple, spring, violet, lavender, bluebonnet, snapdragon",
+  "from": "batches/animals_nature-5.mjs",
+  "why": "hyacinth stem and leaves thin, spike reads a bit like grapes"
+ },
+ {
+  "u": "1f340",
+  "n": "four leaf clover",
+  "e": "🍀",
+  "k": "4, four, leaf, irish, lucky, plant, clover, four leaf",
+  "from": "batches/animals_nature-5.mjs",
+  "why": "stem hidden behind leaves, vein detail faint"
+ },
+ {
+  "u": "1f343",
+  "n": "leaf fluttering in wind",
+  "e": "🍃",
+  "k": "blow, leaf, wind, flutter, fluttering",
+  "from": "batches/animals_nature-5.mjs",
+  "why": "wind lines are thin and pale-blue; plain composition"
+ }
+]

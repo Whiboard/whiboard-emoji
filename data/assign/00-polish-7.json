@@ -1,0 +1,82 @@
+[
+ {
+  "u": "1f389",
+  "n": "party popper",
+  "e": "🎉",
+  "k": "tada, party, hooray, popper, woohoo, awesome, excited, birthday, celebrate, celebration",
+  "from": "batches/activities-1.mjs",
+  "why": "cone rim is a heavy brown ellipse and the cone is small next to the confetti"
+ },
+ {
+  "u": "1f38f",
+  "n": "carp streamer",
+  "e": "🎏",
+  "k": "carp, streamer, celebration",
+  "from": "batches/activities-1.mjs",
+  "why": "carp are simple blobs with no gill or fin detail, and the mouth ring is missing"
+ },
+ {
+  "u": "1f390",
+  "n": "wind chime",
+  "e": "🎐",
+  "k": "bell, wind, chime, celebration",
+  "from": "batches/activities-1.mjs",
+  "why": "glass bell is small and plain, and the strip is block-like"
+ },
+ {
+  "u": "1f3bf",
+  "n": "skis",
+  "e": "🎿",
+  "k": "ski, snow, sport",
+  "from": "batches/activities-2.mjs",
+  "why": "skis read as two curved sticks; no poles or boots"
+ },
+ {
+  "u": "1f94c",
+  "n": "curling stone",
+  "e": "🥌",
+  "k": "game, rock, stone, curling",
+  "from": "batches/activities-2.mjs",
+  "why": "curling stone looks a bit like a stamp, handle stubby"
+ },
+ {
+  "u": "1f945",
+  "n": "goal net",
+  "e": "🥅",
+  "k": "net, goal",
+  "from": "batches/activities-2.mjs",
+  "why": "goal net reads dark and busy on the dark ground"
+ },
+ {
+  "u": "26bd",
+  "n": "soccer ball",
+  "e": "⚽",
+  "k": "ball, sport, futbol, soccer, football",
+  "from": "batches/activities-2.mjs",
+  "why": "soccer panel pattern is a bit flower-like, not a true truncated-icosahedron layout"
+ },
+ {
+  "u": "1f3d0",
+  "n": "volleyball",
+  "e": "🏐",
+  "k": "ball, game",
+  "from": "batches/activities-2.mjs",
+  "why": "volleyball is a 3-arm pinwheel, only loosely volleyball-like"
+ },
+ {
+  "u": "1faa2",
+  "n": "knot",
+  "e": "🪢",
+  "k": "tie, cord, rope, twine, twist, tangled",
+  "from": "batches/activities-3.mjs",
+  "why": "Reads as a trefoil / celtic knot, not a rope knot with tails; acceptable but plain"
+ },
+ {
+  "u": "1fa85",
+  "n": "piñata",
+  "e": "🪅",
+  "k": "de, mayo, candy, cinco, party, pinada, pinata, festive, celebrate, celebration",
+  "from": "batches/activities-3.mjs",
+  "why": "Pinata donkey is simplified; legs and head are small"
+ }
+]

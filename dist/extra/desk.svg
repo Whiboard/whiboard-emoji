@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="256" height="256"><title>school desk</title><defs>
+<filter id="sk-bv" filterUnits="userSpaceOnUse" x="-10" y="-10" width="120" height="120" color-interpolation-filters="sRGB">
+<feOffset in="SourceAlpha" dx="1.5" dy="1.8" result="o1"/><feComposite in="SourceAlpha" in2="o1" operator="out" result="hl"/>
+<feGaussianBlur in="hl" stdDeviation="1.1" result="hlb"/><feFlood flood-color="#FFF8E4" flood-opacity=".6" result="hf"/><feComposite in="hf" in2="hlb" operator="in" result="hlc"/>
+<feOffset in="SourceAlpha" dx="-2.2" dy="-2.6" result="o2"/><feComposite in="SourceAlpha" in2="o2" operator="out" result="sh"/>
+<feGaussianBlur in="sh" stdDeviation="1.5" result="shb"/><feFlood flood-color="#3A1C10" flood-opacity=".36" result="sf"/><feComposite in="sf" in2="shb" operator="in" result="shc"/>
+<feComposite in="shc" in2="SourceGraphic" operator="atop" result="a1"/><feComposite in="hlc" in2="a1" operator="atop"/>
+</filter>
+<filter id="sk-bvs" filterUnits="userSpaceOnUse" x="-10" y="-10" width="120" height="120" color-interpolation-filters="sRGB">
+<feOffset in="SourceAlpha" dx=".8" dy="1" result="o1"/><feComposite in="SourceAlpha" in2="o1" operator="out" result="hl"/>
+<feGaussianBlur in="hl" stdDeviation=".6" result="hlb"/><feFlood flood-color="#FFF8E4" flood-opacity=".55" result="hf"/><feComposite in="hf" in2="hlb" operator="in" result="hlc"/>
+<feOffset in="SourceAlpha" dx="-1.1" dy="-1.4" result="o2"/><feComposite in="SourceAlpha" in2="o2" operator="out" result="sh"/>
+<feGaussianBlur in="sh" stdDeviation=".8" result="shb"/><feFlood flood-color="#3A1C10" flood-opacity=".32" result="sf"/><feComposite in="sf" in2="shb" operator="in" result="shc"/>
+<feComposite in="shc" in2="SourceGraphic" operator="atop" result="a1"/><feComposite in="hlc" in2="a1" operator="atop"/>
+</filter>
+<filter id="sk-tx" filterUnits="userSpaceOnUse" x="-6" y="-6" width="112" height="112" color-interpolation-filters="sRGB">
+<feTurbulence type="fractalNoise" baseFrequency=".06" numOctaves="3" seed="11" result="n1"/>
+<feColorMatrix in="n1" type="matrix" values="2.6 0 0 0 -.8  2.6 0 0 0 -.8  2.6 0 0 0 -.8  0 0 0 0 .3" result="c1"/>
+<feComposite in="c1" in2="SourceAlpha" operator="in" result="g1"/><feBlend in="g1" in2="SourceGraphic" mode="soft-light" result="b1"/>
+<feTurbulence type="fractalNoise" baseFrequency="1.15" numOctaves="2" seed="5" result="n2"/>
+<feColorMatrix in="n2" type="matrix" values="1.9 0 0 0 -.45  1.9 0 0 0 -.45  1.9 0 0 0 -.45  0 0 0 0 .2" result="c2"/>
+<feComposite in="c2" in2="SourceAlpha" operator="in" result="g2"/><feBlend in="g2" in2="b1" mode="soft-light"/>
+</filter><linearGradient id="edesk-0" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E6BA85"/><stop offset="1" stop-color="#C48C55"/></linearGradient><linearGradient id="edesk-1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E6BA85"/><stop offset="0.5" stop-color="#D6A066"/><stop offset="1" stop-color="#935F34"/></linearGradient><radialGradient id="edesk-2" cx="0.36" cy="0.3" r="0.8"><stop offset="0" stop-color="#F58578"/><stop offset="1" stop-color="#A2302E"/></radialGradient><linearGradient id="edesk-3" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FBDA6A"/><stop offset="1" stop-color="#D49828"/></linearGradient></defs><g filter="url(#sk-tx)"><g filter="url(#sk-bv)">
+<path d="M25 57 L19 90 M75 57 L81 90" fill="none" stroke="#828A97" stroke-width="4.6" stroke-linecap="round"/>
+<path d="M22.5 75 H77.5 V78.4 H22.5Z" fill="#828A97"/>
+</g>
+<g filter="url(#sk-bv)"><rect x="17" y="43" width="66" height="17" rx="3.5" fill="url(#edesk-0)"/></g>
+<rect x="22.5" y="48.5" width="55" height="8.5" rx="2" fill="#57371E"/>
+<rect x="27" y="51" width="23" height="6" rx="1" fill="#6A8BD0"/><rect x="29" y="52.4" width="19" height="1.4" fill="#FCF6E8" opacity=".8"/>
+<rect x="53" y="52.6" width="17" height="4.4" rx="1" fill="#D04A44"/>
+<g filter="url(#sk-bv)"><rect x="9" y="35" width="82" height="9.5" rx="4.5" fill="url(#edesk-1)"/></g>
+<g filter="url(#sk-bvs)">
+<circle cx="70" cy="27.6" r="7.8" fill="url(#edesk-2)"/>
+<path d="M71.4 18.6 q5 -4.4 8.6 -1.4 q-3.4 4.6 -8.6 1.4Z" fill="#6FA263"/>
+<rect x="24" y="30.6" width="24" height="4.6" fill="url(#edesk-3)"/><polygon points="24,30.6 24,35.2 17.5,32.9" fill="#EBCB9A"/><rect x="48" y="30.6" width="4.4" height="4.6" rx="1" fill="#DF839B"/>
+</g>
+<path d="M70 21 q.6 -3 2.4 -4.4" fill="none" stroke="#935F34" stroke-width="1.6" stroke-linecap="round"/></g></svg>

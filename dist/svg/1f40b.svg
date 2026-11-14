@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="256" height="256"><title>whale</title><defs>
+<filter id="sk-bv" filterUnits="userSpaceOnUse" x="-10" y="-10" width="120" height="120" color-interpolation-filters="sRGB">
+<feOffset in="SourceAlpha" dx="1.5" dy="1.8" result="o1"/><feComposite in="SourceAlpha" in2="o1" operator="out" result="hl"/>
+<feGaussianBlur in="hl" stdDeviation="1.1" result="hlb"/><feFlood flood-color="#FFF8E4" flood-opacity=".6" result="hf"/><feComposite in="hf" in2="hlb" operator="in" result="hlc"/>
+<feOffset in="SourceAlpha" dx="-2.2" dy="-2.6" result="o2"/><feComposite in="SourceAlpha" in2="o2" operator="out" result="sh"/>
+<feGaussianBlur in="sh" stdDeviation="1.5" result="shb"/><feFlood flood-color="#3A1C10" flood-opacity=".36" result="sf"/><feComposite in="sf" in2="shb" operator="in" result="shc"/>
+<feComposite in="shc" in2="SourceGraphic" operator="atop" result="a1"/><feComposite in="hlc" in2="a1" operator="atop"/>
+</filter>
+<filter id="sk-bvs" filterUnits="userSpaceOnUse" x="-10" y="-10" width="120" height="120" color-interpolation-filters="sRGB">
+<feOffset in="SourceAlpha" dx=".8" dy="1" result="o1"/><feComposite in="SourceAlpha" in2="o1" operator="out" result="hl"/>
+<feGaussianBlur in="hl" stdDeviation=".6" result="hlb"/><feFlood flood-color="#FFF8E4" flood-opacity=".55" result="hf"/><feComposite in="hf" in2="hlb" operator="in" result="hlc"/>
+<feOffset in="SourceAlpha" dx="-1.1" dy="-1.4" result="o2"/><feComposite in="SourceAlpha" in2="o2" operator="out" result="sh"/>
+<feGaussianBlur in="sh" stdDeviation=".8" result="shb"/><feFlood flood-color="#3A1C10" flood-opacity=".32" result="sf"/><feComposite in="sf" in2="shb" operator="in" result="shc"/>
+<feComposite in="shc" in2="SourceGraphic" operator="atop" result="a1"/><feComposite in="hlc" in2="a1" operator="atop"/>
+</filter>
+<filter id="sk-tx" filterUnits="userSpaceOnUse" x="-6" y="-6" width="112" height="112" color-interpolation-filters="sRGB">
+<feTurbulence type="fractalNoise" baseFrequency=".06" numOctaves="3" seed="11" result="n1"/>
+<feColorMatrix in="n1" type="matrix" values="2.6 0 0 0 -.8  2.6 0 0 0 -.8  2.6 0 0 0 -.8  0 0 0 0 .3" result="c1"/>
+<feComposite in="c1" in2="SourceAlpha" operator="in" result="g1"/><feBlend in="g1" in2="SourceGraphic" mode="soft-light" result="b1"/>
+<feTurbulence type="fractalNoise" baseFrequency="1.15" numOctaves="2" seed="5" result="n2"/>
+<feColorMatrix in="n2" type="matrix" values="1.9 0 0 0 -.45  1.9 0 0 0 -.45  1.9 0 0 0 -.45  0 0 0 0 .2" result="c2"/>
+<feComposite in="c2" in2="SourceAlpha" operator="in" result="g2"/><feBlend in="g2" in2="b1" mode="soft-light"/>
+</filter><linearGradient id="e1f40b-0" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6A8BD0"/><stop offset="1" stop-color="#2F3C68"/></linearGradient><linearGradient id="e1f40b-1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6A8BD0"/><stop offset="0.5" stop-color="#4764AA"/><stop offset="1" stop-color="#2F3C68"/></linearGradient></defs><g filter="url(#sk-tx)"><g filter="url(#sk-bv)"><g transform="translate(0 -3)">
+<path d="M78 62 C86 58 88 48 86 38" fill="none" stroke="#4764AA" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M86 40 C80 40 75 35 73 30 C80 28 85 31 86 35 C88 30 92 27 96 28 C95 34 92 38 86 40Z" fill="url(#e1f40b-0)"/>
+<path d="M5 62 C5 42 24 34 46 36 C64 38 76 48 82 60 C78 72 58 84 32 84 C14 84 5 76 5 62Z" fill="url(#e1f40b-1)"/>
+<path d="M8 68 C16 80 40 85 62 77 C70 73 76 69 80 62 C70 74 50 80 30 78 C18 76 10 72 8 68Z" fill="#F7EEDB"/></g></g>
+<g transform="translate(0 -3)"><path d="M6 66 C12 71 20 71 27 67" fill="none" stroke="#3A3237" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" /><ellipse cx="21" cy="55" rx="2.55" ry="3.15" fill="#3A3237"/><circle cx="20.18" cy="53.88" r="0.83" fill="#fff"/><ellipse cx="28" cy="63" rx="3.4" ry="2.38" fill="#DF839B" opacity=".45"/>
+<path d="M20 74 C34 80 50 78 62 72 M30 78 C42 82 52 80 60 77" fill="none" stroke="#4764AA" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" opacity=".6"/></g></g></svg>

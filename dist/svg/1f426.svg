@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="256" height="256"><title>bird</title><defs>
+<filter id="sk-bv" filterUnits="userSpaceOnUse" x="-10" y="-10" width="120" height="120" color-interpolation-filters="sRGB">
+<feOffset in="SourceAlpha" dx="1.5" dy="1.8" result="o1"/><feComposite in="SourceAlpha" in2="o1" operator="out" result="hl"/>
+<feGaussianBlur in="hl" stdDeviation="1.1" result="hlb"/><feFlood flood-color="#FFF8E4" flood-opacity=".6" result="hf"/><feComposite in="hf" in2="hlb" operator="in" result="hlc"/>
+<feOffset in="SourceAlpha" dx="-2.2" dy="-2.6" result="o2"/><feComposite in="SourceAlpha" in2="o2" operator="out" result="sh"/>
+<feGaussianBlur in="sh" stdDeviation="1.5" result="shb"/><feFlood flood-color="#3A1C10" flood-opacity=".36" result="sf"/><feComposite in="sf" in2="shb" operator="in" result="shc"/>
+<feComposite in="shc" in2="SourceGraphic" operator="atop" result="a1"/><feComposite in="hlc" in2="a1" operator="atop"/>
+</filter>
+<filter id="sk-bvs" filterUnits="userSpaceOnUse" x="-10" y="-10" width="120" height="120" color-interpolation-filters="sRGB">
+<feOffset in="SourceAlpha" dx=".8" dy="1" result="o1"/><feComposite in="SourceAlpha" in2="o1" operator="out" result="hl"/>
+<feGaussianBlur in="hl" stdDeviation=".6" result="hlb"/><feFlood flood-color="#FFF8E4" flood-opacity=".55" result="hf"/><feComposite in="hf" in2="hlb" operator="in" result="hlc"/>
+<feOffset in="SourceAlpha" dx="-1.1" dy="-1.4" result="o2"/><feComposite in="SourceAlpha" in2="o2" operator="out" result="sh"/>
+<feGaussianBlur in="sh" stdDeviation=".8" result="shb"/><feFlood flood-color="#3A1C10" flood-opacity=".32" result="sf"/><feComposite in="sf" in2="shb" operator="in" result="shc"/>
+<feComposite in="shc" in2="SourceGraphic" operator="atop" result="a1"/><feComposite in="hlc" in2="a1" operator="atop"/>
+</filter>
+<filter id="sk-tx" filterUnits="userSpaceOnUse" x="-6" y="-6" width="112" height="112" color-interpolation-filters="sRGB">
+<feTurbulence type="fractalNoise" baseFrequency=".06" numOctaves="3" seed="11" result="n1"/>
+<feColorMatrix in="n1" type="matrix" values="2.6 0 0 0 -.8  2.6 0 0 0 -.8  2.6 0 0 0 -.8  0 0 0 0 .3" result="c1"/>
+<feComposite in="c1" in2="SourceAlpha" operator="in" result="g1"/><feBlend in="g1" in2="SourceGraphic" mode="soft-light" result="b1"/>
+<feTurbulence type="fractalNoise" baseFrequency="1.15" numOctaves="2" seed="5" result="n2"/>
+<feColorMatrix in="n2" type="matrix" values="1.9 0 0 0 -.45  1.9 0 0 0 -.45  1.9 0 0 0 -.45  0 0 0 0 .2" result="c2"/>
+<feComposite in="c2" in2="SourceAlpha" operator="in" result="g2"/><feBlend in="g2" in2="b1" mode="soft-light"/>
+</filter><linearGradient id="e1f426-0" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6A8BD0"/><stop offset="1" stop-color="#44568F"/></linearGradient><clipPath id="e1f426-1"><ellipse cx="55" cy="58" rx="33" ry="27"/><circle cx="33" cy="36" r="21"/></clipPath><linearGradient id="e1f426-2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#B4CDF2"/><stop offset="0.5" stop-color="#6A8BD0"/><stop offset="1" stop-color="#4764AA"/></linearGradient><linearGradient id="e1f426-3" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FCF6E8"/><stop offset="1" stop-color="#D9C9A3"/></linearGradient><linearGradient id="e1f426-4" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6A8BD0"/><stop offset="1" stop-color="#2F3C68"/></linearGradient><linearGradient id="e1f426-5" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F6CF5E"/><stop offset="1" stop-color="#B47E1E"/></linearGradient></defs><g filter="url(#sk-tx)"><g filter="url(#sk-bvs)"><path d="M74 52 L97 62 L80 74Z" fill="url(#e1f426-0)"/></g>
+<path d="M48 82 V91 M43.5 92 H52.5 M61 82 V91 M56.5 92 H65.5" fill="none" stroke="#B47E1E" stroke-width="2.8" stroke-linecap="round"/>
+<g filter="url(#sk-bv)"><g clip-path="url(#e1f426-1)"><rect x="10" y="14" width="80" height="72" fill="url(#e1f426-2)"/></g></g>
+<g filter="url(#sk-bvs)"><ellipse cx="44" cy="68" rx="20" ry="12" fill="url(#e1f426-3)"/></g>
+<g filter="url(#sk-bvs)"><path d="M44 54 C 56 46 78 52 84 66 C 70 78 50 74 44 54Z" fill="url(#e1f426-4)"/></g>
+<g filter="url(#sk-bvs)"><path d="M15 31 L4 38 L15 45Z" fill="url(#e1f426-5)"/></g><ellipse cx="28" cy="33" rx="2.89" ry="3.57" fill="#3A3237"/><circle cx="27.07" cy="31.64" r="0.98" fill="#fff"/></g></svg>

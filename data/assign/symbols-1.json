@@ -1,0 +1,218 @@
+[
+ {
+  "u": "1f3e7",
+  "n": "ATM sign",
+  "e": "🏧",
+  "k": "ATM, bank, cash, sign, money, teller, automated"
+ },
+ {
+  "u": "1f6ae",
+  "n": "litter in bin sign",
+  "e": "🚮",
+  "k": "bin, sign, litter, litterbin"
+ },
+ {
+  "u": "1f6b0",
+  "n": "potable water",
+  "e": "🚰",
+  "k": "water, potable, drinking"
+ },
+ {
+  "u": "267f",
+  "n": "wheelchair symbol",
+  "e": "♿",
+  "k": "access, symbol, handicap, wheelchair"
+ },
+ {
+  "u": "1f6b9",
+  "n": "men’s room",
+  "e": "🚹",
+  "k": "WC, man, room, men’s, toilet, bathroom, lavatory, restroom"
+ },
+ {
+  "u": "1f6ba",
+  "n": "women’s room",
+  "e": "🚺",
+  "k": "WC, room, woman, toilet, women’s, bathroom, lavatory, restroom"
+ },
+ {
+  "u": "1f6bb",
+  "n": "restroom",
+  "e": "🚻",
+  "k": "WC, toilet, bathroom, lavatory"
+ },
+ {
+  "u": "1f6bc",
+  "n": "baby symbol",
+  "e": "🚼",
+  "k": "baby, symbol, changing"
+ },
+ {
+  "u": "1f6be",
+  "n": "water closet",
+  "e": "🚾",
+  "k": "WC, water, closet, toilet, bathroom, lavatory, restroom"
+ },
+ {
+  "u": "1f6c2",
+  "n": "passport control",
+  "e": "🛂",
+  "k": "control, passport"
+ },
+ {
+  "u": "1f6c3",
+  "n": "customs",
+  "e": "🛃",
+  "k": "packing"
+ },
+ {
+  "u": "1f6c4",
+  "n": "baggage claim",
+  "e": "🛄",
+  "k": "bags, case, trip, claim, plane, ready, travel, arrived, baggage, checked, journey, packing"
+ },
+ {
+  "u": "1f6c5",
+  "n": "left luggage",
+  "e": "🛅",
+  "k": "case, left, locker, baggage, luggage"
+ },
+ {
+  "u": "26a0-fe0f",
+  "n": "warning",
+  "e": "⚠️",
+  "k": "caution"
+ },
+ {
+  "u": "1f6b8",
+  "n": "children crossing",
+  "e": "🚸",
+  "k": "child, traffic, children, crossing, pedestrian"
+ },
+ {
+  "u": "26d4",
+  "n": "no entry",
+  "e": "⛔",
+  "k": "do, no, not, fail, pass, entry, traffic, forbidden, prohibited"
+ },
+ {
+  "u": "1f6ab",
+  "n": "prohibited",
+  "e": "🚫",
+  "k": "no, not, entry, smoke, forbidden"
+ },
+ {
+  "u": "1f6b3",
+  "n": "no bicycles",
+  "e": "🚳",
+  "k": "no, not, bike, bicycle, bicycles, forbidden, prohibited"
+ },
+ {
+  "u": "1f6ad",
+  "n": "no smoking",
+  "e": "🚭",
+  "k": "no, not, smoke, smoking, forbidden, prohibited"
+ },
+ {
+  "u": "1f6af",
+  "n": "no littering",
+  "e": "🚯",
+  "k": "no, not, litter, forbidden, littering, prohibited"
+ },
+ {
+  "u": "1f6b1",
+  "n": "non potable water",
+  "e": "🚱",
+  "k": "dry, water, prohibited, non potable, non drinking"
+ },
+ {
+  "u": "1f6b7",
+  "n": "no pedestrians",
+  "e": "🚷",
+  "k": "no, not, forbidden, pedestrian, prohibited, pedestrians"
+ },
+ {
+  "u": "1f4f5",
+  "n": "no mobile phones",
+  "e": "📵",
+  "k": "no, not, cell, phone, mobile, phones, forbidden, telephone, prohibited"
+ },
+ {
+  "u": "1f51e",
+  "n": "no one under eighteen",
+  "e": "🔞",
+  "k": "18, no, age, not, one, eighteen, underage, forbidden, prohibited, restriction"
+ },
+ {
+  "u": "2622-fe0f",
+  "n": "radioactive",
+  "e": "☢️",
+  "k": "sign"
+ },
+ {
+  "u": "2623-fe0f",
+  "n": "biohazard",
+  "e": "☣️",
+  "k": "sign"
+ },
+ {
+  "u": "1f3a6",
+  "n": "cinema",
+  "e": "🎦",
+  "k": "film, movie, camera"
+ },
+ {
+  "u": "1f505",
+  "n": "dim button",
+  "e": "🔅",
+  "k": "dim, low, button, brightness"
+ },
+ {
+  "u": "1f506",
+  "n": "bright button",
+  "e": "🔆",
+  "k": "light, bright, button, brightness"
+ },
+ {
+  "u": "1f4f6",
+  "n": "antenna bars",
+  "e": "📶",
+  "k": "bar, bars, cell, phone, mobile, signal, antenna, telephone, communication"
+ },
+ {
+  "u": "1f6dc",
+  "n": "wireless",
+  "e": "🛜",
+  "k": "wifi, wlan, wi fi, router, hotspot, network, computer, internet, broadband, smartphone, connectivity"
+ },
+ {
+  "u": "1f4f3",
+  "n": "vibration mode",
+  "e": "📳",
+  "k": "cell, mode, phone, mobile, telephone, vibration, communication"
+ },
+ {
+  "u": "1f4f4",
+  "n": "mobile phone off",
+  "e": "📴",
+  "k": "off, cell, phone, mobile, telephone"
+ },
+ {
+  "u": "2640-fe0f",
+  "n": "female sign",
+  "e": "♀️",
+  "k": "sign, woman, female"
+ },
+ {
+  "u": "2642-fe0f",
+  "n": "male sign",
+  "e": "♂️",
+  "k": "man, male, sign"
+ },
+ {
+  "u": "26a7-fe0f",
+  "n": "transgender symbol",
+  "e": "⚧️",
+  "k": "symbol, transgender"
+ }
+]

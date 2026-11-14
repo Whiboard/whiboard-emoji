@@ -1,0 +1,512 @@
+[
+ {
+  "u": "1f383",
+  "n": "jack o lantern",
+  "e": "🎃",
+  "k": "jack, lantern, pumpkin, halloween, celebration"
+ },
+ {
+  "u": "1f384",
+  "n": "Christmas tree",
+  "e": "🎄",
+  "k": "tree, Christmas, celebration"
+ },
+ {
+  "u": "1f386",
+  "n": "fireworks",
+  "e": "🎆",
+  "k": "boom, yolo, celebration, entertainment"
+ },
+ {
+  "u": "1f387",
+  "n": "sparkler",
+  "e": "🎇",
+  "k": "boom, sparkle, fireworks, celebration"
+ },
+ {
+  "u": "1f9e8",
+  "n": "firecracker",
+  "e": "🧨",
+  "k": "pop, fire, light, spark, popping, dynamite, explosive, fireworks"
+ },
+ {
+  "u": "2728",
+  "n": "sparkles",
+  "e": "✨",
+  "k": "*, star, magic, sparkle"
+ },
+ {
+  "u": "1f388",
+  "n": "balloon",
+  "e": "🎈",
+  "k": "birthday, celebrate, celebration"
+ },
+ {
+  "u": "1f389",
+  "n": "party popper",
+  "e": "🎉",
+  "k": "tada, party, hooray, popper, woohoo, awesome, excited, birthday, celebrate, celebration"
+ },
+ {
+  "u": "1f38a",
+  "n": "confetti ball",
+  "e": "🎊",
+  "k": "ball, party, woohoo, confetti, celebrate, celebration"
+ },
+ {
+  "u": "1f38b",
+  "n": "tanabata tree",
+  "e": "🎋",
+  "k": "tree, banner, Japanese, tanabata, celebration"
+ },
+ {
+  "u": "1f38d",
+  "n": "pine decoration",
+  "e": "🎍",
+  "k": "pine, plant, bamboo, Japanese, decoration, celebration"
+ },
+ {
+  "u": "1f38e",
+  "n": "Japanese dolls",
+  "e": "🎎",
+  "k": "doll, dolls, Japanese, festival, celebration"
+ },
+ {
+  "u": "1f38f",
+  "n": "carp streamer",
+  "e": "🎏",
+  "k": "carp, streamer, celebration"
+ },
+ {
+  "u": "1f390",
+  "n": "wind chime",
+  "e": "🎐",
+  "k": "bell, wind, chime, celebration"
+ },
+ {
+  "u": "1f391",
+  "n": "moon viewing ceremony",
+  "e": "🎑",
+  "k": "moon, viewing, ceremony, celebration"
+ },
+ {
+  "u": "1f9e7",
+  "n": "red envelope",
+  "e": "🧧",
+  "k": "lai, red, see, gift, good, luck, money, hóngbāo, envelope"
+ },
+ {
+  "u": "1f380",
+  "n": "ribbon",
+  "e": "🎀",
+  "k": "celebration"
+ },
+ {
+  "u": "1f381",
+  "n": "wrapped gift",
+  "e": "🎁",
+  "k": "bow, box, gift, present, wrapped, birthday, surprise, christmas, celebration"
+ },
+ {
+  "u": "1f397-fe0f",
+  "n": "reminder ribbon",
+  "e": "🎗️",
+  "k": "ribbon, reminder, celebration"
+ },
+ {
+  "u": "1f39f-fe0f",
+  "n": "admission tickets",
+  "e": "🎟️",
+  "k": "ticket, tickets, admission"
+ },
+ {
+  "u": "1f3ab",
+  "n": "ticket",
+  "e": "🎫",
+  "k": "stub, admission"
+ },
+ {
+  "u": "1f396-fe0f",
+  "n": "military medal",
+  "e": "🎖️",
+  "k": "award, medal, military, celebration"
+ },
+ {
+  "u": "1f3c6",
+  "n": "trophy",
+  "e": "🏆",
+  "k": "win, slay, prize, sport, champs, victory, winning, champion"
+ },
+ {
+  "u": "1f3c5",
+  "n": "sports medal",
+  "e": "🏅",
+  "k": "gold, award, medal, sports, winner"
+ },
+ {
+  "u": "1f947",
+  "n": "1st place medal",
+  "e": "🥇",
+  "k": "1st, gold, first, medal, place"
+ },
+ {
+  "u": "1f948",
+  "n": "2nd place medal",
+  "e": "🥈",
+  "k": "2nd, medal, place, second, silver"
+ },
+ {
+  "u": "1f949",
+  "n": "3rd place medal",
+  "e": "🥉",
+  "k": "3rd, medal, place, third, bronze"
+ },
+ {
+  "u": "26bd",
+  "n": "soccer ball",
+  "e": "⚽",
+  "k": "ball, sport, futbol, soccer, football"
+ },
+ {
+  "u": "26be",
+  "n": "baseball",
+  "e": "⚾",
+  "k": "ball, sport"
+ },
+ {
+  "u": "1f94e",
+  "n": "softball",
+  "e": "🥎",
+  "k": "ball, glove, sports, underarm"
+ },
+ {
+  "u": "1f3c0",
+  "n": "basketball",
+  "e": "🏀",
+  "k": "ball, hoop, sport"
+ },
+ {
+  "u": "1f3d0",
+  "n": "volleyball",
+  "e": "🏐",
+  "k": "ball, game"
+ },
+ {
+  "u": "1f3c8",
+  "n": "american football",
+  "e": "🏈",
+  "k": "ball, bowl, sport, super, american, football"
+ },
+ {
+  "u": "1f3c9",
+  "n": "rugby football",
+  "e": "🏉",
+  "k": "ball, rugby, sport, football"
+ },
+ {
+  "u": "1f3be",
+  "n": "tennis",
+  "e": "🎾",
+  "k": "ball, sport, racquet"
+ },
+ {
+  "u": "1f94f",
+  "n": "flying disc",
+  "e": "🥏",
+  "k": "disc, flying, ultimate"
+ },
+ {
+  "u": "1f3b3",
+  "n": "bowling",
+  "e": "🎳",
+  "k": "ball, game, sport, strike"
+ },
+ {
+  "u": "1f3cf",
+  "n": "cricket game",
+  "e": "🏏",
+  "k": "bat, ball, game, cricket"
+ },
+ {
+  "u": "1f3d1",
+  "n": "field hockey",
+  "e": "🏑",
+  "k": "ball, game, field, stick, hockey"
+ },
+ {
+  "u": "1f3d2",
+  "n": "ice hockey",
+  "e": "🏒",
+  "k": "ice, game, puck, stick, hockey"
+ },
+ {
+  "u": "1f94d",
+  "n": "lacrosse",
+  "e": "🥍",
+  "k": "ball, goal, stick, sports"
+ },
+ {
+  "u": "1f3d3",
+  "n": "ping pong",
+  "e": "🏓",
+  "k": "bat, ball, game, ping, pong, table, paddle, tennis, pingpong"
+ },
+ {
+  "u": "1f3f8",
+  "n": "badminton",
+  "e": "🏸",
+  "k": "game, birdie, racquet, shuttlecock"
+ },
+ {
+  "u": "1f94a",
+  "n": "boxing glove",
+  "e": "🥊",
+  "k": "glove, boxing"
+ },
+ {
+  "u": "1f94b",
+  "n": "martial arts uniform",
+  "e": "🥋",
+  "k": "arts, judo, karate, martial, uniform, taekwondo"
+ },
+ {
+  "u": "1f945",
+  "n": "goal net",
+  "e": "🥅",
+  "k": "net, goal"
+ },
+ {
+  "u": "26f3",
+  "n": "flag in hole",
+  "e": "⛳",
+  "k": "flag, golf, hole, sport"
+ },
+ {
+  "u": "26f8-fe0f",
+  "n": "ice skate",
+  "e": "⛸️",
+  "k": "ice, skate, skating"
+ },
+ {
+  "u": "1f3a3",
+  "n": "fishing pole",
+  "e": "🎣",
+  "k": "fish, pole, sport, fishing, entertainment"
+ },
+ {
+  "u": "1f93f",
+  "n": "diving mask",
+  "e": "🤿",
+  "k": "mask, scuba, diving, snorkeling"
+ },
+ {
+  "u": "1f3bd",
+  "n": "running shirt",
+  "e": "🎽",
+  "k": "sash, shirt, running, athletics"
+ },
+ {
+  "u": "1f3bf",
+  "n": "skis",
+  "e": "🎿",
+  "k": "ski, snow, sport"
+ },
+ {
+  "u": "1f6f7",
+  "n": "sled",
+  "e": "🛷",
+  "k": "luge, snow, sledge, sleigh, toboggan"
+ },
+ {
+  "u": "1f94c",
+  "n": "curling stone",
+  "e": "🥌",
+  "k": "game, rock, stone, curling"
+ },
+ {
+  "u": "1f3af",
+  "n": "bullseye",
+  "e": "🎯",
+  "k": "hit, bull, dart, game, direct, target, entertainment"
+ },
+ {
+  "u": "1fa80",
+  "n": "yo yo",
+  "e": "🪀",
+  "k": "toy, fluctuate"
+ },
+ {
+  "u": "1fa81",
+  "n": "kite",
+  "e": "🪁",
+  "k": "fly, soar"
+ },
+ {
+  "u": "1f52b",
+  "n": "water pistol",
+  "e": "🔫",
+  "k": "gun, tool, water, pistol, weapon, handgun, revolver"
+ },
+ {
+  "u": "1f3b1",
+  "n": "pool 8 ball",
+  "e": "🎱",
+  "k": "8, ball, game, pool, 8ball, eight, billiard"
+ },
+ {
+  "u": "1f52e",
+  "n": "crystal ball",
+  "e": "🔮",
+  "k": "ball, tale, tool, fairy, magic, future, crystal, fantasy, fortune, fairytale"
+ },
+ {
+  "u": "1fa84",
+  "n": "magic wand",
+  "e": "🪄",
+  "k": "wand, magic, witch, wizard, magician"
+ },
+ {
+  "u": "1f3ae",
+  "n": "video game",
+  "e": "🎮",
+  "k": "game, video, controller, entertainment"
+ },
+ {
+  "u": "1f579-fe0f",
+  "n": "joystick",
+  "e": "🕹️",
+  "k": "game, video, videogame"
+ },
+ {
+  "u": "1f3b0",
+  "n": "slot machine",
+  "e": "🎰",
+  "k": "game, slot, slots, casino, gamble, machine, gambling"
+ },
+ {
+  "u": "1f3b2",
+  "n": "game die",
+  "e": "🎲",
+  "k": "die, dice, game, entertainment"
+ },
+ {
+  "u": "1f9e9",
+  "n": "puzzle piece",
+  "e": "🧩",
+  "k": "clue, piece, jigsaw, puzzle, interlocking"
+ },
+ {
+  "u": "1f9f8",
+  "n": "teddy bear",
+  "e": "🧸",
+  "k": "toy, bear, plush, teddy, stuffed, plaything"
+ },
+ {
+  "u": "1fa85",
+  "n": "piñata",
+  "e": "🪅",
+  "k": "de, mayo, candy, cinco, party, pinada, pinata, festive, celebrate, celebration"
+ },
+ {
+  "u": "1faa9",
+  "n": "mirror ball",
+  "e": "🪩",
+  "k": "ball, dance, disco, party, mirror, glitter"
+ },
+ {
+  "u": "1fa86",
+  "n": "nesting dolls",
+  "e": "🪆",
+  "k": "doll, dolls, russia, nesting, babushka, babooshka, baboushka, matryoshka"
+ },
+ {
+  "u": "2660-fe0f",
+  "n": "spade suit",
+  "e": "♠️",
+  "k": "card, game, suit, spade"
+ },
+ {
+  "u": "2665-fe0f",
+  "n": "heart suit",
+  "e": "♥️",
+  "k": "card, game, suit, heart, hearts, emotion"
+ },
+ {
+  "u": "2666-fe0f",
+  "n": "diamond suit",
+  "e": "♦️",
+  "k": "card, game, suit, diamond"
+ },
+ {
+  "u": "2663-fe0f",
+  "n": "club suit",
+  "e": "♣️",
+  "k": "card, club, game, suit, clubs"
+ },
+ {
+  "u": "265f-fe0f",
+  "n": "chess pawn",
+  "e": "♟️",
+  "k": "dupe, pawn, chess, expendable"
+ },
+ {
+  "u": "1f0cf",
+  "n": "joker",
+  "e": "🃏",
+  "k": "card, game, wildcard"
+ },
+ {
+  "u": "1f004",
+  "n": "mahjong red dragon",
+  "e": "🀄",
+  "k": "red, game, dragon, mahjong"
+ },
+ {
+  "u": "1f3b4",
+  "n": "flower playing cards",
+  "e": "🎴",
+  "k": "card, game, cards, flower, playing, Japanese"
+ },
+ {
+  "u": "1f3ad",
+  "n": "performing arts",
+  "e": "🎭",
+  "k": "art, arts, mask, actor, actress, theater, theatre, thespian, performing, entertainment"
+ },
+ {
+  "u": "1f5bc-fe0f",
+  "n": "framed picture",
+  "e": "🖼️",
+  "k": "art, frame, framed, museum, picture, painting"
+ },
+ {
+  "u": "1f3a8",
+  "n": "artist palette",
+  "e": "🎨",
+  "k": "art, arty, artsy, artist, museum, painter, palette, colorful, creative, painting, entertainment"
+ },
+ {
+  "u": "1f9f5",
+  "n": "thread",
+  "e": "🧵",
+  "k": "spool, needle, sewing, string"
+ },
+ {
+  "u": "1faa1",
+  "n": "sewing needle",
+  "e": "🪡",
+  "k": "sew, needle, sewing, thread, sutures, stitches, tailoring, embroidery"
+ },
+ {
+  "u": "1f9f6",
+  "n": "yarn",
+  "e": "🧶",
+  "k": "ball, knit, crochet"
+ },
+ {
+  "u": "1faa2",
+  "n": "knot",
+  "e": "🪢",
+  "k": "tie, cord, rope, twine, twist, tangled"
+ }
+]

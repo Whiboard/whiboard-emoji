@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="256" height="256"><title>ant</title><defs>
+<filter id="sk-bv" filterUnits="userSpaceOnUse" x="-10" y="-10" width="120" height="120" color-interpolation-filters="sRGB">
+<feOffset in="SourceAlpha" dx="1.5" dy="1.8" result="o1"/><feComposite in="SourceAlpha" in2="o1" operator="out" result="hl"/>
+<feGaussianBlur in="hl" stdDeviation="1.1" result="hlb"/><feFlood flood-color="#FFF8E4" flood-opacity=".6" result="hf"/><feComposite in="hf" in2="hlb" operator="in" result="hlc"/>
+<feOffset in="SourceAlpha" dx="-2.2" dy="-2.6" result="o2"/><feComposite in="SourceAlpha" in2="o2" operator="out" result="sh"/>
+<feGaussianBlur in="sh" stdDeviation="1.5" result="shb"/><feFlood flood-color="#3A1C10" flood-opacity=".36" result="sf"/><feComposite in="sf" in2="shb" operator="in" result="shc"/>
+<feComposite in="shc" in2="SourceGraphic" operator="atop" result="a1"/><feComposite in="hlc" in2="a1" operator="atop"/>
+</filter>
+<filter id="sk-bvs" filterUnits="userSpaceOnUse" x="-10" y="-10" width="120" height="120" color-interpolation-filters="sRGB">
+<feOffset in="SourceAlpha" dx=".8" dy="1" result="o1"/><feComposite in="SourceAlpha" in2="o1" operator="out" result="hl"/>
+<feGaussianBlur in="hl" stdDeviation=".6" result="hlb"/><feFlood flood-color="#FFF8E4" flood-opacity=".55" result="hf"/><feComposite in="hf" in2="hlb" operator="in" result="hlc"/>
+<feOffset in="SourceAlpha" dx="-1.1" dy="-1.4" result="o2"/><feComposite in="SourceAlpha" in2="o2" operator="out" result="sh"/>
+<feGaussianBlur in="sh" stdDeviation=".8" result="shb"/><feFlood flood-color="#3A1C10" flood-opacity=".32" result="sf"/><feComposite in="sf" in2="shb" operator="in" result="shc"/>
+<feComposite in="shc" in2="SourceGraphic" operator="atop" result="a1"/><feComposite in="hlc" in2="a1" operator="atop"/>
+</filter>
+<filter id="sk-tx" filterUnits="userSpaceOnUse" x="-6" y="-6" width="112" height="112" color-interpolation-filters="sRGB">
+<feTurbulence type="fractalNoise" baseFrequency=".06" numOctaves="3" seed="11" result="n1"/>
+<feColorMatrix in="n1" type="matrix" values="2.6 0 0 0 -.8  2.6 0 0 0 -.8  2.6 0 0 0 -.8  0 0 0 0 .3" result="c1"/>
+<feComposite in="c1" in2="SourceAlpha" operator="in" result="g1"/><feBlend in="g1" in2="SourceGraphic" mode="soft-light" result="b1"/>
+<feTurbulence type="fractalNoise" baseFrequency="1.15" numOctaves="2" seed="5" result="n2"/>
+<feColorMatrix in="n2" type="matrix" values="1.9 0 0 0 -.45  1.9 0 0 0 -.45  1.9 0 0 0 -.45  0 0 0 0 .2" result="c2"/>
+<feComposite in="c2" in2="SourceAlpha" operator="in" result="g2"/><feBlend in="g2" in2="b1" mode="soft-light"/>
+</filter><linearGradient id="e1f41c-0" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#98A4C8"/><stop offset="0.5" stop-color="#6B7799"/><stop offset="1" stop-color="#4B5578"/></linearGradient></defs><g filter="url(#sk-tx)"><g filter="url(#sk-bvs)"><path d="M40 44 L32 30 L22 22 M44 44 L48 28 L56 16 M48 44 L62 32 L72 30" fill="none" stroke="#5F6B8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" /><g transform="matrix(1 0 0 -1 0 100)"><path d="M40 44 L32 30 L22 22 M44 44 L48 28 L56 16 M48 44 L62 32 L72 30" fill="none" stroke="#5F6B8F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" /></g><g transform="matrix(-1 0 0 1 100 0)"></g><path d="M14 40 C8 32 12 22 22 16" fill="none" stroke="#5F6B8F" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" /><path d="M14 60 C8 68 12 78 22 84" fill="none" stroke="#5F6B8F" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" /></g>
+<g filter="url(#sk-bv)"><ellipse cx="76" cy="50" rx="20" ry="16" fill="url(#e1f41c-0)"/><ellipse cx="46" cy="50" rx="12" ry="9" fill="url(#e1f41c-0)"/><circle cx="22" cy="50" r="14" fill="url(#e1f41c-0)"/></g>
+<ellipse cx="72" cy="43" rx="9" ry="4" fill="#fff" opacity=".25"/>
+<ellipse cx="18" cy="43" rx="2.04" ry="2.52" fill="#3A3237"/><circle cx="17.34" cy="42.1" r="0.66" fill="#fff"/><ellipse cx="18" cy="57" rx="2.04" ry="2.52" fill="#3A3237"/><circle cx="17.34" cy="56.1" r="0.66" fill="#fff"/><path d="M10 50 C8 50 7 48 6 46 M10 50 C8 50 7 52 6 54" fill="none" stroke="#3A3237" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" /></g></svg>

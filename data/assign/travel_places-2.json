@@ -1,0 +1,212 @@
+[
+ {
+  "u": "1f3ed",
+  "n": "factory",
+  "e": "🏭",
+  "k": "building"
+ },
+ {
+  "u": "1f3ef",
+  "n": "Japanese castle",
+  "e": "🏯",
+  "k": "castle, Japanese, building"
+ },
+ {
+  "u": "1f3f0",
+  "n": "castle",
+  "e": "🏰",
+  "k": "European, building"
+ },
+ {
+  "u": "1f492",
+  "n": "wedding",
+  "e": "💒",
+  "k": "chapel, hitched, romance, nuptials"
+ },
+ {
+  "u": "1f5fc",
+  "n": "Tokyo tower",
+  "e": "🗼",
+  "k": "Tokyo, tower"
+ },
+ {
+  "u": "1f5fd",
+  "n": "Statue of Liberty",
+  "e": "🗽",
+  "k": "ny, new, nyc, york, Statue, statue, Liberty, liberty"
+ },
+ {
+  "u": "26ea",
+  "n": "church",
+  "e": "⛪",
+  "k": "bless, cross, chapel, religion, Christian"
+ },
+ {
+  "u": "1f54c",
+  "n": "mosque",
+  "e": "🕌",
+  "k": "islam, Muslim, masjid, religion"
+ },
+ {
+  "u": "1f6d5",
+  "n": "hindu temple",
+  "e": "🛕",
+  "k": "hindu, temple"
+ },
+ {
+  "u": "1f54d",
+  "n": "synagogue",
+  "e": "🕍",
+  "k": "Jew, Jewish, temple, judaism, religion"
+ },
+ {
+  "u": "26e9-fe0f",
+  "n": "shinto shrine",
+  "e": "⛩️",
+  "k": "shinto, shrine, religion"
+ },
+ {
+  "u": "1f54b",
+  "n": "kaaba",
+  "e": "🕋",
+  "k": "hajj, islam, umrah, Muslim, religion"
+ },
+ {
+  "u": "26f2",
+  "n": "fountain",
+  "e": "⛲",
+  "k": ""
+ },
+ {
+  "u": "26fa",
+  "n": "tent",
+  "e": "⛺",
+  "k": "camping"
+ },
+ {
+  "u": "1f301",
+  "n": "foggy",
+  "e": "🌁",
+  "k": "fog"
+ },
+ {
+  "u": "1f303",
+  "n": "night with stars",
+  "e": "🌃",
+  "k": "star, night, stars"
+ },
+ {
+  "u": "1f3d9-fe0f",
+  "n": "cityscape",
+  "e": "🏙️",
+  "k": "city"
+ },
+ {
+  "u": "1f304",
+  "n": "sunrise over mountains",
+  "e": "🌄",
+  "k": "sun, over, morning, sunrise, mountains"
+ },
+ {
+  "u": "1f305",
+  "n": "sunrise",
+  "e": "🌅",
+  "k": "sun, nature, morning"
+ },
+ {
+  "u": "1f306",
+  "n": "cityscape at dusk",
+  "e": "🌆",
+  "k": "at, sun, city, dusk, sunset, evening, building, cityscape, landscape"
+ },
+ {
+  "u": "1f307",
+  "n": "sunset",
+  "e": "🌇",
+  "k": "sun, dusk, building"
+ },
+ {
+  "u": "1f309",
+  "n": "bridge at night",
+  "e": "🌉",
+  "k": "at, night, bridge"
+ },
+ {
+  "u": "2668-fe0f",
+  "n": "hot springs",
+  "e": "♨️",
+  "k": "hot, springs, steaming, hotsprings"
+ },
+ {
+  "u": "1f682",
+  "n": "locomotive",
+  "e": "🚂",
+  "k": "steam, train, engine, trains, travel, caboose, railway"
+ },
+ {
+  "u": "1f683",
+  "n": "railway car",
+  "e": "🚃",
+  "k": "car, tram, train, travel, railway, electric, trolleybus"
+ },
+ {
+  "u": "1f684",
+  "n": "high speed train",
+  "e": "🚄",
+  "k": "speed, train, railway, high speed, shinkansen"
+ },
+ {
+  "u": "1f685",
+  "n": "bullet train",
+  "e": "🚅",
+  "k": "nose, speed, train, bullet, travel, railway, high speed, shinkansen"
+ },
+ {
+  "u": "1f686",
+  "n": "train",
+  "e": "🚆",
+  "k": "choo, arrived, railway"
+ },
+ {
+  "u": "1f687",
+  "n": "metro",
+  "e": "🚇",
+  "k": "subway, travel"
+ },
+ {
+  "u": "1f688",
+  "n": "light rail",
+  "e": "🚈",
+  "k": "rail, light, arrived, railway, monorail"
+ },
+ {
+  "u": "1f689",
+  "n": "station",
+  "e": "🚉",
+  "k": "train, railway"
+ },
+ {
+  "u": "1f68a",
+  "n": "tram",
+  "e": "🚊",
+  "k": "trolleybus"
+ },
+ {
+  "u": "1f69d",
+  "n": "monorail",
+  "e": "🚝",
+  "k": "vehicle"
+ },
+ {
+  "u": "1f69e",
+  "n": "mountain railway",
+  "e": "🚞",
+  "k": "car, trip, railway, mountain"
+ },
+ {
+  "u": "1f68b",
+  "n": "tram car",
+  "e": "🚋",
+  "k": "bus, car, tram, trolley, trolleybus"
+ }
+]

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="256" height="256"><title>ice cream</title><defs>
+<filter id="sk-bv" filterUnits="userSpaceOnUse" x="-10" y="-10" width="120" height="120" color-interpolation-filters="sRGB">
+<feOffset in="SourceAlpha" dx="1.5" dy="1.8" result="o1"/><feComposite in="SourceAlpha" in2="o1" operator="out" result="hl"/>
+<feGaussianBlur in="hl" stdDeviation="1.1" result="hlb"/><feFlood flood-color="#FFF8E4" flood-opacity=".6" result="hf"/><feComposite in="hf" in2="hlb" operator="in" result="hlc"/>
+<feOffset in="SourceAlpha" dx="-2.2" dy="-2.6" result="o2"/><feComposite in="SourceAlpha" in2="o2" operator="out" result="sh"/>
+<feGaussianBlur in="sh" stdDeviation="1.5" result="shb"/><feFlood flood-color="#3A1C10" flood-opacity=".36" result="sf"/><feComposite in="sf" in2="shb" operator="in" result="shc"/>
+<feComposite in="shc" in2="SourceGraphic" operator="atop" result="a1"/><feComposite in="hlc" in2="a1" operator="atop"/>
+</filter>
+<filter id="sk-bvs" filterUnits="userSpaceOnUse" x="-10" y="-10" width="120" height="120" color-interpolation-filters="sRGB">
+<feOffset in="SourceAlpha" dx=".8" dy="1" result="o1"/><feComposite in="SourceAlpha" in2="o1" operator="out" result="hl"/>
+<feGaussianBlur in="hl" stdDeviation=".6" result="hlb"/><feFlood flood-color="#FFF8E4" flood-opacity=".55" result="hf"/><feComposite in="hf" in2="hlb" operator="in" result="hlc"/>
+<feOffset in="SourceAlpha" dx="-1.1" dy="-1.4" result="o2"/><feComposite in="SourceAlpha" in2="o2" operator="out" result="sh"/>
+<feGaussianBlur in="sh" stdDeviation=".8" result="shb"/><feFlood flood-color="#3A1C10" flood-opacity=".32" result="sf"/><feComposite in="sf" in2="shb" operator="in" result="shc"/>
+<feComposite in="shc" in2="SourceGraphic" operator="atop" result="a1"/><feComposite in="hlc" in2="a1" operator="atop"/>
+</filter>
+<filter id="sk-tx" filterUnits="userSpaceOnUse" x="-6" y="-6" width="112" height="112" color-interpolation-filters="sRGB">
+<feTurbulence type="fractalNoise" baseFrequency=".06" numOctaves="3" seed="11" result="n1"/>
+<feColorMatrix in="n1" type="matrix" values="2.6 0 0 0 -.8  2.6 0 0 0 -.8  2.6 0 0 0 -.8  0 0 0 0 .3" result="c1"/>
+<feComposite in="c1" in2="SourceAlpha" operator="in" result="g1"/><feBlend in="g1" in2="SourceGraphic" mode="soft-light" result="b1"/>
+<feTurbulence type="fractalNoise" baseFrequency="1.15" numOctaves="2" seed="5" result="n2"/>
+<feColorMatrix in="n2" type="matrix" values="1.9 0 0 0 -.45  1.9 0 0 0 -.45  1.9 0 0 0 -.45  0 0 0 0 .2" result="c2"/>
+<feComposite in="c2" in2="SourceAlpha" operator="in" result="g2"/><feBlend in="g2" in2="b1" mode="soft-light"/>
+</filter><radialGradient id="e1f368-0" cx="0.36" cy="0.3" r="0.8"><stop offset="0" stop-color="#FDDCE4"/><stop offset="0.5" stop-color="#F7B6C4"/><stop offset="1" stop-color="#DF839B"/></radialGradient><radialGradient id="e1f368-1" cx="0.36" cy="0.3" r="0.8"><stop offset="0" stop-color="#B98A62"/><stop offset="0.5" stop-color="#935F34"/><stop offset="1" stop-color="#6B4324"/></radialGradient><radialGradient id="e1f368-2" cx="0.36" cy="0.3" r="0.8"><stop offset="0" stop-color="#FCF6E8"/><stop offset="0.5" stop-color="#EFE3C6"/><stop offset="1" stop-color="#D9C9A3"/></radialGradient><radialGradient id="e1f368-3" cx="0.36" cy="0.3" r="0.8"><stop offset="0" stop-color="#F58578"/><stop offset="0.5" stop-color="#D04A44"/><stop offset="1" stop-color="#A2302E"/></radialGradient></defs><g filter="url(#sk-tx)"><g transform="translate(50 50) scale(0.93) translate(-50 -50)">
+<g filter="url(#sk-bvs)"><rect x="45" y="76" width="10" height="13" fill="#E1EFF8" opacity=".9"/><ellipse cx="50" cy="91" rx="20" ry="4.6" fill="#DCECF6"/></g>
+<g filter="url(#sk-bv)"><circle cx="33" cy="52" r="17" fill="url(#e1f368-0)"/><circle cx="67" cy="52" r="17" fill="url(#e1f368-1)"/></g>
+<g filter="url(#sk-bv)"><circle cx="50" cy="35" r="17" fill="url(#e1f368-2)"/></g>
+<path d="M12 56 H88 C88 76 72 82 58 82 H42 C28 82 12 76 12 56Z" fill="#DCECF6" fill-opacity=".5"/>
+<path d="M12 56 H88 C88 76 72 82 58 82 H42 C28 82 12 76 12 56Z" fill="none" stroke="#8FB0CB" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M19 60 C21 68 27 74 33 76" stroke="#fff" stroke-width="3" stroke-linecap="round" fill="none" opacity=".6"/>
+<path d="M50 9.5 q1 -7 6 -9" fill="none" stroke="#487745" stroke-width="1.6" stroke-linecap="round"/><g filter="url(#sk-bvs)"><circle cx="50" cy="14" r="5.5" fill="url(#e1f368-3)"/></g><circle cx="48" cy="12" r="1.6" fill="#fff" opacity=".5"/></g></g></svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="256" height="256"><title>slot machine</title><defs>
+<filter id="sk-bv" filterUnits="userSpaceOnUse" x="-10" y="-10" width="120" height="120" color-interpolation-filters="sRGB">
+<feOffset in="SourceAlpha" dx="1.5" dy="1.8" result="o1"/><feComposite in="SourceAlpha" in2="o1" operator="out" result="hl"/>
+<feGaussianBlur in="hl" stdDeviation="1.1" result="hlb"/><feFlood flood-color="#FFF8E4" flood-opacity=".6" result="hf"/><feComposite in="hf" in2="hlb" operator="in" result="hlc"/>
+<feOffset in="SourceAlpha" dx="-2.2" dy="-2.6" result="o2"/><feComposite in="SourceAlpha" in2="o2" operator="out" result="sh"/>
+<feGaussianBlur in="sh" stdDeviation="1.5" result="shb"/><feFlood flood-color="#3A1C10" flood-opacity=".36" result="sf"/><feComposite in="sf" in2="shb" operator="in" result="shc"/>
+<feComposite in="shc" in2="SourceGraphic" operator="atop" result="a1"/><feComposite in="hlc" in2="a1" operator="atop"/>
+</filter>
+<filter id="sk-bvs" filterUnits="userSpaceOnUse" x="-10" y="-10" width="120" height="120" color-interpolation-filters="sRGB">
+<feOffset in="SourceAlpha" dx=".8" dy="1" result="o1"/><feComposite in="SourceAlpha" in2="o1" operator="out" result="hl"/>
+<feGaussianBlur in="hl" stdDeviation=".6" result="hlb"/><feFlood flood-color="#FFF8E4" flood-opacity=".55" result="hf"/><feComposite in="hf" in2="hlb" operator="in" result="hlc"/>
+<feOffset in="SourceAlpha" dx="-1.1" dy="-1.4" result="o2"/><feComposite in="SourceAlpha" in2="o2" operator="out" result="sh"/>
+<feGaussianBlur in="sh" stdDeviation=".8" result="shb"/><feFlood flood-color="#3A1C10" flood-opacity=".32" result="sf"/><feComposite in="sf" in2="shb" operator="in" result="shc"/>
+<feComposite in="shc" in2="SourceGraphic" operator="atop" result="a1"/><feComposite in="hlc" in2="a1" operator="atop"/>
+</filter>
+<filter id="sk-tx" filterUnits="userSpaceOnUse" x="-6" y="-6" width="112" height="112" color-interpolation-filters="sRGB">
+<feTurbulence type="fractalNoise" baseFrequency=".06" numOctaves="3" seed="11" result="n1"/>
+<feColorMatrix in="n1" type="matrix" values="2.6 0 0 0 -.8  2.6 0 0 0 -.8  2.6 0 0 0 -.8  0 0 0 0 .3" result="c1"/>
+<feComposite in="c1" in2="SourceAlpha" operator="in" result="g1"/><feBlend in="g1" in2="SourceGraphic" mode="soft-light" result="b1"/>
+<feTurbulence type="fractalNoise" baseFrequency="1.15" numOctaves="2" seed="5" result="n2"/>
+<feColorMatrix in="n2" type="matrix" values="1.9 0 0 0 -.45  1.9 0 0 0 -.45  1.9 0 0 0 -.45  0 0 0 0 .2" result="c2"/>
+<feComposite in="c2" in2="SourceAlpha" operator="in" result="g2"/><feBlend in="g2" in2="b1" mode="soft-light"/>
+</filter><linearGradient id="e1f3b0-0" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#EA6A60"/><stop offset="1" stop-color="#A2302E"/></linearGradient><linearGradient id="e1f3b0-1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#EA6A60"/><stop offset="0.5" stop-color="#D04A44"/><stop offset="1" stop-color="#A2302E"/></linearGradient><linearGradient id="e1f3b0-2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F6CF5E"/><stop offset="0.5" stop-color="#E2AC36"/><stop offset="1" stop-color="#B47E1E"/></linearGradient><linearGradient id="e1f3b0-3" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FCF6E8"/><stop offset="1" stop-color="#E4D7B8"/></linearGradient></defs><g filter="url(#sk-tx)"><g filter="url(#sk-bvs)"><path d="M74 52 L88 28" stroke="#828A97" stroke-width="4.4" stroke-linecap="round"/><circle cx="88" cy="24" r="6" fill="url(#e1f3b0-0)"/></g>
+<g filter="url(#sk-bv)"><rect x="10" y="9" width="66" height="82" rx="9" fill="url(#e1f3b0-1)"/></g>
+<g filter="url(#sk-bvs)"><rect x="18" y="15" width="50" height="14" rx="4" fill="url(#e1f3b0-2)"/></g>
+<g fill="#FCF6E8"><circle cx="28" cy="22" r="2.6"/><circle cx="43" cy="22" r="2.6"/><circle cx="58" cy="22" r="2.6"/></g>
+<g filter="url(#sk-bvs)"><rect x="17" y="36" width="52" height="28" rx="4" fill="url(#e1f3b0-3)"/></g>
+<path d="M34.3 37 V63 M51.7 37 V63" stroke="#D9C9A3" stroke-width="1.4"/>
+<circle cx="26" cy="52" r="5.4" fill="#D04A44"/><path d="M26 47 q2 -4 5 -4" fill="none" stroke="#487745" stroke-width="1.6"/>
+<polygon points="43.00,42.00 45.12,47.09 50.61,47.53 46.42,51.11 47.70,56.47 43.00,53.60 38.30,56.47 39.58,51.11 35.39,47.53 40.88,47.09" fill="#E2AC36"/>
+<path d="M54 44 H64 L58 58" fill="none" stroke="#4764AA" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<g filter="url(#sk-bvs)"><rect x="22" y="72" width="38" height="12" rx="4" fill="#3A3237"/></g><rect x="30" y="76" width="22" height="3.4" rx="1.7" fill="#E2AC36"/></g></svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="256" height="256"><title>guitar</title><defs>
+<filter id="sk-bv" filterUnits="userSpaceOnUse" x="-10" y="-10" width="120" height="120" color-interpolation-filters="sRGB">
+<feOffset in="SourceAlpha" dx="1.5" dy="1.8" result="o1"/><feComposite in="SourceAlpha" in2="o1" operator="out" result="hl"/>
+<feGaussianBlur in="hl" stdDeviation="1.1" result="hlb"/><feFlood flood-color="#FFF8E4" flood-opacity=".6" result="hf"/><feComposite in="hf" in2="hlb" operator="in" result="hlc"/>
+<feOffset in="SourceAlpha" dx="-2.2" dy="-2.6" result="o2"/><feComposite in="SourceAlpha" in2="o2" operator="out" result="sh"/>
+<feGaussianBlur in="sh" stdDeviation="1.5" result="shb"/><feFlood flood-color="#3A1C10" flood-opacity=".36" result="sf"/><feComposite in="sf" in2="shb" operator="in" result="shc"/>
+<feComposite in="shc" in2="SourceGraphic" operator="atop" result="a1"/><feComposite in="hlc" in2="a1" operator="atop"/>
+</filter>
+<filter id="sk-bvs" filterUnits="userSpaceOnUse" x="-10" y="-10" width="120" height="120" color-interpolation-filters="sRGB">
+<feOffset in="SourceAlpha" dx=".8" dy="1" result="o1"/><feComposite in="SourceAlpha" in2="o1" operator="out" result="hl"/>
+<feGaussianBlur in="hl" stdDeviation=".6" result="hlb"/><feFlood flood-color="#FFF8E4" flood-opacity=".55" result="hf"/><feComposite in="hf" in2="hlb" operator="in" result="hlc"/>
+<feOffset in="SourceAlpha" dx="-1.1" dy="-1.4" result="o2"/><feComposite in="SourceAlpha" in2="o2" operator="out" result="sh"/>
+<feGaussianBlur in="sh" stdDeviation=".8" result="shb"/><feFlood flood-color="#3A1C10" flood-opacity=".32" result="sf"/><feComposite in="sf" in2="shb" operator="in" result="shc"/>
+<feComposite in="shc" in2="SourceGraphic" operator="atop" result="a1"/><feComposite in="hlc" in2="a1" operator="atop"/>
+</filter>
+<filter id="sk-tx" filterUnits="userSpaceOnUse" x="-6" y="-6" width="112" height="112" color-interpolation-filters="sRGB">
+<feTurbulence type="fractalNoise" baseFrequency=".06" numOctaves="3" seed="11" result="n1"/>
+<feColorMatrix in="n1" type="matrix" values="2.6 0 0 0 -.8  2.6 0 0 0 -.8  2.6 0 0 0 -.8  0 0 0 0 .3" result="c1"/>
+<feComposite in="c1" in2="SourceAlpha" operator="in" result="g1"/><feBlend in="g1" in2="SourceGraphic" mode="soft-light" result="b1"/>
+<feTurbulence type="fractalNoise" baseFrequency="1.15" numOctaves="2" seed="5" result="n2"/>
+<feColorMatrix in="n2" type="matrix" values="1.9 0 0 0 -.45  1.9 0 0 0 -.45  1.9 0 0 0 -.45  0 0 0 0 .2" result="c2"/>
+<feComposite in="c2" in2="SourceAlpha" operator="in" result="g2"/><feBlend in="g2" in2="b1" mode="soft-light"/>
+</filter><linearGradient id="e1f3b8-0" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#6B4324"/><stop offset="0.5" stop-color="#935F34"/><stop offset="1" stop-color="#6B4324"/></linearGradient><linearGradient id="e1f3b8-1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3A3237"/><stop offset="1" stop-color="#5A4F56"/></linearGradient><radialGradient id="e1f3b8-2" cx="0.36" cy="0.3" r="0.8"><stop offset="0" stop-color="#F5A95C"/><stop offset="0.5" stop-color="#D47F2E"/><stop offset="1" stop-color="#9A5420"/></radialGradient></defs><g filter="url(#sk-tx)"><g filter="url(#sk-bv)"><g transform="rotate(40 50 50)">
+<rect x="45" y="12" width="10" height="46" fill="url(#e1f3b8-0)"/>
+<path d="M44 0 H56 L58 14 H42Z" fill="url(#e1f3b8-1)"/>
+<path d="M50 44 C60 44 66 49 66 58 C66 64 61 66 61 71 C61 73 70 76 70 84 C70 93 62 97 50 97 C38 97 30 93 30 84 C30 76 39 73 39 71 C39 66 34 64 34 58 C34 49 40 44 50 44Z" fill="url(#e1f3b8-2)"/></g></g>
+<g transform="rotate(40 50 50)"><circle cx="50" cy="70" r="7.500" fill="#3A3237"/><circle cx="50" cy="70" r="9.500" fill="none" stroke="#6B4324" stroke-width="1.5"/><rect x="42" y="84" width="16" height="3.500" rx="1.5" fill="#6B4324"/>
+<path d="M48 14 V84 M52 14 V84" stroke="#F0F3F6" stroke-width=".8" opacity=".7"/><path d="M45 24 H55 M45 33 H55 M45 42 H55" stroke="#BEC5CE" stroke-width="1"/></g></g></svg>

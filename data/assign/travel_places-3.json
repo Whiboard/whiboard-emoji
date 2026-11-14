@@ -1,0 +1,224 @@
+[
+ {
+  "u": "1f68c",
+  "n": "bus",
+  "e": "🚌",
+  "k": "school, vehicle"
+ },
+ {
+  "u": "1f68d",
+  "n": "oncoming bus",
+  "e": "🚍",
+  "k": "bus, cars, oncoming"
+ },
+ {
+  "u": "1f68e",
+  "n": "trolleybus",
+  "e": "🚎",
+  "k": "bus, tram, trolley"
+ },
+ {
+  "u": "1f690",
+  "n": "minibus",
+  "e": "🚐",
+  "k": "bus, van, drive, vehicle"
+ },
+ {
+  "u": "1f691",
+  "n": "ambulance",
+  "e": "🚑",
+  "k": "vehicle, emergency"
+ },
+ {
+  "u": "1f692",
+  "n": "fire engine",
+  "e": "🚒",
+  "k": "fire, truck, engine"
+ },
+ {
+  "u": "1f693",
+  "n": "police car",
+  "e": "🚓",
+  "k": "5–0, car, cops, patrol, police"
+ },
+ {
+  "u": "1f694",
+  "n": "oncoming police car",
+  "e": "🚔",
+  "k": "car, police, oncoming"
+ },
+ {
+  "u": "1f695",
+  "n": "taxi",
+  "e": "🚕",
+  "k": "cab, car, drive, cabbie, yellow, vehicle"
+ },
+ {
+  "u": "1f696",
+  "n": "oncoming taxi",
+  "e": "🚖",
+  "k": "cab, cars, hail, taxi, drove, cabbie, yellow, oncoming"
+ },
+ {
+  "u": "1f697",
+  "n": "automobile",
+  "e": "🚗",
+  "k": "car, driving, vehicle"
+ },
+ {
+  "u": "1f698",
+  "n": "oncoming automobile",
+  "e": "🚘",
+  "k": "car, cars, drove, vehicle, oncoming, automobile"
+ },
+ {
+  "u": "1f699",
+  "n": "sport utility vehicle",
+  "e": "🚙",
+  "k": "car, drive, sport, utility, vehicle, recreational, sportutility"
+ },
+ {
+  "u": "1f6fb",
+  "n": "pickup truck",
+  "e": "🛻",
+  "k": "car, truck, pickup, flatbed, pick up, automobile, transportation"
+ },
+ {
+  "u": "1f69a",
+  "n": "delivery truck",
+  "e": "🚚",
+  "k": "car, drive, truck, vehicle, delivery"
+ },
+ {
+  "u": "1f69b",
+  "n": "articulated lorry",
+  "e": "🚛",
+  "k": "car, move, semi, drive, lorry, truck, vehicle, articulated"
+ },
+ {
+  "u": "1f69c",
+  "n": "tractor",
+  "e": "🚜",
+  "k": "vehicle"
+ },
+ {
+  "u": "1f3ce-fe0f",
+  "n": "racing car",
+  "e": "🏎️",
+  "k": "car, zoom, racing"
+ },
+ {
+  "u": "1f3cd-fe0f",
+  "n": "motorcycle",
+  "e": "🏍️",
+  "k": "racing"
+ },
+ {
+  "u": "1f6f5",
+  "n": "motor scooter",
+  "e": "🛵",
+  "k": "motor, scooter"
+ },
+ {
+  "u": "1f9bd",
+  "n": "manual wheelchair",
+  "e": "🦽",
+  "k": "manual, wheelchair, accessibility"
+ },
+ {
+  "u": "1f9bc",
+  "n": "motorized wheelchair",
+  "e": "🦼",
+  "k": "motorized, wheelchair, accessibility"
+ },
+ {
+  "u": "1f6fa",
+  "n": "auto rickshaw",
+  "e": "🛺",
+  "k": "tuk, auto, rickshaw"
+ },
+ {
+  "u": "1f6b2",
+  "n": "bicycle",
+  "e": "🚲",
+  "k": "bike, gang, ride, spin, class, cycle, cycling, cyclist, spinning"
+ },
+ {
+  "u": "1f6f4",
+  "n": "kick scooter",
+  "e": "🛴",
+  "k": "kick, scooter"
+ },
+ {
+  "u": "1f6f9",
+  "n": "skateboard",
+  "e": "🛹",
+  "k": "board, skate, skater, wheels"
+ },
+ {
+  "u": "1f6fc",
+  "n": "roller skate",
+  "e": "🛼",
+  "k": "skate, sport, blades, roller, skates"
+ },
+ {
+  "u": "1f68f",
+  "n": "bus stop",
+  "e": "🚏",
+  "k": "bus, stop, busstop"
+ },
+ {
+  "u": "1f6e3-fe0f",
+  "n": "motorway",
+  "e": "🛣️",
+  "k": "road, highway"
+ },
+ {
+  "u": "1f6e4-fe0f",
+  "n": "railway track",
+  "e": "🛤️",
+  "k": "track, train, railway"
+ },
+ {
+  "u": "1f6e2-fe0f",
+  "n": "oil drum",
+  "e": "🛢️",
+  "k": "oil, drum"
+ },
+ {
+  "u": "1f3a0",
+  "n": "carousel horse",
+  "e": "🎠",
+  "k": "horse, carousel, entertainment"
+ },
+ {
+  "u": "1f6dd",
+  "n": "playground slide",
+  "e": "🛝",
+  "k": "park, play, slide, theme, playing, sliding, amusement, playground"
+ },
+ {
+  "u": "1f3a1",
+  "n": "ferris wheel",
+  "e": "🎡",
+  "k": "park, theme, wheel, ferris, amusement"
+ },
+ {
+  "u": "1f3a2",
+  "n": "roller coaster",
+  "e": "🎢",
+  "k": "park, theme, roller, coaster, amusement"
+ },
+ {
+  "u": "1f488",
+  "n": "barber pole",
+  "e": "💈",
+  "k": "cut, pole, fresh, shave, barber, haircut"
+ },
+ {
+  "u": "1f3aa",
+  "n": "circus tent",
+  "e": "🎪",
+  "k": "tent, circus"
+ }
+]

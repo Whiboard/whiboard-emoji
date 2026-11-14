@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="256" height="256"><title>map of Japan</title><defs>
+<filter id="sk-bv" filterUnits="userSpaceOnUse" x="-10" y="-10" width="120" height="120" color-interpolation-filters="sRGB">
+<feOffset in="SourceAlpha" dx="1.5" dy="1.8" result="o1"/><feComposite in="SourceAlpha" in2="o1" operator="out" result="hl"/>
+<feGaussianBlur in="hl" stdDeviation="1.1" result="hlb"/><feFlood flood-color="#FFF8E4" flood-opacity=".6" result="hf"/><feComposite in="hf" in2="hlb" operator="in" result="hlc"/>
+<feOffset in="SourceAlpha" dx="-2.2" dy="-2.6" result="o2"/><feComposite in="SourceAlpha" in2="o2" operator="out" result="sh"/>
+<feGaussianBlur in="sh" stdDeviation="1.5" result="shb"/><feFlood flood-color="#3A1C10" flood-opacity=".36" result="sf"/><feComposite in="sf" in2="shb" operator="in" result="shc"/>
+<feComposite in="shc" in2="SourceGraphic" operator="atop" result="a1"/><feComposite in="hlc" in2="a1" operator="atop"/>
+</filter>
+<filter id="sk-bvs" filterUnits="userSpaceOnUse" x="-10" y="-10" width="120" height="120" color-interpolation-filters="sRGB">
+<feOffset in="SourceAlpha" dx=".8" dy="1" result="o1"/><feComposite in="SourceAlpha" in2="o1" operator="out" result="hl"/>
+<feGaussianBlur in="hl" stdDeviation=".6" result="hlb"/><feFlood flood-color="#FFF8E4" flood-opacity=".55" result="hf"/><feComposite in="hf" in2="hlb" operator="in" result="hlc"/>
+<feOffset in="SourceAlpha" dx="-1.1" dy="-1.4" result="o2"/><feComposite in="SourceAlpha" in2="o2" operator="out" result="sh"/>
+<feGaussianBlur in="sh" stdDeviation=".8" result="shb"/><feFlood flood-color="#3A1C10" flood-opacity=".32" result="sf"/><feComposite in="sf" in2="shb" operator="in" result="shc"/>
+<feComposite in="shc" in2="SourceGraphic" operator="atop" result="a1"/><feComposite in="hlc" in2="a1" operator="atop"/>
+</filter>
+<filter id="sk-tx" filterUnits="userSpaceOnUse" x="-6" y="-6" width="112" height="112" color-interpolation-filters="sRGB">
+<feTurbulence type="fractalNoise" baseFrequency=".06" numOctaves="3" seed="11" result="n1"/>
+<feColorMatrix in="n1" type="matrix" values="2.6 0 0 0 -.8  2.6 0 0 0 -.8  2.6 0 0 0 -.8  0 0 0 0 .3" result="c1"/>
+<feComposite in="c1" in2="SourceAlpha" operator="in" result="g1"/><feBlend in="g1" in2="SourceGraphic" mode="soft-light" result="b1"/>
+<feTurbulence type="fractalNoise" baseFrequency="1.15" numOctaves="2" seed="5" result="n2"/>
+<feColorMatrix in="n2" type="matrix" values="1.9 0 0 0 -.45  1.9 0 0 0 -.45  1.9 0 0 0 -.45  0 0 0 0 .2" result="c2"/>
+<feComposite in="c2" in2="SourceAlpha" operator="in" result="g2"/><feBlend in="g2" in2="b1" mode="soft-light"/>
+</filter><linearGradient id="e1f5fe-0" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#A9CCEF"/><stop offset="1" stop-color="#6F9AD6"/></linearGradient><radialGradient id="e1f5fe-1" cx="0.36" cy="0.3" r="0.8"><stop offset="0" stop-color="#F58578"/><stop offset="1" stop-color="#A2302E"/></radialGradient><linearGradient id="e1f5fe-2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F7EEDB"/><stop offset="0.5" stop-color="#9AC48C"/><stop offset="1" stop-color="#6FA263"/></linearGradient><clipPath id="e1f5fe-3"><rect x="8" y="8" width="84" height="84" rx="14"/></clipPath></defs><g filter="url(#sk-tx)"><g filter="url(#sk-bv)"><rect x="8" y="8" width="84" height="84" rx="14" fill="url(#e1f5fe-0)"/></g><g clip-path="url(#e1f5fe-3)"><circle cx="26" cy="26" r="9.5" fill="url(#e1f5fe-1)"/>
+<g fill="url(#e1f5fe-2)"><path d="M30 66 C34 62 40 60 44 56 C48 52 52 46 56 42 C60 38 64 34 70 32 C72 36 68 42 66 48 C62 54 60 60 54 64 C48 70 40 74 32 72Z"/><path d="M68 14 C74 10 84 14 82 20 C78 26 70 26 66 20Z"/><path d="M16 70 C22 68 28 72 26 80 C22 84 14 80 16 70Z"/><path d="M34 76 C40 74 48 76 46 79 C40 82 34 80 34 76Z"/></g></g><rect x="8.8" y="8.8" width="82.4" height="82.4" rx="13.4" fill="none" stroke="#fff" stroke-opacity=".3" stroke-width="1.4"/></g></svg>

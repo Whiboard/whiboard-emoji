@@ -1,0 +1,218 @@
+[
+ {
+  "u": "1f452",
+  "n": "woman’s hat",
+  "e": "👒",
+  "k": "hat, hats, party, woman, garden, clothes, woman’s, clothing"
+ },
+ {
+  "u": "1f3a9",
+  "n": "top hat",
+  "e": "🎩",
+  "k": "hat, top, fancy, magic, formal, tophat, clothes, clothing"
+ },
+ {
+  "u": "1f9e2",
+  "n": "billed cap",
+  "e": "🧢",
+  "k": "cap, dad, hat, bent, billed, baseball"
+ },
+ {
+  "u": "1fa96",
+  "n": "military helmet",
+  "e": "🪖",
+  "k": "war, army, helmet, soldier, warrior, military"
+ },
+ {
+  "u": "26d1-fe0f",
+  "n": "rescue worker’s helmet",
+  "e": "⛑️",
+  "k": "aid, hat, face, cross, helmet, rescue, worker’s"
+ },
+ {
+  "u": "1f4ff",
+  "n": "prayer beads",
+  "e": "📿",
+  "k": "beads, prayer, clothing, necklace, religion"
+ },
+ {
+  "u": "1f484",
+  "n": "lipstick",
+  "e": "💄",
+  "k": "date, makeup, cosmetics"
+ },
+ {
+  "u": "1f48d",
+  "n": "ring",
+  "e": "💍",
+  "k": "shiny, diamond, engaged, married, romance, wedding, sparkling, engagement"
+ },
+ {
+  "u": "1f48e",
+  "n": "gem stone",
+  "e": "💎",
+  "k": "gem, jewel, money, stone, diamond, romance, wedding, engagement"
+ },
+ {
+  "u": "1f507",
+  "n": "muted speaker",
+  "e": "🔇",
+  "k": "mute, muted, quiet, sound, silent, speaker"
+ },
+ {
+  "u": "1f508",
+  "n": "speaker low volume",
+  "e": "🔈",
+  "k": "low, soft, sound, volume, speaker"
+ },
+ {
+  "u": "1f509",
+  "n": "speaker medium volume",
+  "e": "🔉",
+  "k": "sound, medium, volume, speaker"
+ },
+ {
+  "u": "1f50a",
+  "n": "speaker high volume",
+  "e": "🔊",
+  "k": "high, loud, music, sound, volume, speaker"
+ },
+ {
+  "u": "1f4e2",
+  "n": "loudspeaker",
+  "e": "📢",
+  "k": "loud, sound, public, address, communication"
+ },
+ {
+  "u": "1f4e3",
+  "n": "megaphone",
+  "e": "📣",
+  "k": "sound, cheering"
+ },
+ {
+  "u": "1f4ef",
+  "n": "postal horn",
+  "e": "📯",
+  "k": "horn, post, postal"
+ },
+ {
+  "u": "1f515",
+  "n": "bell with slash",
+  "e": "🔕",
+  "k": "no, not, bell, mute, quiet, slash, sound, silent, forbidden, prohibited"
+ },
+ {
+  "u": "1f3bc",
+  "n": "musical score",
+  "e": "🎼",
+  "k": "note, music, score, musical"
+ },
+ {
+  "u": "1f3b5",
+  "n": "musical note",
+  "e": "🎵",
+  "k": "note, music, sound, musical"
+ },
+ {
+  "u": "1f3b6",
+  "n": "musical notes",
+  "e": "🎶",
+  "k": "note, music, notes, sound, musical"
+ },
+ {
+  "u": "1f399-fe0f",
+  "n": "studio microphone",
+  "e": "🎙️",
+  "k": "mic, music, studio, microphone"
+ },
+ {
+  "u": "1f39a-fe0f",
+  "n": "level slider",
+  "e": "🎚️",
+  "k": "level, music, slider"
+ },
+ {
+  "u": "1f39b-fe0f",
+  "n": "control knobs",
+  "e": "🎛️",
+  "k": "knobs, music, control"
+ },
+ {
+  "u": "1f3a4",
+  "n": "microphone",
+  "e": "🎤",
+  "k": "mic, sing, music, sound, karaoke"
+ },
+ {
+  "u": "1f3a7",
+  "n": "headphone",
+  "e": "🎧",
+  "k": "sound, earbud"
+ },
+ {
+  "u": "1f4fb",
+  "n": "radio",
+  "e": "📻",
+  "k": "tbt, video, entertainment"
+ },
+ {
+  "u": "1f3b7",
+  "n": "saxophone",
+  "e": "🎷",
+  "k": "sax, music, instrument"
+ },
+ {
+  "u": "1f3ba",
+  "n": "trumpet",
+  "e": "🎺",
+  "k": "music, instrument"
+ },
+ {
+  "u": "1fa97",
+  "n": "accordion",
+  "e": "🪗",
+  "k": "box, music, squeeze, concertina, instrument, squeezebox"
+ },
+ {
+  "u": "1f3b8",
+  "n": "guitar",
+  "e": "🎸",
+  "k": "music, strat, instrument"
+ },
+ {
+  "u": "1f3b9",
+  "n": "musical keyboard",
+  "e": "🎹",
+  "k": "music, piano, musical, keyboard, instrument"
+ },
+ {
+  "u": "1f3bb",
+  "n": "violin",
+  "e": "🎻",
+  "k": "music, instrument"
+ },
+ {
+  "u": "1fa95",
+  "n": "banjo",
+  "e": "🪕",
+  "k": "music, stringed"
+ },
+ {
+  "u": "1f941",
+  "n": "drum",
+  "e": "🥁",
+  "k": "music, drumsticks"
+ },
+ {
+  "u": "1fa98",
+  "n": "long drum",
+  "e": "🪘",
+  "k": "beat, drum, long, conga, rhythm, instrument"
+ },
+ {
+  "u": "1fa87",
+  "n": "maracas",
+  "e": "🪇",
+  "k": "cha, dance, music, party, shake, rattle, shaker, instrument, percussion"
+ }
+]

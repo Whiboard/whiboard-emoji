@@ -1,0 +1,218 @@
+[
+ {
+  "u": "1f453",
+  "n": "glasses",
+  "e": "👓",
+  "k": "eye, eyewear, clothing, eyeglasses"
+ },
+ {
+  "u": "1f576-fe0f",
+  "n": "sunglasses",
+  "e": "🕶️",
+  "k": "eye, dark, eyewear, glasses"
+ },
+ {
+  "u": "1f97d",
+  "n": "goggles",
+  "e": "🥽",
+  "k": "eye, dive, scuba, welding, swimming, protection"
+ },
+ {
+  "u": "1f97c",
+  "n": "lab coat",
+  "e": "🥼",
+  "k": "dr, lab, coat, white, doctor, jacket, clothes, scientist, experiment"
+ },
+ {
+  "u": "1f9ba",
+  "n": "safety vest",
+  "e": "🦺",
+  "k": "vest, safety, emergency"
+ },
+ {
+  "u": "1f454",
+  "n": "necktie",
+  "e": "👔",
+  "k": "tie, shirt, serious, clothing, employed"
+ },
+ {
+  "u": "1f455",
+  "n": "t shirt",
+  "e": "👕",
+  "k": "blue, shirt, casual, collar, tshirt, clothes, dressed, weekend, clothing, shopping"
+ },
+ {
+  "u": "1f456",
+  "n": "jeans",
+  "e": "👖",
+  "k": "blue, denim, pants, casual, clothes, dressed, weekend, clothing, shopping, trousers"
+ },
+ {
+  "u": "1f9e3",
+  "n": "scarf",
+  "e": "🧣",
+  "k": "up, cold, neck, bundle"
+ },
+ {
+  "u": "1f9e4",
+  "n": "gloves",
+  "e": "🧤",
+  "k": "hand"
+ },
+ {
+  "u": "1f9e5",
+  "n": "coat",
+  "e": "🧥",
+  "k": "up, brr, cold, bundle, jacket"
+ },
+ {
+  "u": "1f9e6",
+  "n": "socks",
+  "e": "🧦",
+  "k": "stocking"
+ },
+ {
+  "u": "1f457",
+  "n": "dress",
+  "e": "👗",
+  "k": "fancy, clothes, dressed, clothing, shopping"
+ },
+ {
+  "u": "1f458",
+  "n": "kimono",
+  "e": "👘",
+  "k": "clothing, comfortable"
+ },
+ {
+  "u": "1f97b",
+  "n": "sari",
+  "e": "🥻",
+  "k": "dress, clothing"
+ },
+ {
+  "u": "1fa71",
+  "n": "one piece swimsuit",
+  "e": "🩱",
+  "k": "suit, bathing, swimsuit, one piece"
+ },
+ {
+  "u": "1fa72",
+  "n": "briefs",
+  "e": "🩲",
+  "k": "suit, bathing, swimsuit, one piece, underwear"
+ },
+ {
+  "u": "1fa73",
+  "n": "shorts",
+  "e": "🩳",
+  "k": "suit, pants, bathing, swimsuit, underwear"
+ },
+ {
+  "u": "1f459",
+  "n": "bikini",
+  "e": "👙",
+  "k": "pool, suit, swim, beach, bathing, clothing"
+ },
+ {
+  "u": "1f45a",
+  "n": "woman’s clothes",
+  "e": "👚",
+  "k": "lady, dress, shirt, woman, blouse, collar, clothes, dressed, woman’s, clothing, shopping"
+ },
+ {
+  "u": "1faad",
+  "n": "folding hand fan",
+  "e": "🪭",
+  "k": "fan, hot, shy, clap, cool, hand, clack, dance, flirt, cooling, flutter, folding"
+ },
+ {
+  "u": "1f45b",
+  "n": "purse",
+  "e": "👛",
+  "k": "coin, dress, fancy, clothes, handbag, clothing, shopping"
+ },
+ {
+  "u": "1f45c",
+  "n": "handbag",
+  "e": "👜",
+  "k": "bag, lady, dress, purse, clothes, clothing, shopping"
+ },
+ {
+  "u": "1f45d",
+  "n": "clutch bag",
+  "e": "👝",
+  "k": "bag, dress, pouch, purse, clutch, clothes, handbag, clothing"
+ },
+ {
+  "u": "1f6cd-fe0f",
+  "n": "shopping bags",
+  "e": "🛍️",
+  "k": "bag, bags, hotel, shopping"
+ },
+ {
+  "u": "1fa74",
+  "n": "thong sandal",
+  "e": "🩴",
+  "k": "flip, flop, shoe, zōri, beach, thong, sandal, thongs, sandals"
+ },
+ {
+  "u": "1f45e",
+  "n": "man’s shoe",
+  "e": "👞",
+  "k": "man, feet, foot, kick, shoe, brown, man’s, shoes, clothes, clothing, shopping"
+ },
+ {
+  "u": "1f45f",
+  "n": "running shoe",
+  "e": "👟",
+  "k": "fast, kick, shoe, shoes, tennis, clothes, running, sneaker, athletic, clothing, shopping"
+ },
+ {
+  "u": "1f97e",
+  "n": "hiking boot",
+  "e": "🥾",
+  "k": "boot, shoe, brown, hiking, camping, outdoors, backpacking"
+ },
+ {
+  "u": "1f97f",
+  "n": "flat shoe",
+  "e": "🥿",
+  "k": "flat, shoe, comfy, flats, ballet, slip on, slipper"
+ },
+ {
+  "u": "1f460",
+  "n": "high heeled shoe",
+  "e": "👠",
+  "k": "heel, shoe, dress, heels, shoes, woman, clothes, fashion, clothing, shopping, stiletto, high heeled"
+ },
+ {
+  "u": "1f461",
+  "n": "woman’s sandal",
+  "e": "👡",
+  "k": "shoe, woman, sandal, woman’s, clothing"
+ },
+ {
+  "u": "1fa70",
+  "n": "ballet shoes",
+  "e": "🩰",
+  "k": "dance, shoes, ballet"
+ },
+ {
+  "u": "1f462",
+  "n": "woman’s boot",
+  "e": "👢",
+  "k": "boot, shoe, dress, shoes, woman, clothes, woman’s, clothing, shopping"
+ },
+ {
+  "u": "1faae",
+  "n": "hair pick",
+  "e": "🪮",
+  "k": "Afro, comb, hair, pick, groom"
+ },
+ {
+  "u": "1f451",
+  "n": "crown",
+  "e": "👑",
+  "k": "win, king, queen, royal, family, royalty, clothing, medieval"
+ }
+]

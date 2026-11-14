@@ -1,0 +1,188 @@
+[
+ {
+  "u": "1fa9f",
+  "n": "window",
+  "e": "🪟",
+  "k": "air, view, frame, fresh, opening, transparent"
+ },
+ {
+  "u": "1f6cf-fe0f",
+  "n": "bed",
+  "e": "🛏️",
+  "k": "hotel, sleep"
+ },
+ {
+  "u": "1f6cb-fe0f",
+  "n": "couch and lamp",
+  "e": "🛋️",
+  "k": "lamp, couch, hotel"
+ },
+ {
+  "u": "1fa91",
+  "n": "chair",
+  "e": "🪑",
+  "k": "sit, seat"
+ },
+ {
+  "u": "1f6bd",
+  "n": "toilet",
+  "e": "🚽",
+  "k": "bathroom"
+ },
+ {
+  "u": "1faa0",
+  "n": "plunger",
+  "e": "🪠",
+  "k": "cup, poop, force, toilet, plumber, suction"
+ },
+ {
+  "u": "1f6bf",
+  "n": "shower",
+  "e": "🚿",
+  "k": "water"
+ },
+ {
+  "u": "1f6c1",
+  "n": "bathtub",
+  "e": "🛁",
+  "k": "bath"
+ },
+ {
+  "u": "1faa4",
+  "n": "mouse trap",
+  "e": "🪤",
+  "k": "bait, lure, trap, mouse, snare, cheese, mousetrap"
+ },
+ {
+  "u": "1fa92",
+  "n": "razor",
+  "e": "🪒",
+  "k": "sharp, shave"
+ },
+ {
+  "u": "1f9f4",
+  "n": "lotion bottle",
+  "e": "🧴",
+  "k": "bottle, lotion, shampoo, sunscreen, moisturizer"
+ },
+ {
+  "u": "1f9f7",
+  "n": "safety pin",
+  "e": "🧷",
+  "k": "pin, punk, rock, diaper, safety"
+ },
+ {
+  "u": "1f9f9",
+  "n": "broom",
+  "e": "🧹",
+  "k": "witch, cleaning, sweeping"
+ },
+ {
+  "u": "1f9fa",
+  "n": "basket",
+  "e": "🧺",
+  "k": "picnic, farming, laundry"
+ },
+ {
+  "u": "1f9fb",
+  "n": "roll of paper",
+  "e": "🧻",
+  "k": "roll, paper, toilet, towels"
+ },
+ {
+  "u": "1faa3",
+  "n": "bucket",
+  "e": "🪣",
+  "k": "vat, cask, pail"
+ },
+ {
+  "u": "1f9fc",
+  "n": "soap",
+  "e": "🧼",
+  "k": "bar, clean, lather, bathing, cleaning, soapdish"
+ },
+ {
+  "u": "1fae7",
+  "n": "bubbles",
+  "e": "🫧",
+  "k": "burp, soap, clean, pearl, bubble, floating, underwater"
+ },
+ {
+  "u": "1faa5",
+  "n": "toothbrush",
+  "e": "🪥",
+  "k": "brush, clean, teeth, dental, hygiene, bathroom, toiletry"
+ },
+ {
+  "u": "1f9fd",
+  "n": "sponge",
+  "e": "🧽",
+  "k": "soak, porous, cleaning, absorbing"
+ },
+ {
+  "u": "1f9ef",
+  "n": "fire extinguisher",
+  "e": "🧯",
+  "k": "fire, quench, extinguish, extinguisher"
+ },
+ {
+  "u": "1f6d2",
+  "n": "shopping cart",
+  "e": "🛒",
+  "k": "cart, trolley, shopping"
+ },
+ {
+  "u": "1f6ac",
+  "n": "cigarette",
+  "e": "🚬",
+  "k": "smoking"
+ },
+ {
+  "u": "26b0-fe0f",
+  "n": "coffin",
+  "e": "⚰️",
+  "k": "dead, death, vampire"
+ },
+ {
+  "u": "1faa6",
+  "n": "headstone",
+  "e": "🪦",
+  "k": "rip, dead, tomb, grave, cemetery, memorial, graveyard, tombstone"
+ },
+ {
+  "u": "26b1-fe0f",
+  "n": "funeral urn",
+  "e": "⚱️",
+  "k": "urn, ashes, death, funeral"
+ },
+ {
+  "u": "1f9ff",
+  "n": "nazar amulet",
+  "e": "🧿",
+  "k": "bead, blue, charm, nazar, amulet, evil eye, talisman"
+ },
+ {
+  "u": "1faac",
+  "n": "hamsa",
+  "e": "🪬",
+  "k": "Mary, hand, palm, guide, Fatima, Miriam, amulet, fortune, protect, protection"
+ },
+ {
+  "u": "1f5ff",
+  "n": "moai",
+  "e": "🗿",
+  "k": "face, moyai, statue, travel, stoneface"
+ },
+ {
+  "u": "1faa7",
+  "n": "placard",
+  "e": "🪧",
+  "k": "card, sign, notice, picket, plaque, protest, demonstration"
+ },
+ {
+  "u": "1faaa",
+  "n": "identification card",
+  "e": "🪪",
+  "k": "ID, card, license, document, security, credentials, identification"
+ }
+]

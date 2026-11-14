@@ -1,0 +1,138 @@
+[
+ {
+  "u": "1f4eb",
+  "n": "closed mailbox with raised flag",
+  "e": "📫",
+  "k": "flag, mail, closed, raised, mailbox, postbox, communication",
+  "from": "batches/objects-4.mjs",
+  "why": "closed mailbox with raised flag: front-view arch box reads abstract; flag arm too thin (family of 4)"
+ },
+ {
+  "u": "1f4ea",
+  "n": "closed mailbox with lowered flag",
+  "e": "📪",
+  "k": "flag, mail, closed, lowered, mailbox, postbox",
+  "from": "batches/objects-4.mjs",
+  "why": "closed mailbox with lowered flag (same family)"
+ },
+ {
+  "u": "1f4ec",
+  "n": "open mailbox with raised flag",
+  "e": "📬",
+  "k": "flag, mail, open, raised, mailbox, postbox",
+  "from": "batches/objects-4.mjs",
+  "why": "open mailbox with raised flag (same family)"
+ },
+ {
+  "u": "1f4ed",
+  "n": "open mailbox with lowered flag",
+  "e": "📭",
+  "k": "flag, mail, open, lowered, mailbox, postbox",
+  "from": "batches/objects-4.mjs",
+  "why": "open mailbox with lowered flag (same family)"
+ },
+ {
+  "u": "1f4b8",
+  "n": "money with wings",
+  "e": "💸",
+  "k": "fly, pay, bank, bill, cash, note, money, wings, dollar, billion, million, banknote",
+  "from": "batches/objects-4.mjs",
+  "why": "money with wings: wings are pale ellipses, the note is small"
+ },
+ {
+  "u": "1f3f7-fe0f",
+  "n": "label",
+  "e": "🏷️",
+  "k": "tag",
+  "from": "batches/objects-4.mjs",
+  "why": "label: the string loop at the hole is tiny and ambiguous"
+ },
+ {
+  "u": "2709-fe0f",
+  "n": "envelope",
+  "e": "✉️",
+  "k": "email, e mail, letter",
+  "from": "batches/objects-4.mjs",
+  "why": "envelope: cream on the light ground has almost no edge (family of 4)"
+ },
+ {
+  "u": "1f4e7",
+  "n": "e mail",
+  "e": "📧",
+  "k": "mail, email, letter",
+  "from": "batches/objects-4.mjs",
+  "why": "e-mail (same envelope family: redraw so the four match)"
+ },
+ {
+  "u": "1f4e8",
+  "n": "incoming envelope",
+  "e": "📨",
+  "k": "mail, sent, email, e mail, letter, receive, envelope, incoming, delivering",
+  "from": "batches/objects-4.mjs",
+  "why": "incoming envelope (same envelope family)"
+ },
+ {
+  "u": "1f4e9",
+  "n": "envelope with arrow",
+  "e": "📩",
+  "k": "down, mail, send, sent, arrow, email, e mail, letter, envelope, outgoing, communication",
+  "from": "batches/objects-4.mjs",
+  "why": "envelope with arrow (same envelope family)"
+ },
+ {
+  "u": "1f50f",
+  "n": "locked with pen",
+  "e": "🔏",
+  "k": "ink, nib, pen, lock, locked, privacy",
+  "from": "batches/objects-5.mjs",
+  "why": "locked with pen: the nib is small and sits on the keyhole"
+ },
+ {
+  "u": "1f510",
+  "n": "locked with key",
+  "e": "🔐",
+  "k": "key, bike, lock, closed, locked, secure",
+  "from": "batches/objects-5.mjs",
+  "why": "locked with key: the key is small and hides the keyhole"
+ },
+ {
+  "u": "1f5d3-fe0f",
+  "n": "spiral calendar",
+  "e": "🗓️",
+  "k": "pad, spiral, calendar",
+  "from": "batches/objects-5.mjs",
+  "why": "spiral calendar: the coils are too tiny to see"
+ },
+ {
+  "u": "1f5c2-fe0f",
+  "n": "card index dividers",
+  "e": "🗂️",
+  "k": "card, index, dividers",
+  "from": "batches/objects-5.mjs",
+  "why": "card index dividers read as stacked folders"
+ },
+ {
+  "u": "2697-fe0f",
+  "n": "alembic",
+  "e": "⚗️",
+  "k": "tool, chemistry",
+  "from": "batches/objects-6.mjs",
+  "why": "alembic: retort neck and cork are crude, the glass reads as a blob"
+ },
+ {
+  "u": "1f9ec",
+  "n": "dna",
+  "e": "🧬",
+  "k": "gene, life, genetics, biologist, evolution",
+  "from": "batches/objects-6.mjs",
+  "why": "dna: the rungs are striped yellow bars that do not clearly cross between the two strands"
+ },
+ {
+  "u": "1f9f4",
+  "n": "lotion bottle",
+  "e": "🧴",
+  "k": "bottle, lotion, shampoo, sunscreen, moisturizer",
+  "from": "batches/objects-7.mjs",
+  "why": "lotion bottle: the pale cap is weak on the light ground"
+ }
+]

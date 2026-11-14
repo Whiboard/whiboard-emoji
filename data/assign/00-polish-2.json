@@ -1,0 +1,98 @@
+[
+ {
+  "u": "1f97f",
+  "n": "flat shoe",
+  "e": "🥿",
+  "k": "flat, shoe, comfy, flats, ballet, slip on, slipper",
+  "from": "batches/objects-1.mjs",
+  "why": "flat shoe is a smooth blob; the opening is only hinted"
+ },
+ {
+  "u": "1f460",
+  "n": "high heeled shoe",
+  "e": "👠",
+  "k": "heel, shoe, dress, heels, shoes, woman, clothes, fashion, clothing, shopping, stiletto, high heeled",
+  "from": "batches/objects-1.mjs",
+  "why": "high-heeled shoe is a thick tongue shape; heel and sole are crude"
+ },
+ {
+  "u": "1f97b",
+  "n": "sari",
+  "e": "🥻",
+  "k": "dress, clothing",
+  "from": "batches/objects-1.mjs",
+  "why": "sari is abstract (blouse, skirt, diagonal band), not obvious"
+ },
+ {
+  "u": "1f9e2",
+  "n": "billed cap",
+  "e": "🧢",
+  "k": "cap, dad, hat, bent, billed, baseball",
+  "from": "batches/objects-2.mjs",
+  "why": "billed cap reads as a plain red dome; the bill is small and dark"
+ },
+ {
+  "u": "1f3bc",
+  "n": "musical score",
+  "e": "🎼",
+  "k": "note, music, score, musical",
+  "from": "batches/objects-2.mjs",
+  "why": "musical score: the treble clef is crude"
+ },
+ {
+  "u": "1f4ef",
+  "n": "postal horn",
+  "e": "📯",
+  "k": "horn, post, postal",
+  "from": "batches/objects-2.mjs",
+  "why": "postal horn: coil and bell are over-simplified"
+ },
+ {
+  "u": "1f3ba",
+  "n": "trumpet",
+  "e": "🎺",
+  "k": "music, instrument",
+  "from": "batches/objects-2.mjs",
+  "why": "trumpet: valves and tubing are cluttered at 40 px"
+ },
+ {
+  "u": "1f515",
+  "n": "bell with slash",
+  "e": "🔕",
+  "k": "no, not, bell, mute, quiet, slash, sound, silent, forbidden, prohibited",
+  "from": "batches/objects-2.mjs",
+  "why": "bell with slash: the thick red slash hides the bell"
+ },
+ {
+  "u": "1fa89",
+  "n": "harp",
+  "e": "🪉",
+  "k": "love, cupid, music, orchestra, instrument",
+  "from": "batches/objects-3.mjs",
+  "why": "harp: the frame shape is unrefined"
+ },
+ {
+  "u": "1f5b1-fe0f",
+  "n": "computer mouse",
+  "e": "🖱️",
+  "k": "mouse, computer",
+  "from": "batches/objects-3.mjs",
+  "why": "computer mouse: pale body nearly vanishes on the light ground"
+ },
+ {
+  "u": "1f4bf",
+  "n": "optical disk",
+  "e": "💿",
+  "k": "CD, dvd, disk, blu ray, optical, computer",
+  "from": "batches/objects-3.mjs",
+  "why": "optical disk: pale, held only by its rim on the light ground"
+ },
+ {
+  "u": "1f4fd-fe0f",
+  "n": "film projector",
+  "e": "📽️",
+  "k": "film, movie, video, cinema, projector",
+  "from": "batches/objects-3.mjs",
+  "why": "film projector looks the same as the movie camera"
+ }
+]

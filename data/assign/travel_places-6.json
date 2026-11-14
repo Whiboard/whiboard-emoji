@@ -1,0 +1,206 @@
+[
+ {
+  "u": "1f321-fe0f",
+  "n": "thermometer",
+  "e": "🌡️",
+  "k": "weather"
+ },
+ {
+  "u": "2600-fe0f",
+  "n": "sun",
+  "e": "☀️",
+  "k": "rays, space, sunny, bright, weather"
+ },
+ {
+  "u": "1f31e",
+  "n": "sun with face",
+  "e": "🌞",
+  "k": "day, sun, face, heat, beach, shine, sunny, bright, weather, sunshine"
+ },
+ {
+  "u": "1fa90",
+  "n": "ringed planet",
+  "e": "🪐",
+  "k": "planet, ringed, saturn, saturnine"
+ },
+ {
+  "u": "2b50",
+  "n": "star",
+  "e": "⭐",
+  "k": "stars, white, medium, astronomy"
+ },
+ {
+  "u": "1f31f",
+  "n": "glowing star",
+  "e": "🌟",
+  "k": "win, glow, star, night, glowing, shining, sparkle, glittery"
+ },
+ {
+  "u": "1f320",
+  "n": "shooting star",
+  "e": "🌠",
+  "k": "star, night, space, falling, shooting"
+ },
+ {
+  "u": "1f30c",
+  "n": "milky way",
+  "e": "🌌",
+  "k": "way, milky, space"
+ },
+ {
+  "u": "2601-fe0f",
+  "n": "cloud",
+  "e": "☁️",
+  "k": "weather"
+ },
+ {
+  "u": "26c5",
+  "n": "sun behind cloud",
+  "e": "⛅",
+  "k": "sun, cloud, behind, cloudy, weather"
+ },
+ {
+  "u": "26c8-fe0f",
+  "n": "cloud with lightning and rain",
+  "e": "⛈️",
+  "k": "rain, cloud, thunder, lightning, thunderstorm"
+ },
+ {
+  "u": "1f324-fe0f",
+  "n": "sun behind small cloud",
+  "e": "🌤️",
+  "k": "sun, cloud, behind, weather"
+ },
+ {
+  "u": "1f325-fe0f",
+  "n": "sun behind large cloud",
+  "e": "🌥️",
+  "k": "sun, cloud, behind, weather"
+ },
+ {
+  "u": "1f326-fe0f",
+  "n": "sun behind rain cloud",
+  "e": "🌦️",
+  "k": "sun, rain, cloud, behind, weather"
+ },
+ {
+  "u": "1f327-fe0f",
+  "n": "cloud with rain",
+  "e": "🌧️",
+  "k": "rain, cloud, weather"
+ },
+ {
+  "u": "1f328-fe0f",
+  "n": "cloud with snow",
+  "e": "🌨️",
+  "k": "cold, snow, cloud, weather"
+ },
+ {
+  "u": "1f329-fe0f",
+  "n": "cloud with lightning",
+  "e": "🌩️",
+  "k": "cloud, weather, lightning"
+ },
+ {
+  "u": "1f32a-fe0f",
+  "n": "tornado",
+  "e": "🌪️",
+  "k": "cloud, weather, whirlwind"
+ },
+ {
+  "u": "1f32b-fe0f",
+  "n": "fog",
+  "e": "🌫️",
+  "k": "cloud, weather"
+ },
+ {
+  "u": "1f32c-fe0f",
+  "n": "wind face",
+  "e": "🌬️",
+  "k": "blow, face, wind, cloud"
+ },
+ {
+  "u": "1f300",
+  "n": "cyclone",
+  "e": "🌀",
+  "k": "dizzy, twister, typhoon, weather, hurricane"
+ },
+ {
+  "u": "1f308",
+  "n": "rainbow",
+  "e": "🌈",
+  "k": "gay, glbt, lgbt, rain, glbtq, lgbtq, pride, queer, trans, nature, lesbian, lgbtqia, weather, genderqueer, transgender"
+ },
+ {
+  "u": "1f302",
+  "n": "closed umbrella",
+  "e": "🌂",
+  "k": "rain, closed, clothing, umbrella"
+ },
+ {
+  "u": "2602-fe0f",
+  "n": "umbrella",
+  "e": "☂️",
+  "k": "rain, clothing"
+ },
+ {
+  "u": "2614",
+  "n": "umbrella with rain drops",
+  "e": "☔",
+  "k": "drop, rain, drops, weather, clothing, umbrella"
+ },
+ {
+  "u": "26f1-fe0f",
+  "n": "umbrella on ground",
+  "e": "⛱️",
+  "k": "sun, rain, ground, umbrella"
+ },
+ {
+  "u": "26a1",
+  "n": "high voltage",
+  "e": "⚡",
+  "k": "zap, high, danger, nature, thunder, voltage, electric, lightning, electricity, thunderbolt"
+ },
+ {
+  "u": "2744-fe0f",
+  "n": "snowflake",
+  "e": "❄️",
+  "k": "cold, snow, weather"
+ },
+ {
+  "u": "2603-fe0f",
+  "n": "snowman",
+  "e": "☃️",
+  "k": "man, cold, snow"
+ },
+ {
+  "u": "26c4",
+  "n": "snowman without snow",
+  "e": "⛄",
+  "k": "man, cold, snow, snowman"
+ },
+ {
+  "u": "2604-fe0f",
+  "n": "comet",
+  "e": "☄️",
+  "k": "space"
+ },
+ {
+  "u": "1f525",
+  "n": "fire",
+  "e": "🔥",
+  "k": "af, hot, lit, burn, tool, flame, litaf"
+ },
+ {
+  "u": "1f4a7",
+  "n": "droplet",
+  "e": "💧",
+  "k": "sad, cold, drop, tear, comic, sweat, water, nature, weather"
+ },
+ {
+  "u": "1f30a",
+  "n": "water wave",
+  "e": "🌊",
+  "k": "surf, wave, ocean, water, nature, surfer, surfing"
+ }
+]

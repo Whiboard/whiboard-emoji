@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="256" height="256"><title>no pedestrians</title><defs>
+<filter id="sk-bv" filterUnits="userSpaceOnUse" x="-10" y="-10" width="120" height="120" color-interpolation-filters="sRGB">
+<feOffset in="SourceAlpha" dx="1.5" dy="1.8" result="o1"/><feComposite in="SourceAlpha" in2="o1" operator="out" result="hl"/>
+<feGaussianBlur in="hl" stdDeviation="1.1" result="hlb"/><feFlood flood-color="#FFF8E4" flood-opacity=".6" result="hf"/><feComposite in="hf" in2="hlb" operator="in" result="hlc"/>
+<feOffset in="SourceAlpha" dx="-2.2" dy="-2.6" result="o2"/><feComposite in="SourceAlpha" in2="o2" operator="out" result="sh"/>
+<feGaussianBlur in="sh" stdDeviation="1.5" result="shb"/><feFlood flood-color="#3A1C10" flood-opacity=".36" result="sf"/><feComposite in="sf" in2="shb" operator="in" result="shc"/>
+<feComposite in="shc" in2="SourceGraphic" operator="atop" result="a1"/><feComposite in="hlc" in2="a1" operator="atop"/>
+</filter>
+<filter id="sk-bvs" filterUnits="userSpaceOnUse" x="-10" y="-10" width="120" height="120" color-interpolation-filters="sRGB">
+<feOffset in="SourceAlpha" dx=".8" dy="1" result="o1"/><feComposite in="SourceAlpha" in2="o1" operator="out" result="hl"/>
+<feGaussianBlur in="hl" stdDeviation=".6" result="hlb"/><feFlood flood-color="#FFF8E4" flood-opacity=".55" result="hf"/><feComposite in="hf" in2="hlb" operator="in" result="hlc"/>
+<feOffset in="SourceAlpha" dx="-1.1" dy="-1.4" result="o2"/><feComposite in="SourceAlpha" in2="o2" operator="out" result="sh"/>
+<feGaussianBlur in="sh" stdDeviation=".8" result="shb"/><feFlood flood-color="#3A1C10" flood-opacity=".32" result="sf"/><feComposite in="sf" in2="shb" operator="in" result="shc"/>
+<feComposite in="shc" in2="SourceGraphic" operator="atop" result="a1"/><feComposite in="hlc" in2="a1" operator="atop"/>
+</filter>
+<filter id="sk-tx" filterUnits="userSpaceOnUse" x="-6" y="-6" width="112" height="112" color-interpolation-filters="sRGB">
+<feTurbulence type="fractalNoise" baseFrequency=".06" numOctaves="3" seed="11" result="n1"/>
+<feColorMatrix in="n1" type="matrix" values="2.6 0 0 0 -.8  2.6 0 0 0 -.8  2.6 0 0 0 -.8  0 0 0 0 .3" result="c1"/>
+<feComposite in="c1" in2="SourceAlpha" operator="in" result="g1"/><feBlend in="g1" in2="SourceGraphic" mode="soft-light" result="b1"/>
+<feTurbulence type="fractalNoise" baseFrequency="1.15" numOctaves="2" seed="5" result="n2"/>
+<feColorMatrix in="n2" type="matrix" values="1.9 0 0 0 -.45  1.9 0 0 0 -.45  1.9 0 0 0 -.45  0 0 0 0 .2" result="c2"/>
+<feComposite in="c2" in2="SourceAlpha" operator="in" result="g2"/><feBlend in="g2" in2="b1" mode="soft-light"/>
+</filter><linearGradient id="e1f6b7-0" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FCF6E8"/><stop offset="1" stop-color="#E4D7B8"/></linearGradient></defs><g filter="url(#sk-tx)"><g filter="url(#sk-bv)"><circle cx="50" cy="50" r="43" fill="url(#e1f6b7-0)"/></g><g filter="url(#sk-bvs)"><g transform="translate(50 50) scale(0.7) translate(-50 -50)"><g transform="translate(30 50) scale(0.9) translate(-50 -49)"><circle cx="50" cy="14" r="9.5" fill="#5A4F56"/><rect x="37" y="28" width="26" height="36" rx="10" fill="#5A4F56"/><path d="M31 36 V60 M69 36 V60" fill="none" stroke="#5A4F56" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><path d="M43.5 62 V86 M56.5 62 V86" fill="none" stroke="#5A4F56" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/></g><g transform="translate(70 50) scale(0.9) translate(-50 -49)"><circle cx="50" cy="14" r="9.5" fill="#5A4F56"/><path d="M50 30 L66 68 H34Z" fill="#5A4F56" stroke="#5A4F56" stroke-width="9" stroke-linejoin="round"/><path d="M32 36 L26 60 M68 36 L74 60" fill="none" stroke="#5A4F56" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><path d="M43 74 V87 M57 74 V87" fill="none" stroke="#5A4F56" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/></g></g></g><g filter="url(#sk-bvs)"><circle cx="50" cy="50" r="35.5" fill="none" stroke="#D04A44" stroke-width="9"/><path d="M25 25 L75 75" fill="none" stroke="#D04A44" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/></g></g></svg>

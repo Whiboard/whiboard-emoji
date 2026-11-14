@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="256" height="256"><title>clapper board</title><defs>
+<filter id="sk-bv" filterUnits="userSpaceOnUse" x="-10" y="-10" width="120" height="120" color-interpolation-filters="sRGB">
+<feOffset in="SourceAlpha" dx="1.5" dy="1.8" result="o1"/><feComposite in="SourceAlpha" in2="o1" operator="out" result="hl"/>
+<feGaussianBlur in="hl" stdDeviation="1.1" result="hlb"/><feFlood flood-color="#FFF8E4" flood-opacity=".6" result="hf"/><feComposite in="hf" in2="hlb" operator="in" result="hlc"/>
+<feOffset in="SourceAlpha" dx="-2.2" dy="-2.6" result="o2"/><feComposite in="SourceAlpha" in2="o2" operator="out" result="sh"/>
+<feGaussianBlur in="sh" stdDeviation="1.5" result="shb"/><feFlood flood-color="#3A1C10" flood-opacity=".36" result="sf"/><feComposite in="sf" in2="shb" operator="in" result="shc"/>
+<feComposite in="shc" in2="SourceGraphic" operator="atop" result="a1"/><feComposite in="hlc" in2="a1" operator="atop"/>
+</filter>
+<filter id="sk-bvs" filterUnits="userSpaceOnUse" x="-10" y="-10" width="120" height="120" color-interpolation-filters="sRGB">
+<feOffset in="SourceAlpha" dx=".8" dy="1" result="o1"/><feComposite in="SourceAlpha" in2="o1" operator="out" result="hl"/>
+<feGaussianBlur in="hl" stdDeviation=".6" result="hlb"/><feFlood flood-color="#FFF8E4" flood-opacity=".55" result="hf"/><feComposite in="hf" in2="hlb" operator="in" result="hlc"/>
+<feOffset in="SourceAlpha" dx="-1.1" dy="-1.4" result="o2"/><feComposite in="SourceAlpha" in2="o2" operator="out" result="sh"/>
+<feGaussianBlur in="sh" stdDeviation=".8" result="shb"/><feFlood flood-color="#3A1C10" flood-opacity=".32" result="sf"/><feComposite in="sf" in2="shb" operator="in" result="shc"/>
+<feComposite in="shc" in2="SourceGraphic" operator="atop" result="a1"/><feComposite in="hlc" in2="a1" operator="atop"/>
+</filter>
+<filter id="sk-tx" filterUnits="userSpaceOnUse" x="-6" y="-6" width="112" height="112" color-interpolation-filters="sRGB">
+<feTurbulence type="fractalNoise" baseFrequency=".06" numOctaves="3" seed="11" result="n1"/>
+<feColorMatrix in="n1" type="matrix" values="2.6 0 0 0 -.8  2.6 0 0 0 -.8  2.6 0 0 0 -.8  0 0 0 0 .3" result="c1"/>
+<feComposite in="c1" in2="SourceAlpha" operator="in" result="g1"/><feBlend in="g1" in2="SourceGraphic" mode="soft-light" result="b1"/>
+<feTurbulence type="fractalNoise" baseFrequency="1.15" numOctaves="2" seed="5" result="n2"/>
+<feColorMatrix in="n2" type="matrix" values="1.9 0 0 0 -.45  1.9 0 0 0 -.45  1.9 0 0 0 -.45  0 0 0 0 .2" result="c2"/>
+<feComposite in="c2" in2="SourceAlpha" operator="in" result="g2"/><feBlend in="g2" in2="b1" mode="soft-light"/>
+</filter><linearGradient id="e1f3ac-0" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7A8BC0"/><stop offset="0.5" stop-color="#44568F"/><stop offset="1" stop-color="#2F3C68"/></linearGradient><clipPath id="e1f3ac-1"><rect x="8" y="36" width="84" height="12"/></clipPath><clipPath id="e1f3ac-2"><rect x="8" y="18" width="84" height="15" rx="2"/></clipPath></defs><g filter="url(#sk-tx)"><g filter="url(#sk-bv)"><rect x="8" y="46" width="84" height="46" rx="5" fill="url(#e1f3ac-0)"/></g>
+<g filter="url(#sk-bv)"><g clip-path="url(#e1f3ac-1)"><rect x="8" y="36" width="84" height="12" fill="#FCF6E8"/><polygon points="14,36 22,36 12,48 4,48" fill="#FCF6E8"/><polygon points="30,36 38,36 28,48 20,48" fill="#2F3C68"/><polygon points="46,36 54,36 44,48 36,48" fill="#FCF6E8"/><polygon points="62,36 70,36 60,48 52,48" fill="#2F3C68"/><polygon points="78,36 86,36 76,48 68,48" fill="#FCF6E8"/><polygon points="94,36 102,36 92,48 84,48" fill="#2F3C68"/><polygon points="110,36 118,36 108,48 100,48" fill="#FCF6E8"/><polygon points="126,36 134,36 124,48 116,48" fill="#2F3C68"/></g></g>
+<g filter="url(#sk-bv)"><g transform="rotate(-10 8 34)"><g clip-path="url(#e1f3ac-2)"><rect x="8" y="18" width="84" height="15" fill="#FCF6E8"/><polygon points="14,18 22,18 12,33 4,33" fill="#FCF6E8"/><polygon points="30,18 38,18 28,33 20,33" fill="#2F3C68"/><polygon points="46,18 54,18 44,33 36,33" fill="#FCF6E8"/><polygon points="62,18 70,18 60,33 52,33" fill="#2F3C68"/><polygon points="78,18 86,18 76,33 68,33" fill="#FCF6E8"/><polygon points="94,18 102,18 92,33 84,33" fill="#2F3C68"/><polygon points="110,18 118,18 108,33 100,33" fill="#FCF6E8"/><polygon points="126,18 134,18 124,33 116,33" fill="#2F3C68"/></g></g></g>
+<g stroke="#C6E4F4" stroke-width="2.4" stroke-linecap="round" opacity=".7"><path d="M16 60 H48 M16 70 H34 M56 60 H84 M56 70 H72"/></g>
+<circle cx="80" cy="82" r="3.6" fill="#F6CF5E"/></g></svg>

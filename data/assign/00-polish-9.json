@@ -1,0 +1,82 @@
+[
+ {
+  "u": "1f631",
+  "n": "face screaming in fear",
+  "e": "😱",
+  "k": "epic, face, fear, woah, munch, scared, scream, fearful, shocked, screamer, screaming, surprised",
+  "from": "batches/smileys-3.mjs",
+  "why": "face screaming in fear has no hands: the two hands flat on the cheeks are the identifying feature. Keep the pale blue forehead, white wide eyes and long open mouth"
+ },
+ {
+  "u": "1fae3",
+  "n": "face with peeking eye",
+  "e": "🫣",
+  "k": "eye, shy, face, hide, peek, peep, stare, hiding, scared, peeking, embarrass, captivated",
+  "from": "batches/smileys-1.mjs",
+  "why": "face with peeking eye: the hand must cover both eyes with fingers spread so one eye peeks between two fingers; now the eye is a slit on the hand"
+ },
+ {
+  "u": "1fae1",
+  "n": "saluting face",
+  "e": "🫡",
+  "k": "OK, sir, yes, face, good, luck, ma’am, salute, troops, respect, saluting",
+  "from": "batches/smileys-1.mjs",
+  "why": "saluting face: the hand is clipped against the head rim and small. Flat hand touching the right brow at an angle, clearly inside the box"
+ },
+ {
+  "u": "1f917",
+  "n": "smiling face with open hands",
+  "e": "🤗",
+  "k": "hug, face, open, hands, hugging, smiling",
+  "from": "batches/smileys-1.mjs",
+  "why": "hugging face: open hands are tiny mittens at the chin. Two open palms forward, large, at the lower sides of the face"
+ },
+ {
+  "u": "1f92f",
+  "n": "exploding head",
+  "e": "🤯",
+  "k": "no, way, head, mind, blown, explode, shocked, exploding, mindblown",
+  "from": "batches/smileys-2.mjs",
+  "why": "exploding head: the burst reads as a small puffy cloud. The top of the head is blown off: mushroom cloud rising from an open skull line, shocked face below"
+ },
+ {
+  "u": "1f973",
+  "n": "partying face",
+  "e": "🥳",
+  "k": "hat, bday, face, horn, happy, party, hooray, excited, birthday, partying, celebrate, celebration",
+  "from": "batches/smileys-2.mjs",
+  "why": "partying face: hat is small with crude stripes. Bigger tilted cone hat with clean stripes and a pompom, party blower in the mouth, a few confetti"
+ },
+ {
+  "u": "1f927",
+  "n": "sneezing face",
+  "e": "🤧",
+  "k": "flu, face, sick, fever, sneeze, sneezing, gesundheit",
+  "from": "batches/smileys-2.mjs",
+  "why": "sneezing face: the tissue is a vague blob. Squeezed eyes, a clear folded tissue held to the nose by a hand"
+ },
+ {
+  "u": "1f4a8",
+  "n": "dashing away",
+  "e": "💨",
+  "k": "go, away, dash, fart, fast, gone, cloud, comic, gotta, smoke, dashing, running",
+  "from": "batches/smileys-5.mjs",
+  "why": "dashing away: puff cloud reads as a lumpy blob. A comic dash cloud: three speed lines trailing left from a round swirl puff"
+ },
+ {
+  "u": "1f4ab",
+  "n": "dizzy",
+  "e": "💫",
+  "k": "star, comic, stars, shining, shooting",
+  "from": "batches/smileys-5.mjs",
+  "why": "dizzy: the tail is a plain arc. A star with a circling orbit trail (an open ring passing behind and in front of it) and small sparks"
+ },
+ {
+  "u": "1f479",
+  "n": "ogre",
+  "e": "👹",
+  "k": "face, mask, tale, devil, fairy, scary, fantasy, monster, creature, fairytale",
+  "from": "batches/smileys-4.mjs",
+  "why": "ogre: horns small, teeth bar crude. Red oni mask: two clear horns, wild brows, wide mouth with two fangs pointing up"
+ }
+]

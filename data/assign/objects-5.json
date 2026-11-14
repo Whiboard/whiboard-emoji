@@ -1,0 +1,218 @@
+[
+ {
+  "u": "1f5f3-fe0f",
+  "n": "ballot box with ballot",
+  "e": "🗳️",
+  "k": "box, ballot"
+ },
+ {
+  "u": "2712-fe0f",
+  "n": "black nib",
+  "e": "✒️",
+  "k": "nib, pen, black"
+ },
+ {
+  "u": "1f58a-fe0f",
+  "n": "pen",
+  "e": "🖊️",
+  "k": "ballpoint"
+ },
+ {
+  "u": "1f58d-fe0f",
+  "n": "crayon",
+  "e": "🖍️",
+  "k": ""
+ },
+ {
+  "u": "1f4dd",
+  "n": "memo",
+  "e": "📝",
+  "k": "media, notes, pencil, communication"
+ },
+ {
+  "u": "1f4bc",
+  "n": "briefcase",
+  "e": "💼",
+  "k": "office"
+ },
+ {
+  "u": "1f4c1",
+  "n": "file folder",
+  "e": "📁",
+  "k": "file, folder"
+ },
+ {
+  "u": "1f4c2",
+  "n": "open file folder",
+  "e": "📂",
+  "k": "file, open, folder"
+ },
+ {
+  "u": "1f5c2-fe0f",
+  "n": "card index dividers",
+  "e": "🗂️",
+  "k": "card, index, dividers"
+ },
+ {
+  "u": "1f4c5",
+  "n": "calendar",
+  "e": "📅",
+  "k": "date"
+ },
+ {
+  "u": "1f4c6",
+  "n": "tear off calendar",
+  "e": "📆",
+  "k": "calendar, tear off"
+ },
+ {
+  "u": "1f5d2-fe0f",
+  "n": "spiral notepad",
+  "e": "🗒️",
+  "k": "pad, note, spiral, notepad"
+ },
+ {
+  "u": "1f5d3-fe0f",
+  "n": "spiral calendar",
+  "e": "🗓️",
+  "k": "pad, spiral, calendar"
+ },
+ {
+  "u": "1f4c7",
+  "n": "card index",
+  "e": "📇",
+  "k": "old, card, index, school, rolodex"
+ },
+ {
+  "u": "1f4c8",
+  "n": "chart increasing",
+  "e": "📈",
+  "k": "up, data, chart, graph, right, trend, growth, upward, increasing"
+ },
+ {
+  "u": "1f4c9",
+  "n": "chart decreasing",
+  "e": "📉",
+  "k": "data, down, chart, graph, trend, downward, negative, decreasing"
+ },
+ {
+  "u": "1f4ca",
+  "n": "bar chart",
+  "e": "📊",
+  "k": "bar, data, chart, graph"
+ },
+ {
+  "u": "1f4cb",
+  "n": "clipboard",
+  "e": "📋",
+  "k": "do, list, notes"
+ },
+ {
+  "u": "1f4cd",
+  "n": "round pushpin",
+  "e": "📍",
+  "k": "map, pin, round, pushpin, location"
+ },
+ {
+  "u": "1f587-fe0f",
+  "n": "linked paperclips",
+  "e": "🖇️",
+  "k": "link, linked, paperclip, paperclips"
+ },
+ {
+  "u": "1f5c3-fe0f",
+  "n": "card file box",
+  "e": "🗃️",
+  "k": "box, card, file"
+ },
+ {
+  "u": "1f5c4-fe0f",
+  "n": "file cabinet",
+  "e": "🗄️",
+  "k": "file, paper, filing, cabinet"
+ },
+ {
+  "u": "1f5d1-fe0f",
+  "n": "wastebasket",
+  "e": "🗑️",
+  "k": "can, trash, waste, garbage"
+ },
+ {
+  "u": "1f512",
+  "n": "locked",
+  "e": "🔒",
+  "k": "lock, closed, private"
+ },
+ {
+  "u": "1f513",
+  "n": "unlocked",
+  "e": "🔓",
+  "k": "lock, open, unlock, cracked"
+ },
+ {
+  "u": "1f50f",
+  "n": "locked with pen",
+  "e": "🔏",
+  "k": "ink, nib, pen, lock, locked, privacy"
+ },
+ {
+  "u": "1f510",
+  "n": "locked with key",
+  "e": "🔐",
+  "k": "key, bike, lock, closed, locked, secure"
+ },
+ {
+  "u": "1f511",
+  "n": "key",
+  "e": "🔑",
+  "k": "keys, lock, major, unlock, password"
+ },
+ {
+  "u": "1f5dd-fe0f",
+  "n": "old key",
+  "e": "🗝️",
+  "k": "key, old, clue, lock"
+ },
+ {
+  "u": "1f528",
+  "n": "hammer",
+  "e": "🔨",
+  "k": "home, tool, repairs, improvement"
+ },
+ {
+  "u": "1fa93",
+  "n": "axe",
+  "e": "🪓",
+  "k": "ax, chop, wood, split, hatchet"
+ },
+ {
+  "u": "26cf-fe0f",
+  "n": "pick",
+  "e": "⛏️",
+  "k": "tool, hammer, mining"
+ },
+ {
+  "u": "2692-fe0f",
+  "n": "hammer and pick",
+  "e": "⚒️",
+  "k": "pick, tool, hammer"
+ },
+ {
+  "u": "1f6e0-fe0f",
+  "n": "hammer and wrench",
+  "e": "🛠️",
+  "k": "tool, hammer, wrench, spanner"
+ },
+ {
+  "u": "1f5e1-fe0f",
+  "n": "dagger",
+  "e": "🗡️",
+  "k": "knife, weapon"
+ },
+ {
+  "u": "2694-fe0f",
+  "n": "crossed swords",
+  "e": "⚔️",
+  "k": "swords, weapon, crossed"
+ }
+]

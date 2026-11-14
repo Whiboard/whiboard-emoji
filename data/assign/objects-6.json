@@ -1,0 +1,218 @@
+[
+ {
+  "u": "1f4a3",
+  "n": "bomb",
+  "e": "💣",
+  "k": "hot, boom, comic, dangerous, explosion"
+ },
+ {
+  "u": "1fa83",
+  "n": "boomerang",
+  "e": "🪃",
+  "k": "weapon, rebound, repercussion"
+ },
+ {
+  "u": "1f3f9",
+  "n": "bow and arrow",
+  "e": "🏹",
+  "k": "bow, tool, arrow, archer, weapon, zodiac, archery, Sagittarius"
+ },
+ {
+  "u": "1f6e1-fe0f",
+  "n": "shield",
+  "e": "🛡️",
+  "k": "weapon"
+ },
+ {
+  "u": "1fa9a",
+  "n": "carpentry saw",
+  "e": "🪚",
+  "k": "cut, saw, tool, trim, lumber, carpenter, carpentry"
+ },
+ {
+  "u": "1f527",
+  "n": "wrench",
+  "e": "🔧",
+  "k": "home, tool, spanner, improvement"
+ },
+ {
+  "u": "1fa9b",
+  "n": "screwdriver",
+  "e": "🪛",
+  "k": "tool, handy, screw, flathead"
+ },
+ {
+  "u": "1f529",
+  "n": "nut and bolt",
+  "e": "🔩",
+  "k": "nut, bolt, home, tool, improvement"
+ },
+ {
+  "u": "2699-fe0f",
+  "n": "gear",
+  "e": "⚙️",
+  "k": "cog, tool, cogwheel"
+ },
+ {
+  "u": "1f5dc-fe0f",
+  "n": "clamp",
+  "e": "🗜️",
+  "k": "tool, vice, compress"
+ },
+ {
+  "u": "2696-fe0f",
+  "n": "balance scale",
+  "e": "⚖️",
+  "k": "tool, Libra, scale, scales, weight, zodiac, balance, justice"
+ },
+ {
+  "u": "1f9af",
+  "n": "white cane",
+  "e": "🦯",
+  "k": "cane, blind, white, probing, accessibility"
+ },
+ {
+  "u": "1f517",
+  "n": "link",
+  "e": "🔗",
+  "k": "links"
+ },
+ {
+  "u": "26d3-fe0f-200d-1f4a5",
+  "n": "broken chain",
+  "e": "⛓️‍💥",
+  "k": "break, chain, cuffs, broken, freedom, breaking"
+ },
+ {
+  "u": "26d3-fe0f",
+  "n": "chains",
+  "e": "⛓️",
+  "k": "chain"
+ },
+ {
+  "u": "1fa9d",
+  "n": "hook",
+  "e": "🪝",
+  "k": "catch, crook, curve, point, ensnare, selling"
+ },
+ {
+  "u": "1f9f0",
+  "n": "toolbox",
+  "e": "🧰",
+  "k": "box, red, tool, chest, mechanic"
+ },
+ {
+  "u": "1f9f2",
+  "n": "magnet",
+  "e": "🧲",
+  "k": "u, shape, magnetic, negative, positive, horseshoe, attraction"
+ },
+ {
+  "u": "1fa9c",
+  "n": "ladder",
+  "e": "🪜",
+  "k": "rung, step, climb"
+ },
+ {
+  "u": "1fa8f",
+  "n": "shovel",
+  "e": "🪏",
+  "k": "dig, bury, hole, snow, plant, scoop, spade, garden"
+ },
+ {
+  "u": "2697-fe0f",
+  "n": "alembic",
+  "e": "⚗️",
+  "k": "tool, chemistry"
+ },
+ {
+  "u": "1f9ea",
+  "n": "test tube",
+  "e": "🧪",
+  "k": "lab, test, tube, chemist, science, chemistry, experiment"
+ },
+ {
+  "u": "1f9eb",
+  "n": "petri dish",
+  "e": "🧫",
+  "k": "lab, dish, petri, biology, culture, bacteria, biologist"
+ },
+ {
+  "u": "1f9ec",
+  "n": "dna",
+  "e": "🧬",
+  "k": "gene, life, genetics, biologist, evolution"
+ },
+ {
+  "u": "1f52d",
+  "n": "telescope",
+  "e": "🔭",
+  "k": "tool, contact, science, extraterrestrial"
+ },
+ {
+  "u": "1f4e1",
+  "n": "satellite antenna",
+  "e": "📡",
+  "k": "dish, aliens, antenna, contact, science, satellite"
+ },
+ {
+  "u": "1f489",
+  "n": "syringe",
+  "e": "💉",
+  "k": "flu, shot, sick, tool, doctor, needle, medicine, vaccination"
+ },
+ {
+  "u": "1fa78",
+  "n": "drop of blood",
+  "e": "🩸",
+  "k": "drop, bleed, blood, injury, donation, medicine, menstruation"
+ },
+ {
+  "u": "1f48a",
+  "n": "pill",
+  "e": "💊",
+  "k": "sick, drugs, pills, doctor, vitamin, medicine, medicated"
+ },
+ {
+  "u": "1fa79",
+  "n": "adhesive bandage",
+  "e": "🩹",
+  "k": "bandage, adhesive"
+ },
+ {
+  "u": "1fa7c",
+  "n": "crutch",
+  "e": "🩼",
+  "k": "aid, cane, help, hurt, stick, injured, mobility, disability"
+ },
+ {
+  "u": "1fa7a",
+  "n": "stethoscope",
+  "e": "🩺",
+  "k": "heart, doctor, medicine"
+ },
+ {
+  "u": "1fa7b",
+  "n": "x ray",
+  "e": "🩻",
+  "k": "xray, bones, skull, doctor, medical, skeleton"
+ },
+ {
+  "u": "1f6aa",
+  "n": "door",
+  "e": "🚪",
+  "k": "back, front, closet"
+ },
+ {
+  "u": "1f6d7",
+  "n": "elevator",
+  "e": "🛗",
+  "k": "lift, hoist, accessibility"
+ },
+ {
+  "u": "1fa9e",
+  "n": "mirror",
+  "e": "🪞",
+  "k": "makeup, speculum, reflector, reflection"
+ }
+]

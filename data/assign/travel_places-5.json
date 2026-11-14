@@ -1,0 +1,230 @@
+[
+ {
+  "u": "1f570-fe0f",
+  "n": "mantelpiece clock",
+  "e": "🕰️",
+  "k": "time, clock, mantelpiece"
+ },
+ {
+  "u": "1f55b",
+  "n": "twelve o’clock",
+  "e": "🕛",
+  "k": "12, time, 12:00, clock, twelve, o’clock"
+ },
+ {
+  "u": "1f567",
+  "n": "twelve thirty",
+  "e": "🕧",
+  "k": "12, 30, time, 12:30, clock, thirty, twelve"
+ },
+ {
+  "u": "1f550",
+  "n": "one o’clock",
+  "e": "🕐",
+  "k": "1, one, 1:00, time, clock, o’clock"
+ },
+ {
+  "u": "1f55c",
+  "n": "one thirty",
+  "e": "🕜",
+  "k": "1, 30, one, 1:30, time, clock, thirty"
+ },
+ {
+  "u": "1f551",
+  "n": "two o’clock",
+  "e": "🕑",
+  "k": "2, two, 2:00, time, clock, o’clock"
+ },
+ {
+  "u": "1f55d",
+  "n": "two thirty",
+  "e": "🕝",
+  "k": "2, 30, two, 2:30, time, clock, thirty"
+ },
+ {
+  "u": "1f552",
+  "n": "three o’clock",
+  "e": "🕒",
+  "k": "3, 3:00, time, clock, three, o’clock"
+ },
+ {
+  "u": "1f55e",
+  "n": "three thirty",
+  "e": "🕞",
+  "k": "3, 30, 3:30, time, clock, three, thirty"
+ },
+ {
+  "u": "1f553",
+  "n": "four o’clock",
+  "e": "🕓",
+  "k": "4, 4:00, four, time, clock, o’clock"
+ },
+ {
+  "u": "1f55f",
+  "n": "four thirty",
+  "e": "🕟",
+  "k": "4, 30, 4:30, four, time, clock, thirty"
+ },
+ {
+  "u": "1f554",
+  "n": "five o’clock",
+  "e": "🕔",
+  "k": "5, 5:00, five, time, clock, o’clock"
+ },
+ {
+  "u": "1f560",
+  "n": "five thirty",
+  "e": "🕠",
+  "k": "5, 30, 5:30, five, time, clock, thirty"
+ },
+ {
+  "u": "1f555",
+  "n": "six o’clock",
+  "e": "🕕",
+  "k": "6, six, 6:00, time, clock, o’clock"
+ },
+ {
+  "u": "1f561",
+  "n": "six thirty",
+  "e": "🕡",
+  "k": "6, 30, six, 6:30, clock, thirty"
+ },
+ {
+  "u": "1f556",
+  "n": "seven o’clock",
+  "e": "🕖",
+  "k": "0, 7, 7:00, clock, seven, o’clock"
+ },
+ {
+  "u": "1f562",
+  "n": "seven thirty",
+  "e": "🕢",
+  "k": "7, 30, 7:30, clock, seven, thirty"
+ },
+ {
+  "u": "1f557",
+  "n": "eight o’clock",
+  "e": "🕗",
+  "k": "8, 8:00, time, clock, eight, o’clock"
+ },
+ {
+  "u": "1f563",
+  "n": "eight thirty",
+  "e": "🕣",
+  "k": "8, 30, 8:30, time, clock, eight, thirty"
+ },
+ {
+  "u": "1f558",
+  "n": "nine o’clock",
+  "e": "🕘",
+  "k": "9, 9:00, nine, time, clock, o’clock"
+ },
+ {
+  "u": "1f564",
+  "n": "nine thirty",
+  "e": "🕤",
+  "k": "9, 30, 9:30, nine, time, clock, thirty"
+ },
+ {
+  "u": "1f559",
+  "n": "ten o’clock",
+  "e": "🕙",
+  "k": "0, 10, ten, 10:00, clock, o’clock"
+ },
+ {
+  "u": "1f565",
+  "n": "ten thirty",
+  "e": "🕥",
+  "k": "10, 30, ten, time, 10:30, clock, thirty"
+ },
+ {
+  "u": "1f55a",
+  "n": "eleven o’clock",
+  "e": "🕚",
+  "k": "11, time, 11:00, clock, eleven, o’clock"
+ },
+ {
+  "u": "1f566",
+  "n": "eleven thirty",
+  "e": "🕦",
+  "k": "11, 30, time, 11:30, clock, eleven, thirty"
+ },
+ {
+  "u": "1f311",
+  "n": "new moon",
+  "e": "🌑",
+  "k": "new, dark, moon, space"
+ },
+ {
+  "u": "1f312",
+  "n": "waxing crescent moon",
+  "e": "🌒",
+  "k": "moon, space, dreams, waxing, crescent"
+ },
+ {
+  "u": "1f313",
+  "n": "first quarter moon",
+  "e": "🌓",
+  "k": "moon, first, space, quarter"
+ },
+ {
+  "u": "1f314",
+  "n": "waxing gibbous moon",
+  "e": "🌔",
+  "k": "moon, space, waxing, gibbous"
+ },
+ {
+  "u": "1f315",
+  "n": "full moon",
+  "e": "🌕",
+  "k": "full, moon, space"
+ },
+ {
+  "u": "1f316",
+  "n": "waning gibbous moon",
+  "e": "🌖",
+  "k": "moon, space, waning, gibbous"
+ },
+ {
+  "u": "1f317",
+  "n": "last quarter moon",
+  "e": "🌗",
+  "k": "last, moon, space, quarter"
+ },
+ {
+  "u": "1f318",
+  "n": "waning crescent moon",
+  "e": "🌘",
+  "k": "moon, space, waning, crescent"
+ },
+ {
+  "u": "1f319",
+  "n": "crescent moon",
+  "e": "🌙",
+  "k": "moon, space, ramadan, crescent"
+ },
+ {
+  "u": "1f31a",
+  "n": "new moon face",
+  "e": "🌚",
+  "k": "new, face, moon, space"
+ },
+ {
+  "u": "1f31b",
+  "n": "first quarter moon face",
+  "e": "🌛",
+  "k": "face, moon, first, space, quarter"
+ },
+ {
+  "u": "1f31c",
+  "n": "last quarter moon face",
+  "e": "🌜",
+  "k": "face, last, moon, dreams, quarter"
+ },
+ {
+  "u": "1f31d",
+  "n": "full moon face",
+  "e": "🌝",
+  "k": "face, full, moon, bright"
+ }
+]

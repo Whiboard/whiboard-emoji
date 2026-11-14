@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="256" height="256"><title>spider web</title><defs>
+<filter id="sk-bv" filterUnits="userSpaceOnUse" x="-10" y="-10" width="120" height="120" color-interpolation-filters="sRGB">
+<feOffset in="SourceAlpha" dx="1.5" dy="1.8" result="o1"/><feComposite in="SourceAlpha" in2="o1" operator="out" result="hl"/>
+<feGaussianBlur in="hl" stdDeviation="1.1" result="hlb"/><feFlood flood-color="#FFF8E4" flood-opacity=".6" result="hf"/><feComposite in="hf" in2="hlb" operator="in" result="hlc"/>
+<feOffset in="SourceAlpha" dx="-2.2" dy="-2.6" result="o2"/><feComposite in="SourceAlpha" in2="o2" operator="out" result="sh"/>
+<feGaussianBlur in="sh" stdDeviation="1.5" result="shb"/><feFlood flood-color="#3A1C10" flood-opacity=".36" result="sf"/><feComposite in="sf" in2="shb" operator="in" result="shc"/>
+<feComposite in="shc" in2="SourceGraphic" operator="atop" result="a1"/><feComposite in="hlc" in2="a1" operator="atop"/>
+</filter>
+<filter id="sk-bvs" filterUnits="userSpaceOnUse" x="-10" y="-10" width="120" height="120" color-interpolation-filters="sRGB">
+<feOffset in="SourceAlpha" dx=".8" dy="1" result="o1"/><feComposite in="SourceAlpha" in2="o1" operator="out" result="hl"/>
+<feGaussianBlur in="hl" stdDeviation=".6" result="hlb"/><feFlood flood-color="#FFF8E4" flood-opacity=".55" result="hf"/><feComposite in="hf" in2="hlb" operator="in" result="hlc"/>
+<feOffset in="SourceAlpha" dx="-1.1" dy="-1.4" result="o2"/><feComposite in="SourceAlpha" in2="o2" operator="out" result="sh"/>
+<feGaussianBlur in="sh" stdDeviation=".8" result="shb"/><feFlood flood-color="#3A1C10" flood-opacity=".32" result="sf"/><feComposite in="sf" in2="shb" operator="in" result="shc"/>
+<feComposite in="shc" in2="SourceGraphic" operator="atop" result="a1"/><feComposite in="hlc" in2="a1" operator="atop"/>
+</filter>
+<filter id="sk-tx" filterUnits="userSpaceOnUse" x="-6" y="-6" width="112" height="112" color-interpolation-filters="sRGB">
+<feTurbulence type="fractalNoise" baseFrequency=".06" numOctaves="3" seed="11" result="n1"/>
+<feColorMatrix in="n1" type="matrix" values="2.6 0 0 0 -.8  2.6 0 0 0 -.8  2.6 0 0 0 -.8  0 0 0 0 .3" result="c1"/>
+<feComposite in="c1" in2="SourceAlpha" operator="in" result="g1"/><feBlend in="g1" in2="SourceGraphic" mode="soft-light" result="b1"/>
+<feTurbulence type="fractalNoise" baseFrequency="1.15" numOctaves="2" seed="5" result="n2"/>
+<feColorMatrix in="n2" type="matrix" values="1.9 0 0 0 -.45  1.9 0 0 0 -.45  1.9 0 0 0 -.45  0 0 0 0 .2" result="c2"/>
+<feComposite in="c2" in2="SourceAlpha" operator="in" result="g2"/><feBlend in="g2" in2="b1" mode="soft-light"/>
+</filter></defs><g filter="url(#sk-tx)"><g filter="url(#sk-bvs)"><path d="M50 50 L50.0 5.0 M50 50 L81.8 18.2 M50 50 L95.0 50.0 M50 50 L81.8 81.8 M50 50 L50.0 95.0 M50 50 L18.2 81.8 M50 50 L5.0 50.0 M50 50 L18.2 18.2" fill="none" stroke="#8DA2BE" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" /><path d="M50.0 37.0 Q54.2 39.9 59.2 40.8  Q60.1 45.8 63.0 50.0  Q60.1 54.2 59.2 59.2  Q54.2 60.1 50.0 63.0  Q45.8 60.1 40.8 59.2  Q39.9 54.2 37.0 50.0  Q39.9 45.8 40.8 40.8  Q45.8 39.9 50.0 37.0 M50.0 25.0 Q58.0 30.6 67.7 32.3  Q69.4 42.0 75.0 50.0  Q69.4 58.0 67.7 67.7  Q58.0 69.4 50.0 75.0  Q42.0 69.4 32.3 67.7  Q30.6 58.0 25.0 50.0  Q30.6 42.0 32.3 32.3  Q42.0 30.6 50.0 25.0 M50.0 14.0 Q61.6 22.1 75.5 24.5  Q77.9 38.4 86.0 50.0  Q77.9 61.6 75.5 75.5  Q61.6 77.9 50.0 86.0  Q38.4 77.9 24.5 75.5  Q22.1 61.6 14.0 50.0  Q22.1 38.4 24.5 24.5  Q38.4 22.1 50.0 14.0 M50.0 5.0 Q64.5 15.1 81.8 18.2  Q84.9 35.5 95.0 50.0  Q84.9 64.5 81.8 81.8  Q64.5 84.9 50.0 95.0  Q35.5 84.9 18.2 81.8  Q15.1 64.5 5.0 50.0  Q15.1 35.5 18.2 18.2  Q35.5 15.1 50.0 5.0 " fill="none" stroke="#8DA2BE" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" /></g>
+<g filter="url(#sk-bvs)"><circle cx="50" cy="50" r="3.4" fill="#8DA2BE"/></g>
+<path d="M44 14 C38 24 30 20 24 30" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" opacity=".4"/></g></svg>

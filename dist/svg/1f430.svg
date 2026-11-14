@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="256" height="256"><title>rabbit face</title><defs>
+<filter id="sk-bv" filterUnits="userSpaceOnUse" x="-10" y="-10" width="120" height="120" color-interpolation-filters="sRGB">
+<feOffset in="SourceAlpha" dx="1.5" dy="1.8" result="o1"/><feComposite in="SourceAlpha" in2="o1" operator="out" result="hl"/>
+<feGaussianBlur in="hl" stdDeviation="1.1" result="hlb"/><feFlood flood-color="#FFF8E4" flood-opacity=".6" result="hf"/><feComposite in="hf" in2="hlb" operator="in" result="hlc"/>
+<feOffset in="SourceAlpha" dx="-2.2" dy="-2.6" result="o2"/><feComposite in="SourceAlpha" in2="o2" operator="out" result="sh"/>
+<feGaussianBlur in="sh" stdDeviation="1.5" result="shb"/><feFlood flood-color="#3A1C10" flood-opacity=".36" result="sf"/><feComposite in="sf" in2="shb" operator="in" result="shc"/>
+<feComposite in="shc" in2="SourceGraphic" operator="atop" result="a1"/><feComposite in="hlc" in2="a1" operator="atop"/>
+</filter>
+<filter id="sk-bvs" filterUnits="userSpaceOnUse" x="-10" y="-10" width="120" height="120" color-interpolation-filters="sRGB">
+<feOffset in="SourceAlpha" dx=".8" dy="1" result="o1"/><feComposite in="SourceAlpha" in2="o1" operator="out" result="hl"/>
+<feGaussianBlur in="hl" stdDeviation=".6" result="hlb"/><feFlood flood-color="#FFF8E4" flood-opacity=".55" result="hf"/><feComposite in="hf" in2="hlb" operator="in" result="hlc"/>
+<feOffset in="SourceAlpha" dx="-1.1" dy="-1.4" result="o2"/><feComposite in="SourceAlpha" in2="o2" operator="out" result="sh"/>
+<feGaussianBlur in="sh" stdDeviation=".8" result="shb"/><feFlood flood-color="#3A1C10" flood-opacity=".32" result="sf"/><feComposite in="sf" in2="shb" operator="in" result="shc"/>
+<feComposite in="shc" in2="SourceGraphic" operator="atop" result="a1"/><feComposite in="hlc" in2="a1" operator="atop"/>
+</filter>
+<filter id="sk-tx" filterUnits="userSpaceOnUse" x="-6" y="-6" width="112" height="112" color-interpolation-filters="sRGB">
+<feTurbulence type="fractalNoise" baseFrequency=".06" numOctaves="3" seed="11" result="n1"/>
+<feColorMatrix in="n1" type="matrix" values="2.6 0 0 0 -.8  2.6 0 0 0 -.8  2.6 0 0 0 -.8  0 0 0 0 .3" result="c1"/>
+<feComposite in="c1" in2="SourceAlpha" operator="in" result="g1"/><feBlend in="g1" in2="SourceGraphic" mode="soft-light" result="b1"/>
+<feTurbulence type="fractalNoise" baseFrequency="1.15" numOctaves="2" seed="5" result="n2"/>
+<feColorMatrix in="n2" type="matrix" values="1.9 0 0 0 -.45  1.9 0 0 0 -.45  1.9 0 0 0 -.45  0 0 0 0 .2" result="c2"/>
+<feComposite in="c2" in2="SourceAlpha" operator="in" result="g2"/><feBlend in="g2" in2="b1" mode="soft-light"/>
+</filter><linearGradient id="e1f430-0" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FCF6E8"/><stop offset="0.5" stop-color="#EDE3C8"/><stop offset="1" stop-color="#D9C9A3"/></linearGradient><linearGradient id="e1f430-1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FCF6E8"/><stop offset="0.5" stop-color="#EDE3C8"/><stop offset="1" stop-color="#D9C9A3"/></linearGradient></defs><g filter="url(#sk-tx)"><g filter="url(#sk-bv)"><path d="M24 40 C14 20 22 4 32 4 C42 4 44 24 42 38Z M76 40 C86 20 78 4 68 4 C58 4 56 24 58 38Z" fill="url(#e1f430-0)"/></g>
+<path d="M29 34 C22 20 26 10 31 10 C36 10 37 22 36 33Z M71 34 C78 20 74 10 69 10 C64 10 63 22 64 33Z" fill="#F7B6C4"/>
+<g filter="url(#sk-bv)"><path d="M50 92 C26 92 10 78 10 62 C10 46 26 36 50 36 C74 36 90 46 90 62 C90 78 74 92 50 92Z" fill="url(#e1f430-1)"/></g>
+<ellipse cx="50" cy="64" rx="4" ry="3" fill="#DF839B"/>
+<path d="M50 67 V72 M43 75 Q50 79 57 75" fill="none" stroke="#3A3237" stroke-width="1.6" stroke-linecap="round"/>
+<g filter="url(#sk-bvs)"><rect x="46" y="74" width="3.6" height="6" rx="1.2" fill="#FCF6E8"/><rect x="50.4" y="74" width="3.6" height="6" rx="1.2" fill="#FCF6E8"/></g>
+<ellipse cx="33" cy="56" rx="3.4" ry="4.2" fill="#3A3237"/><circle cx="31.9" cy="54.4" r="1.15" fill="#fff"/><ellipse cx="67" cy="56" rx="3.4" ry="4.2" fill="#3A3237"/><circle cx="65.9" cy="54.4" r="1.15" fill="#fff"/><ellipse cx="22" cy="68" rx="5" ry="3.5" fill="#DF839B" opacity=".4"/><ellipse cx="78" cy="68" rx="5" ry="3.5" fill="#DF839B" opacity=".4"/></g></svg>

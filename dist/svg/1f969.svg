@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="256" height="256"><title>cut of meat</title><defs>
+<filter id="sk-bv" filterUnits="userSpaceOnUse" x="-10" y="-10" width="120" height="120" color-interpolation-filters="sRGB">
+<feOffset in="SourceAlpha" dx="1.5" dy="1.8" result="o1"/><feComposite in="SourceAlpha" in2="o1" operator="out" result="hl"/>
+<feGaussianBlur in="hl" stdDeviation="1.1" result="hlb"/><feFlood flood-color="#FFF8E4" flood-opacity=".6" result="hf"/><feComposite in="hf" in2="hlb" operator="in" result="hlc"/>
+<feOffset in="SourceAlpha" dx="-2.2" dy="-2.6" result="o2"/><feComposite in="SourceAlpha" in2="o2" operator="out" result="sh"/>
+<feGaussianBlur in="sh" stdDeviation="1.5" result="shb"/><feFlood flood-color="#3A1C10" flood-opacity=".36" result="sf"/><feComposite in="sf" in2="shb" operator="in" result="shc"/>
+<feComposite in="shc" in2="SourceGraphic" operator="atop" result="a1"/><feComposite in="hlc" in2="a1" operator="atop"/>
+</filter>
+<filter id="sk-bvs" filterUnits="userSpaceOnUse" x="-10" y="-10" width="120" height="120" color-interpolation-filters="sRGB">
+<feOffset in="SourceAlpha" dx=".8" dy="1" result="o1"/><feComposite in="SourceAlpha" in2="o1" operator="out" result="hl"/>
+<feGaussianBlur in="hl" stdDeviation=".6" result="hlb"/><feFlood flood-color="#FFF8E4" flood-opacity=".55" result="hf"/><feComposite in="hf" in2="hlb" operator="in" result="hlc"/>
+<feOffset in="SourceAlpha" dx="-1.1" dy="-1.4" result="o2"/><feComposite in="SourceAlpha" in2="o2" operator="out" result="sh"/>
+<feGaussianBlur in="sh" stdDeviation=".8" result="shb"/><feFlood flood-color="#3A1C10" flood-opacity=".32" result="sf"/><feComposite in="sf" in2="shb" operator="in" result="shc"/>
+<feComposite in="shc" in2="SourceGraphic" operator="atop" result="a1"/><feComposite in="hlc" in2="a1" operator="atop"/>
+</filter>
+<filter id="sk-tx" filterUnits="userSpaceOnUse" x="-6" y="-6" width="112" height="112" color-interpolation-filters="sRGB">
+<feTurbulence type="fractalNoise" baseFrequency=".06" numOctaves="3" seed="11" result="n1"/>
+<feColorMatrix in="n1" type="matrix" values="2.6 0 0 0 -.8  2.6 0 0 0 -.8  2.6 0 0 0 -.8  0 0 0 0 .3" result="c1"/>
+<feComposite in="c1" in2="SourceAlpha" operator="in" result="g1"/><feBlend in="g1" in2="SourceGraphic" mode="soft-light" result="b1"/>
+<feTurbulence type="fractalNoise" baseFrequency="1.15" numOctaves="2" seed="5" result="n2"/>
+<feColorMatrix in="n2" type="matrix" values="1.9 0 0 0 -.45  1.9 0 0 0 -.45  1.9 0 0 0 -.45  0 0 0 0 .2" result="c2"/>
+<feComposite in="c2" in2="SourceAlpha" operator="in" result="g2"/><feBlend in="g2" in2="b1" mode="soft-light"/>
+</filter><linearGradient id="e1f969-0" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FBE6DA"/><stop offset="0.5" stop-color="#F0C2B2"/><stop offset="1" stop-color="#D99A8A"/></linearGradient><radialGradient id="e1f969-1" cx="0.36" cy="0.3" r="0.85"><stop offset="0" stop-color="#F08470"/><stop offset="0.5" stop-color="#CC4A44"/><stop offset="1" stop-color="#9A2C30"/></radialGradient><linearGradient id="e1f969-2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FCF6E8"/><stop offset="1" stop-color="#D9C9A3"/></linearGradient></defs><g filter="url(#sk-tx)"><g transform="translate(50 50) scale(1.1) translate(-50 -50)">
+<g filter="url(#sk-bv)"><path d="M14 52 C8 30 26 14 52 16 C80 14 94 34 88 56 C84 78 62 90 40 86 C22 82 16 70 14 52Z" fill="url(#e1f969-0)"/></g>
+<g filter="url(#sk-bv)"><path d="M24 52 C20 36 34 25 52 26 C72 25 82 40 78 56 C74 72 58 78 42 75 C30 72 26 64 24 52Z" fill="url(#e1f969-1)"/></g>
+<path d="M36 38 C44 44 52 44 60 38 M34 58 C46 54 58 60 68 52 M50 66 C56 64 62 66 66 62" fill="none" stroke="#F8D6CC" stroke-width="2.2" stroke-linecap="round" opacity=".75"/>
+<g filter="url(#sk-bvs)"><circle cx="46" cy="52" r="5.6" fill="url(#e1f969-2)"/></g><ellipse cx="36" cy="34" rx="9" ry="3.4" transform="rotate(-25 36 34)" fill="#fff" opacity="0.4"/></g></g></svg>
